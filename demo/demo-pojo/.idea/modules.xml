@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/benchmark-base/benchmark-base.iml" filepath="$PROJECT_DIR$/benchmark-base/benchmark-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-pojo.iml" filepath="$PROJECT_DIR$/demo-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo-client/pojo-client.iml" filepath="$PROJECT_DIR$/pojo-client/pojo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo-server/pojo-server.iml" filepath="$PROJECT_DIR$/pojo-server/pojo-server.iml" />
+    </modules>
+  </component>
+</project>
