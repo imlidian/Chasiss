@@ -22,7 +22,11 @@
   <parent>
     <artifactId>demo-pojo</artifactId>
     <groupId>org.apache.servicecomb.demo</groupId>
+<<<<<<< HEAD
     <version>1.0.0-m2-SNAPSHOT</version>
+=======
+    <version>1.0.0-m1</version>
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   </parent>
   <modelVersion>4.0.0</modelVersion>
 

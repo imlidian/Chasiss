@@ -21,7 +21,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.ws.rs.core.MediaType;
+<<<<<<< HEAD
 import javax.ws.rs.core.Response.Status;
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 
 import org.apache.servicecomb.common.rest.codec.RestObjectMapper;
 import org.apache.servicecomb.core.CseContext;
@@ -29,11 +32,17 @@ import org.apache.servicecomb.demo.CodeFirstRestTemplate;
 import org.apache.servicecomb.demo.DemoConst;
 import org.apache.servicecomb.demo.TestMgr;
 import org.apache.servicecomb.demo.compute.Person;
+<<<<<<< HEAD
 import org.apache.servicecomb.demo.validator.Student;
 import org.apache.servicecomb.foundation.common.utils.BeanUtils;
 import org.apache.servicecomb.foundation.common.utils.Log4jUtils;
 import org.apache.servicecomb.provider.springmvc.reference.RestTemplateBuilder;
 import org.apache.servicecomb.swagger.invocation.exception.InvocationException;
+=======
+import org.apache.servicecomb.foundation.common.utils.BeanUtils;
+import org.apache.servicecomb.foundation.common.utils.Log4jUtils;
+import org.apache.servicecomb.provider.springmvc.reference.RestTemplateBuilder;
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -60,7 +69,10 @@ public class JaxrsClient {
     CodeFirstRestTemplate codeFirstClient = new CodeFirstRestTemplateJaxrs();
     codeFirstClient.testCodeFirst(templateNew, "jaxrs", "/codeFirstJaxrs/");
     testCompute(templateNew);
+<<<<<<< HEAD
     testValidator(templateNew);
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   }
 
   private static void testCompute(RestTemplate template) throws Exception {
@@ -80,6 +92,7 @@ public class JaxrsClient {
     }
   }
 
+<<<<<<< HEAD
   private static void testValidator(RestTemplate template) throws Exception {
     String microserviceName = "jaxrs";
     for (String transport : DemoConst.transports) {
@@ -98,6 +111,8 @@ public class JaxrsClient {
   }
 
 
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   private static void testGet(RestTemplate template, String cseUrlPrefix) {
     Map<String, String> params = new HashMap<>();
     params.put("a", "5");
@@ -169,6 +184,7 @@ public class JaxrsClient {
     TestMgr.check("hello Tom",
         template.postForObject(cseUrlPrefix + "/compute/testrawjson", jsonPerson, String.class));
   }
+<<<<<<< HEAD
 
   private static void testValidatorAddFail(RestTemplate template, String cseUrlPrefix) {
     Map<String, String> params = new HashMap<>();
@@ -250,4 +266,6 @@ public class JaxrsClient {
     Student result = template.postForObject(cseUrlPrefix + "sayhello", student, Student.class);
     TestMgr.check("hello test 15", result);
   }
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 }

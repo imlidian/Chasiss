@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.vibur:vibur-object-pool:21.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/vibur/vibur-object-pool/21.2/vibur-object-pool-21.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/vibur/vibur-object-pool/21.2/vibur-object-pool-21.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/vibur/vibur-object-pool/21.2/vibur-object-pool-21.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

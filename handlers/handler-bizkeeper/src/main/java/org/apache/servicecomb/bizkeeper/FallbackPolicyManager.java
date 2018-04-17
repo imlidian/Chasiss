@@ -36,7 +36,11 @@ public class FallbackPolicyManager {
     }
   }
 
+<<<<<<< HEAD
   public static Response getFallbackResponse(String type, Throwable error, Invocation invocation) {
+=======
+  public static Response getFallbackResponse(String type, Invocation invocation) {
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
     FallbackPolicy policy = getPolicy(type, invocation);
     if (policy != null) {
       return policy.getFallbackResponse(invocation);
@@ -44,7 +48,11 @@ public class FallbackPolicyManager {
       return Response.failResp(invocation.getInvocationType(),
           BizkeeperExceptionUtils
               .createBizkeeperException(BizkeeperExceptionUtils.CSE_HANDLER_BK_FALLBACK,
+<<<<<<< HEAD
                   error,
+=======
+                  null,
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
                   invocation.getOperationMeta().getMicroserviceQualifiedName()));
     }
   }

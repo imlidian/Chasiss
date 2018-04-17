@@ -47,6 +47,10 @@
     <module>demo-multiple</module>
     <module>demo-signature</module>
     <module>demo-edge</module>
+<<<<<<< HEAD
+=======
+    
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
     <module>perf</module>
   </modules>
 

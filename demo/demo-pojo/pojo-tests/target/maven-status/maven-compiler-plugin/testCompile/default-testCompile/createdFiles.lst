@@ -1,0 +1,3 @@
+org/apache/servicecomb/demo/integration/SomePojoTestMain.class
+org/apache/servicecomb/demo/integration/SomePojoService.class
+org/apache/servicecomb/demo/integration/PojoReferenceIntegrationTest.class

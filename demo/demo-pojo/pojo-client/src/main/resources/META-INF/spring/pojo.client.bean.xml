@@ -25,6 +25,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
 		http://www.huawei.com/schema/paas/cse/rpc classpath:META-INF/spring/spring-paas-cse-rpc.xsd">
 
+<<<<<<< HEAD
 	<cse:rpc-reference id="smartcare" microservice-name="pojo"
 		schema-id="smartcare" interface="org.apache.servicecomb.demo.smartcare.SmartCare"></cse:rpc-reference>
 
@@ -43,4 +44,8 @@
 
 	<bean class="org.apache.servicecomb.demo.pojo.client.BeanRpcTest" init-method="init">
 	</bean>
+=======
+
+	
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 </beans>

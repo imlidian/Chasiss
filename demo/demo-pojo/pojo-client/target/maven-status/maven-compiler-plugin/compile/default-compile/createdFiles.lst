@@ -1,0 +1,11 @@
+META-INF/CompilerHints
+org/apache/servicecomb/demo/pojo/client/generated/PojoClient_createUser_jmhTest.class
+org/apache/servicecomb/demo/pojo/client/generated/PojoClient_jmhType_B1.class
+org/apache/servicecomb/demo/pojo/client/generated/PojoClient_jmhType_B2.class
+org/apache/servicecomb/demo/pojo/client/generated/PojoClient_getUser_jmhTest.class
+org/apache/servicecomb/demo/pojo/client/generated/PojoClient_jmhType.class
+org/apache/servicecomb/demo/pojo/client/generated/PojoClient_jmhType_B3.class
+META-INF/BenchmarkList
+org/apache/servicecomb/demo/pojo/client/PojoClient.class
+org/apache/servicecomb/demo/pojo/client/generated/PojoClient_listUser_jmhTest.class
+org/apache/servicecomb/demo/pojo/client/generated/PojoClient_existUser_jmhTest.class

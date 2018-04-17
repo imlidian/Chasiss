@@ -21,7 +21,10 @@ import static org.apache.servicecomb.foundation.common.base.ServiceCombConstants
 import static org.apache.servicecomb.foundation.common.base.ServiceCombConstants.CONFIG_KEY_SPLITER;
 import static org.apache.servicecomb.foundation.common.base.ServiceCombConstants.CONFIG_SERVICECOMB_PREFIX;
 
+<<<<<<< HEAD
 import java.util.HashMap;
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -53,6 +56,7 @@ public final class ConfigUtil {
 
   private static final String MICROSERVICE_CONFIG_LOADER_KEY = "cse-microservice-config-loader";
 
+<<<<<<< HEAD
   private static Map<String, Object> localConfig = new HashMap<>();
 
   private ConfigUtil() {
@@ -66,6 +70,11 @@ public final class ConfigUtil {
     localConfig.put(key, value);
   }
 
+=======
+  private ConfigUtil() {
+  }
+
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   public static Object getProperty(String key) {
     Object config = DynamicPropertyFactory.getBackingConfigurationSource();
     return getProperty(config, key);
@@ -94,11 +103,14 @@ public final class ConfigUtil {
   public static ConcurrentCompositeConfiguration createLocalConfig() {
     MicroserviceConfigLoader loader = new MicroserviceConfigLoader();
     loader.loadAndSort();
+<<<<<<< HEAD
     if (localConfig.size() > 0) {
       ConfigModel model = new ConfigModel();
       model.setConfig(localConfig);
       loader.getConfigModels().add(model);
     }
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 
     LOGGER.info("create local config:");
     for (ConfigModel configModel : loader.getConfigModels()) {
@@ -110,8 +122,11 @@ public final class ConfigUtil {
     return config;
   }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   public static ConcurrentCompositeConfiguration createLocalConfig(List<ConfigModel> configModelList) {
     ConcurrentCompositeConfiguration config = new ConcurrentCompositeConfiguration();
 

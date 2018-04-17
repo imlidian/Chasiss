@@ -16,21 +16,30 @@
  */
 package org.apache.servicecomb.loadbalance;
 
+<<<<<<< HEAD
 import java.net.ConnectException;
 import java.net.SocketTimeoutException;
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.servicecomb.config.ConfigUtil;
 import org.apache.servicecomb.foundation.test.scaffolding.config.ArchaiusUtils;
+<<<<<<< HEAD
 import org.apache.servicecomb.swagger.invocation.exception.InvocationException;
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import com.netflix.client.DefaultLoadBalancerRetryHandler;
+<<<<<<< HEAD
 import com.netflix.client.RetryHandler;
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import com.netflix.loadbalancer.RandomRule;
 import com.netflix.loadbalancer.RoundRobinRule;
 import com.netflix.loadbalancer.WeightedResponseTimeRule;
@@ -113,6 +122,7 @@ public class TestExtensionsManager {
     System.getProperties().remove("cse.loadbalance.mytest3.NFLoadBalancerRuleClassName");
     System.getProperties().remove("cse.loadbalance.mytest4.NFLoadBalancerRuleClassName");
 
+<<<<<<< HEAD
     RetryHandler retryHandler = ExtensionsManager.createRetryHandler("mytest1");
     Assert.assertTrue(DefaultLoadBalancerRetryHandler.class.isInstance(retryHandler));
     Assert.assertFalse(retryHandler.isRetriableException(new InvocationException(400, "", ""), false));
@@ -121,5 +131,9 @@ public class TestExtensionsManager {
     Assert.assertTrue(retryHandler.isRetriableException(new ConnectException(), true));
     Assert.assertTrue(retryHandler.isRetriableException(new SocketTimeoutException(), false));
     Assert.assertTrue(retryHandler.isRetriableException(new SocketTimeoutException(), true));
+=======
+    Assert.assertEquals(DefaultLoadBalancerRetryHandler.class.getName(),
+        ExtensionsManager.createRetryHandler("mytest1").getClass().getName());
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   }
 }

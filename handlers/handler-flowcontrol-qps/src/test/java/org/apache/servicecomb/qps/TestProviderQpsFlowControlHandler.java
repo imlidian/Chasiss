@@ -75,8 +75,11 @@ public class TestProviderQpsFlowControlHandler {
         result = "test";
         invocation.getOperationMeta();
         result = QpsControllerManagerTest.getMockOperationMeta("pojo", "server", "opr");
+<<<<<<< HEAD
         invocation.getSchemaId();
         result = "server";
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
         asyncResp.producerFail((Throwable) any);
         result = new RuntimeException("test error");
       }
@@ -121,7 +124,11 @@ public class TestProviderQpsFlowControlHandler {
     Mockito.when(invocation.getContext(Const.SRC_MICROSERVICE)).thenReturn("test");
     OperationMeta mockOperationMeta = QpsControllerManagerTest.getMockOperationMeta("pojo", "server", "opr");
     Mockito.when(invocation.getOperationMeta()).thenReturn(mockOperationMeta);
+<<<<<<< HEAD
     Mockito.when(invocation.getSchemaId()).thenReturn("server");
+=======
+
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
     new MockUp<QpsController>() {
       @Mock
       public boolean isLimitNewRequest() {
@@ -154,7 +161,11 @@ public class TestProviderQpsFlowControlHandler {
     OperationMeta mockOperationMeta = QpsControllerManagerTest
         .getMockOperationMeta("pojo", "server", "opr");
     Mockito.when(invocation.getOperationMeta()).thenReturn(mockOperationMeta);
+<<<<<<< HEAD
     Mockito.when(invocation.getSchemaId()).thenReturn("server");
+=======
+
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
     new MockUp<QpsController>() {
       @Mock
       public boolean isLimitNewRequest() {

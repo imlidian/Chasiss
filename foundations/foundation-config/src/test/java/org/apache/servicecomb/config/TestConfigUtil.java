@@ -27,9 +27,13 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+<<<<<<< HEAD
 import java.util.HashMap;
 
 import com.netflix.config.*;
+=======
+
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import org.apache.commons.configuration.AbstractConfiguration;
 import org.apache.commons.configuration.Configuration;
 import org.apache.servicecomb.config.archaius.sources.ConfigModel;
@@ -42,6 +46,14 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+<<<<<<< HEAD
+=======
+import com.netflix.config.ConcurrentCompositeConfiguration;
+import com.netflix.config.DynamicConfiguration;
+import com.netflix.config.DynamicPropertyFactory;
+import com.netflix.config.DynamicWatchedConfiguration;
+
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import mockit.Deencapsulation;
 import mockit.Expectations;
 import mockit.Mocked;
@@ -78,6 +90,7 @@ public class TestConfigUtil {
   }
 
   @Test
+<<<<<<< HEAD
   public void testAddConfig() {
     Map config = new HashMap<String, Object>();
     config.put("service_description.name", "service_name_test");
@@ -92,6 +105,8 @@ public class TestConfigUtil {
   }
 
   @Test
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   public void testCreateConfigFromConfigCenterNoUrl(@Mocked Configuration localConfiguration) {
     AbstractConfiguration configFromConfigCenter = ConfigUtil.createConfigFromConfigCenter(localConfiguration);
     Assert.assertNull(configFromConfigCenter);

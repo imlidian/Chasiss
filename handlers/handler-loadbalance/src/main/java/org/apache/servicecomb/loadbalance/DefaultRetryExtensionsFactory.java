@@ -23,7 +23,10 @@ import org.springframework.stereotype.Component;
 import com.google.common.collect.Lists;
 import com.netflix.client.DefaultLoadBalancerRetryHandler;
 import com.netflix.client.RetryHandler;
+<<<<<<< HEAD
 import com.netflix.client.Utils;
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 
 @Component
 public class DefaultRetryExtensionsFactory implements ExtensionsFactory {
@@ -43,12 +46,16 @@ public class DefaultRetryExtensionsFactory implements ExtensionsFactory {
   public RetryHandler createRetryHandler(String retryName, String microservice) {
     RetryHandler handler = new DefaultLoadBalancerRetryHandler(
         Configuration.INSTANCE.getRetryOnSame(microservice),
+<<<<<<< HEAD
         Configuration.INSTANCE.getRetryOnNext(microservice), true) {
       @Override
       public boolean isRetriableException(Throwable e, boolean sameServer) {
         return Utils.isPresentAsCause(e, getRetriableExceptions());
       }
     };
+=======
+        Configuration.INSTANCE.getRetryOnNext(microservice), true);
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
     return handler;
   }
 }

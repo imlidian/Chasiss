@@ -1,0 +1,9 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,org/apache/servicecomb/demo/pojo/client/PojoClient.createUser
+inline,org/apache/servicecomb/demo/pojo/client/PojoClient.existUser
+inline,org/apache/servicecomb/demo/pojo/client/PojoClient.getUser
+inline,org/apache/servicecomb/demo/pojo/client/PojoClient.listUser

@@ -15,6 +15,7 @@
 ## limitations under the License.
 ## ---------------------------------------------------------------------------
 
+<<<<<<< HEAD
 APPLICATION_ID: pojotest
 service_description:
   name: pojoClient
@@ -33,3 +34,19 @@ cse:
   loadbalance:
     strategy:
       name: Random
+=======
+APPLICATION_ID: codefirsttest
+service_description:
+  name: codefirstClient
+  version: 0.0.2
+cse:
+  service:
+    registry:
+      address: http://10.134.27.52:30100
+  isolation:
+    Consumer:
+      enabled: false
+  references:
+    codefirst:
+      version-rule: 0.0.2
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
