@@ -17,28 +17,9 @@
 
 package org.apache.servicecomb.demo.pojo.client;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import javax.inject.Inject;
-import org.apache.servicecomb.core.Const;
-import org.apache.servicecomb.core.CseContext;
-import org.apache.servicecomb.core.provider.consumer.InvokerUtils;
-import org.apache.servicecomb.demo.DemoConst;
-import org.apache.servicecomb.demo.TestMgr;
-import org.apache.servicecomb.demo.server.Test;
-import org.apache.servicecomb.demo.server.TestRequest;
-import org.apache.servicecomb.demo.smartcare.Application;
-import org.apache.servicecomb.demo.smartcare.Group;
-import org.apache.servicecomb.demo.smartcare.SmartCare;
 import org.apache.servicecomb.foundation.common.utils.BeanUtils;
 import org.apache.servicecomb.foundation.common.utils.Log4jUtils;
 import org.apache.servicecomb.provider.pojo.RpcReference;
-import org.apache.servicecomb.swagger.invocation.context.ContextUtils;
-import org.apache.servicecomb.swagger.invocation.context.InvocationContext;
-import org.apache.servicecomb.swagger.invocation.exception.InvocationException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import benchmark.bean.Page;
@@ -59,7 +40,7 @@ import benchmark.service.UserService;
 //        (2).Benchmark: 该状态在所有线程间共享
 @State(Scope.Benchmark)
 @Component
-public class PojoClient extends AbstractClient {
+public class Client extends AbstractClient {
 
 
 //  @BenchmarkMode(Mode.Throughput)//基准测试类型
@@ -126,7 +107,7 @@ public class PojoClient extends AbstractClient {
   public static void main(String[] args) throws Exception {
 //    Log4jUtils.init();
 //    BeanUtils.init();
-    PojoClient client = new PojoClient();
+    Client client = new Client();
 
     for (int i = 0; i < 60; i++) {
       try {
@@ -138,7 +119,7 @@ public class PojoClient extends AbstractClient {
     }
 
     Options opt = new OptionsBuilder()//
-            .include(PojoClient.class.getSimpleName())//
+            .include(Client.class.getSimpleName())//
             .warmupIterations(10)// 预热的迭代次数  10 //number of times the warmup iteration should take place
             .measurementIterations(3)// 测试迭代 3    //number of times the actual iteration
             .threads(CONCURRENCY)// 线程数 32

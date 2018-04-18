@@ -60,7 +60,7 @@
   </dependencies>
 
   <properties>
-    <demo.main>org.apache.servicecomb.demo.pojo.server.PojoServer</demo.main>
+    <demo.main>org.apache.servicecomb.demo.pojo.server.Server</demo.main>
   </properties>
   <build>
     <plugins>

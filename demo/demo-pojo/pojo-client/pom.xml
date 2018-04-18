@@ -56,7 +56,7 @@
   </dependencies>
 
   <properties>
-    <demo.main>org.apache.servicecomb.demo.pojo.client.PojoClient</demo.main>
+    <demo.main>org.apache.servicecomb.demo.pojo.client.Client</demo.main>
   </properties>
   <build>
     <plugins>

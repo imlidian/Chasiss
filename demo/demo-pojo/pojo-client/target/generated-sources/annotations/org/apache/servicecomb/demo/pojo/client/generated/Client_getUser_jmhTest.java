@@ -32,8 +32,8 @@ import org.openjdk.jmh.results.ScalarResult;
 import org.openjdk.jmh.results.AggregationPolicy;
 import org.openjdk.jmh.runner.FailureAssistException;
 
-import org.apache.servicecomb.demo.pojo.client.generated.PojoClient_jmhType;
-public final class PojoClient_listUser_jmhTest {
+import org.apache.servicecomb.demo.pojo.client.generated.Client_jmhType;
+public final class Client_getUser_jmhTest {
 
     boolean p000, p001, p002, p003, p004, p005, p006, p007, p008, p009, p010, p011, p012, p013, p014, p015;
     boolean p016, p017, p018, p019, p020, p021, p022, p023, p024, p025, p026, p027, p028, p029, p030, p031;
@@ -58,7 +58,7 @@ public final class PojoClient_listUser_jmhTest {
     Blackhole blackhole;
     Control notifyControl;
 
-    public BenchmarkTaskResult listUser_Throughput(InfraControl control, ThreadParams threadParams) throws Throwable {
+    public BenchmarkTaskResult getUser_Throughput(InfraControl control, ThreadParams threadParams) throws Throwable {
         this.benchmarkParams = control.benchmarkParams;
         this.iterationParams = control.iterationParams;
         this.threadParams    = threadParams;
@@ -68,24 +68,24 @@ public final class PojoClient_listUser_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            PojoClient_jmhType l_pojoclient0_G = _jmh_tryInit_f_pojoclient0_G(control);
+            Client_jmhType l_client0_G = _jmh_tryInit_f_client0_G(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                blackhole.consume(l_pojoclient0_G.listUser());
+                blackhole.consume(l_client0_G.getUser());
                 res.allOps++;
             }
 
             notifyControl.startMeasurement = true;
-            listUser_thrpt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_pojoclient0_G);
+            getUser_thrpt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_client0_G);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    blackhole.consume(l_pojoclient0_G.listUser());
+                    blackhole.consume(l_client0_G.getUser());
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -95,7 +95,7 @@ public final class PojoClient_listUser_jmhTest {
 
             if (control.isLastIteration()) {
                 synchronized(this.getClass()) {
-                    f_pojoclient0_G = null;
+                    f_client0_G = null;
                 }
             }
             res.allOps += res.measuredOps;
@@ -106,19 +106,19 @@ public final class PojoClient_listUser_jmhTest {
             res.measuredOps *= opsPerInv;
             res.measuredOps /= batchSize;
             BenchmarkTaskResult results = new BenchmarkTaskResult(res.allOps, res.measuredOps);
-            results.add(new ThroughputResult(ResultRole.PRIMARY, "listUser", res.measuredOps, res.getTime(), benchmarkParams.getTimeUnit()));
+            results.add(new ThroughputResult(ResultRole.PRIMARY, "getUser", res.measuredOps, res.getTime(), benchmarkParams.getTimeUnit()));
             this.blackhole.evaporate("Yes, I am Stephen Hawking, and know a thing or two about black holes.");
             return results;
         } else
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void listUser_thrpt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, PojoClient_jmhType l_pojoclient0_G) throws Throwable {
+    public static void getUser_thrpt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, Client_jmhType l_client0_G) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            blackhole.consume(l_pojoclient0_G.listUser());
+            blackhole.consume(l_client0_G.getUser());
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -127,7 +127,7 @@ public final class PojoClient_listUser_jmhTest {
     }
 
 
-    public BenchmarkTaskResult listUser_AverageTime(InfraControl control, ThreadParams threadParams) throws Throwable {
+    public BenchmarkTaskResult getUser_AverageTime(InfraControl control, ThreadParams threadParams) throws Throwable {
         this.benchmarkParams = control.benchmarkParams;
         this.iterationParams = control.iterationParams;
         this.threadParams    = threadParams;
@@ -137,24 +137,24 @@ public final class PojoClient_listUser_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            PojoClient_jmhType l_pojoclient0_G = _jmh_tryInit_f_pojoclient0_G(control);
+            Client_jmhType l_client0_G = _jmh_tryInit_f_client0_G(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                blackhole.consume(l_pojoclient0_G.listUser());
+                blackhole.consume(l_client0_G.getUser());
                 res.allOps++;
             }
 
             notifyControl.startMeasurement = true;
-            listUser_avgt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_pojoclient0_G);
+            getUser_avgt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_client0_G);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    blackhole.consume(l_pojoclient0_G.listUser());
+                    blackhole.consume(l_client0_G.getUser());
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -164,7 +164,7 @@ public final class PojoClient_listUser_jmhTest {
 
             if (control.isLastIteration()) {
                 synchronized(this.getClass()) {
-                    f_pojoclient0_G = null;
+                    f_client0_G = null;
                 }
             }
             res.allOps += res.measuredOps;
@@ -175,19 +175,19 @@ public final class PojoClient_listUser_jmhTest {
             res.measuredOps *= opsPerInv;
             res.measuredOps /= batchSize;
             BenchmarkTaskResult results = new BenchmarkTaskResult(res.allOps, res.measuredOps);
-            results.add(new AverageTimeResult(ResultRole.PRIMARY, "listUser", res.measuredOps, res.getTime(), benchmarkParams.getTimeUnit()));
+            results.add(new AverageTimeResult(ResultRole.PRIMARY, "getUser", res.measuredOps, res.getTime(), benchmarkParams.getTimeUnit()));
             this.blackhole.evaporate("Yes, I am Stephen Hawking, and know a thing or two about black holes.");
             return results;
         } else
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void listUser_avgt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, PojoClient_jmhType l_pojoclient0_G) throws Throwable {
+    public static void getUser_avgt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, Client_jmhType l_client0_G) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            blackhole.consume(l_pojoclient0_G.listUser());
+            blackhole.consume(l_client0_G.getUser());
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -196,7 +196,7 @@ public final class PojoClient_listUser_jmhTest {
     }
 
 
-    public BenchmarkTaskResult listUser_SampleTime(InfraControl control, ThreadParams threadParams) throws Throwable {
+    public BenchmarkTaskResult getUser_SampleTime(InfraControl control, ThreadParams threadParams) throws Throwable {
         this.benchmarkParams = control.benchmarkParams;
         this.iterationParams = control.iterationParams;
         this.threadParams    = threadParams;
@@ -206,14 +206,14 @@ public final class PojoClient_listUser_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            PojoClient_jmhType l_pojoclient0_G = _jmh_tryInit_f_pojoclient0_G(control);
+            Client_jmhType l_client0_G = _jmh_tryInit_f_client0_G(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                blackhole.consume(l_pojoclient0_G.listUser());
+                blackhole.consume(l_client0_G.getUser());
                 res.allOps++;
             }
 
@@ -222,12 +222,12 @@ public final class PojoClient_listUser_jmhTest {
             int batchSize = iterationParams.getBatchSize();
             int opsPerInv = benchmarkParams.getOpsPerInvocation();
             SampleBuffer buffer = new SampleBuffer();
-            listUser_sample_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, buffer, targetSamples, opsPerInv, batchSize, l_pojoclient0_G);
+            getUser_sample_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, buffer, targetSamples, opsPerInv, batchSize, l_client0_G);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    blackhole.consume(l_pojoclient0_G.listUser());
+                    blackhole.consume(l_client0_G.getUser());
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -237,7 +237,7 @@ public final class PojoClient_listUser_jmhTest {
 
             if (control.isLastIteration()) {
                 synchronized(this.getClass()) {
-                    f_pojoclient0_G = null;
+                    f_client0_G = null;
                 }
             }
             res.allOps += res.measuredOps * batchSize;
@@ -245,14 +245,14 @@ public final class PojoClient_listUser_jmhTest {
             res.allOps /= batchSize;
             res.measuredOps *= opsPerInv;
             BenchmarkTaskResult results = new BenchmarkTaskResult(res.allOps, res.measuredOps);
-            results.add(new SampleTimeResult(ResultRole.PRIMARY, "listUser", buffer, benchmarkParams.getTimeUnit()));
+            results.add(new SampleTimeResult(ResultRole.PRIMARY, "getUser", buffer, benchmarkParams.getTimeUnit()));
             this.blackhole.evaporate("Yes, I am Stephen Hawking, and know a thing or two about black holes.");
             return results;
         } else
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void listUser_sample_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, PojoClient_jmhType l_pojoclient0_G) throws Throwable {
+    public static void getUser_sample_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, Client_jmhType l_client0_G) throws Throwable {
         long realTime = 0;
         long operations = 0;
         int rnd = (int)System.nanoTime();
@@ -267,7 +267,7 @@ public final class PojoClient_listUser_jmhTest {
             }
             for (int b = 0; b < batchSize; b++) {
                 if (control.volatileSpoiler) return;
-                blackhole.consume(l_pojoclient0_G.listUser());
+                blackhole.consume(l_client0_G.getUser());
             }
             if (sample) {
                 buffer.add((System.nanoTime() - time) / opsPerInv);
@@ -285,7 +285,7 @@ public final class PojoClient_listUser_jmhTest {
     }
 
 
-    public BenchmarkTaskResult listUser_SingleShotTime(InfraControl control, ThreadParams threadParams) throws Throwable {
+    public BenchmarkTaskResult getUser_SingleShotTime(InfraControl control, ThreadParams threadParams) throws Throwable {
         this.benchmarkParams = control.benchmarkParams;
         this.iterationParams = control.iterationParams;
         this.threadParams    = threadParams;
@@ -294,7 +294,7 @@ public final class PojoClient_listUser_jmhTest {
             this.blackhole = new Blackhole("Today's password is swordfish. I understand instantiating Blackholes directly is dangerous.");
         }
         if (threadParams.getSubgroupIndex() == 0) {
-            PojoClient_jmhType l_pojoclient0_G = _jmh_tryInit_f_pojoclient0_G(control);
+            Client_jmhType l_client0_G = _jmh_tryInit_f_client0_G(control);
 
             control.preSetup();
 
@@ -302,53 +302,53 @@ public final class PojoClient_listUser_jmhTest {
             notifyControl.startMeasurement = true;
             RawResults res = new RawResults();
             int batchSize = iterationParams.getBatchSize();
-            listUser_ss_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, batchSize, l_pojoclient0_G);
+            getUser_ss_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, batchSize, l_client0_G);
             control.preTearDown();
 
             if (control.isLastIteration()) {
                 synchronized(this.getClass()) {
-                    f_pojoclient0_G = null;
+                    f_client0_G = null;
                 }
             }
             int opsPerInv = control.benchmarkParams.getOpsPerInvocation();
             long totalOps = opsPerInv;
             BenchmarkTaskResult results = new BenchmarkTaskResult(totalOps, totalOps);
-            results.add(new SingleShotResult(ResultRole.PRIMARY, "listUser", res.getTime(), benchmarkParams.getTimeUnit()));
+            results.add(new SingleShotResult(ResultRole.PRIMARY, "getUser", res.getTime(), benchmarkParams.getTimeUnit()));
             this.blackhole.evaporate("Yes, I am Stephen Hawking, and know a thing or two about black holes.");
             return results;
         } else
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void listUser_ss_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, int batchSize, PojoClient_jmhType l_pojoclient0_G) throws Throwable {
+    public static void getUser_ss_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, int batchSize, Client_jmhType l_client0_G) throws Throwable {
         long realTime = 0;
         result.startTime = System.nanoTime();
         for (int b = 0; b < batchSize; b++) {
             if (control.volatileSpoiler) return;
-            blackhole.consume(l_pojoclient0_G.listUser());
+            blackhole.consume(l_client0_G.getUser());
         }
         result.stopTime = System.nanoTime();
         result.realTime = realTime;
     }
 
     
-    static volatile PojoClient_jmhType f_pojoclient0_G;
+    static volatile Client_jmhType f_client0_G;
     
-    PojoClient_jmhType _jmh_tryInit_f_pojoclient0_G(InfraControl control) throws Throwable {
-        PojoClient_jmhType val = f_pojoclient0_G;
+    Client_jmhType _jmh_tryInit_f_client0_G(InfraControl control) throws Throwable {
+        Client_jmhType val = f_client0_G;
         if (val != null) {
             return val;
         }
         synchronized(this.getClass()) {
             try {
             if (control.isFailing) throw new FailureAssistException();
-            val = f_pojoclient0_G;
+            val = f_client0_G;
             if (val != null) {
                 return val;
             }
-            val = new PojoClient_jmhType();
+            val = new Client_jmhType();
             val.readyTrial = true;
-            f_pojoclient0_G = val;
+            f_client0_G = val;
             } catch (Throwable t) {
                 control.isFailing = true;
                 throw t;

@@ -22,10 +22,10 @@ service_description:
 cse:
   service:
     registry:
-      address: http://114.116.13.119:30100
+      address: http://192.168.0.224:30100
 #  rest:
 #    address: 10.134.13.158:8080
   highway:
-    address: 114.116.9.11:7070
+    address: 192.168.0.193:7070
 
 

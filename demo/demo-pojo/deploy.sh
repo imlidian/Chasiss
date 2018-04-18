@@ -9,7 +9,7 @@ echo $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar
 
 if [ $D = "d" -o $ALL = "a" ];then
 	ssh root@hwc2 "cd java ; ls ;rm pojo-client-1.0.0-m1.jar ; killall java"
-ssh root@hws "cd java ; ls ;rm pojo-server-1.0.0-m1.jar ; killall Java"
+	ssh root@hws "cd java ; ls ;rm pojo-server-1.0.0-m1.jar ; killall Java"
 fi
 
 if [ $INSTALL = "1" -o $ALL = "a" ];then
@@ -24,6 +24,9 @@ mvn clean install -Pdemo-run-release
 fi
 
 if [ $UP = "u" -o $ALL = "a" ];then 
-scp  $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Client/pojo-client-1.0.0-m1.jar root@hwc2:~/java
+scp $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Client/pojo-client-1.0.0-m1.jar root@hwc2:~/java
 scp $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Server/pojo-server-1.0.0-m1.jar root@hws:~/java
 fi
+
+#/usr/lib/jvm/java-8-oracle/bin/java -jar pojo-server-1.0.0-m1.jar
+#/usr/lib/jvm/java-8-oracle/bin/java -jar pojo-server-1.0.0-m1.jar
