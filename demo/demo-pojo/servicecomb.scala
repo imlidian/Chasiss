@@ -19,7 +19,7 @@ case class Item(task : String, typ : Typ.Typ, fun : String, score : Double)
 
 case class Record(task : String, thrpt : Double, avgt : Double, p90 : Double, p99 : Double, p999 : Double)
 
-object benchmark {
+object benchmark1 {
 	val jvmOps = "java -server -Xmx1g -Xms1g -XX:MaxDirectMemorySize=1g -XX:+UseG1GC"
 	val resultFolder = new File("benchmark-result")
 
@@ -28,37 +28,43 @@ object benchmark {
 
 	// 主函数	
 	def main(args : Array[String]) : Unit = {
-		installBenchmarkBase()
+		// installBenchmarkBase()
 
-		val allTasks = getAllTasks()
-			.filterNot(_ == "tars")
+		// val allTasks = getAllTasks()
+		// 	.filterNot(_ == "tars")
 
-		println("找到以下benchmark项目:")
-		println(allTasks.mkString(", "))
+		//println("找到以下benchmark项目:")
+		// println(allTasks.mkString(", "))
 
-		allTasks.foreach(benchmark(_))
+		// allTasks.foreach(benchmark(_))
+
+		//benchmark("pojo")
+
+		println("转换log:")
 
 		report()
 	}
-	//step 1 执行benchmark-base 下的目录
-	def installBenchmarkBase() {
-		exec("benchmark-base", "mvn clean install")
-	}
-	// stepm2 获取全部文件夹
-	def getAllTasks() : Array[String] = {
-		val folder = new File(".")
+	// //step 1 执行benchmark-base 下的目录
+	// def installBenchmarkBase() {
+	// 	exec("benchmark-base", "mvn clean install")
+	// }
+	// // stepm2 获取全部文件夹
+	// def getAllTasks() : Array[String] = {
+	// 	val folder = new File(".")
 
-		folder
-			.list
-			.filter(_.endsWith("-client"))
-			.map(name => name.substring(0, name.length() - "-client".length()))
-			.sorted
-	}
+	// 	folder
+	// 		.list
+	// 		.filter(_.endsWith("-client"))
+	// 		.map(name => name.substring(0, name.length() - "-client".length()))
+	// 		.sorted
+	// }
 	//step3 获取的文件名字开始报告
 	def benchmark(taskName : String) {
-		val serverPackage = packageAndGet(new File(taskName + "-server"))
-		val clientPackage = packageAndGet(new File(taskName + "-client"))
-
+		val serverPackage = packageAndGet(new File("pojo-client-1.0.0-m1"))
+		val clientPackage = packageAndGet(new File("pojo-server-1.0.0-m1"))
+// val serverPackage = packageAndGet(new File(taskName + "-server"))
+// 		val clientPackage = packageAndGet(new File(taskName + "-client"))
+// pojo-client-1.0.0-m1.jar
 		startServer(serverPackage)
 
 		//等服务器启动起来在启动客户端
@@ -70,7 +76,7 @@ object benchmark {
 	}
 
 	def packageAndGet(project : File) : File = {
-		exec(project, "mvn clean package")
+		//exec(project, "mvn clean package")
 
 		val childs = new File(project, "target").listFiles()
 
@@ -92,13 +98,15 @@ object benchmark {
 	}
 	//step4 定义log目录 拷贝到服务端 启动服务
 	def startServer(serverPackage : File) {
+				println(s"start startServer")
+
 		val name = serverPackage.getName
 		println(s"start： $name")
 
 		val resultPath = taskName(serverPackage) + ".log"
 
 		//copy到benchmark-server
-		exec(serverPackage.getParentFile, s"scp ${name} root@benchmark-server:~")
+		//exec(serverPackage.getParentFile, s"scp ${name} root@benchmark-server:~")
 
 		//杀掉benchmark-server上的老进程
 		exec(Array("ssh", "root@benchmark-server", "killall java"))
@@ -211,7 +219,7 @@ object benchmark {
 		val reportFile = new File(resultFolder, "benchmark-report.md")
 		val reportOutput = new FileOutputStream(reportFile)
 		val props = sys.props
-
+		println(resultFolder)
 		reportOutput.write(s"#RPC性能报告\r\n".getBytes("UTF-8"))
 		reportOutput.write(s"> 生成时间: ${LocalDateTime.now()}<br>\r\n".getBytes("UTF-8"))
 		reportOutput.write(s"> 运行环境: ${props("os.name")}, ${props("java.vm.name")} ${props("java.runtime.version")}<br>\r\n".getBytes("UTF-8"))

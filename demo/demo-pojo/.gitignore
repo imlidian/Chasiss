@@ -1,2 +1,4 @@
 *.jar
 *.class
+pojo-client/target/
+pojo-server/target/
