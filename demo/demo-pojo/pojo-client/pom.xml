@@ -22,7 +22,11 @@
   <parent>
     <groupId>org.apache.servicecomb.demo</groupId>
     <artifactId>demo-pojo</artifactId>
+<<<<<<< HEAD
+    <version>1.0.0-m2-SNAPSHOT</version>
+=======
     <version>1.0.0-m1</version>
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   </parent>
   <artifactId>pojo-client</artifactId>
   <name>Java Chassis::Demo::POJO::Client</name>
@@ -36,6 +40,8 @@
       <groupId>org.apache.servicecomb</groupId>
       <artifactId>provider-pojo</artifactId>
     </dependency>
+<<<<<<< HEAD
+=======
      <dependency>
       <groupId>org.apache.servicecomb</groupId>
       <artifactId>transport-highway</artifactId>
@@ -53,6 +59,7 @@
       <artifactId>benchmark-base</artifactId>
       <version>round-1</version>
     </dependency>
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   </dependencies>
 
   <properties>
@@ -72,7 +79,11 @@
             <mixin>
               <groupId>org.apache.servicecomb.demo</groupId>
               <artifactId>docker-run-config</artifactId>
+<<<<<<< HEAD
+              <version>1.0.0-m2-SNAPSHOT</version>
+=======
               <version>1.0.0-m1</version>
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
             </mixin>
           </mixins>
         </configuration>

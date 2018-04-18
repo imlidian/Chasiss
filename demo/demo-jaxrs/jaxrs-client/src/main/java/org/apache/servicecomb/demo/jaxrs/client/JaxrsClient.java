@@ -21,6 +21,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.ws.rs.core.MediaType;
+<<<<<<< HEAD
+import javax.ws.rs.core.Response.Status;
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 
 import org.apache.servicecomb.common.rest.codec.RestObjectMapper;
 import org.apache.servicecomb.core.CseContext;
@@ -28,9 +32,17 @@ import org.apache.servicecomb.demo.CodeFirstRestTemplate;
 import org.apache.servicecomb.demo.DemoConst;
 import org.apache.servicecomb.demo.TestMgr;
 import org.apache.servicecomb.demo.compute.Person;
+<<<<<<< HEAD
+import org.apache.servicecomb.demo.validator.Student;
 import org.apache.servicecomb.foundation.common.utils.BeanUtils;
 import org.apache.servicecomb.foundation.common.utils.Log4jUtils;
 import org.apache.servicecomb.provider.springmvc.reference.RestTemplateBuilder;
+import org.apache.servicecomb.swagger.invocation.exception.InvocationException;
+=======
+import org.apache.servicecomb.foundation.common.utils.BeanUtils;
+import org.apache.servicecomb.foundation.common.utils.Log4jUtils;
+import org.apache.servicecomb.provider.springmvc.reference.RestTemplateBuilder;
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -57,6 +69,10 @@ public class JaxrsClient {
     CodeFirstRestTemplate codeFirstClient = new CodeFirstRestTemplateJaxrs();
     codeFirstClient.testCodeFirst(templateNew, "jaxrs", "/codeFirstJaxrs/");
     testCompute(templateNew);
+<<<<<<< HEAD
+    testValidator(templateNew);
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   }
 
   private static void testCompute(RestTemplate template) throws Exception {
@@ -76,6 +92,27 @@ public class JaxrsClient {
     }
   }
 
+<<<<<<< HEAD
+  private static void testValidator(RestTemplate template) throws Exception {
+    String microserviceName = "jaxrs";
+    for (String transport : DemoConst.transports) {
+      CseContext.getInstance().getConsumerProviderManager().setTransport(microserviceName, transport);
+      TestMgr.setMsg(microserviceName, transport);
+
+      String cseUrlPrefix = "cse://" + microserviceName + "/validator/";
+
+      testValidatorAddSuccess(template, cseUrlPrefix);
+      testValidatorAddFail(template, cseUrlPrefix);
+      testValidatorSayHiSuccess(template, cseUrlPrefix);
+      testValidatorSayHiFail(template, cseUrlPrefix);
+      testValidatorExchangeSuccess(template, cseUrlPrefix);
+      testValidatorExchangeFail(template, cseUrlPrefix);
+    }
+  }
+
+
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   private static void testGet(RestTemplate template, String cseUrlPrefix) {
     Map<String, String> params = new HashMap<>();
     params.put("a", "5");
@@ -147,4 +184,88 @@ public class JaxrsClient {
     TestMgr.check("hello Tom",
         template.postForObject(cseUrlPrefix + "/compute/testrawjson", jsonPerson, String.class));
   }
+<<<<<<< HEAD
+
+  private static void testValidatorAddFail(RestTemplate template, String cseUrlPrefix) {
+    Map<String, String> params = new HashMap<>();
+    params.put("a", "5");
+    params.put("b", "3");
+    boolean isExcep = false;
+    try {
+      template.postForObject(cseUrlPrefix + "add", params, Integer.class);
+    } catch (InvocationException e) {
+      isExcep = true;
+      TestMgr.check(400, e.getStatus().getStatusCode());
+      TestMgr.check(Status.BAD_REQUEST, e.getReasonPhrase());
+      TestMgr.check(
+          "CommonExceptionData [message=[ConstraintViolationImpl{interpolatedMessage='must be greater than or equal to 20', propertyPath=add.arg1, rootBeanClass=class org.apache.servicecomb.demo.jaxrs.server.Validator, messageTemplate='{javax.validation.constraints.Min.message}'}]]",
+          e.getErrorData());
+    }
+
+    TestMgr.check(true, isExcep);
+  }
+
+  private static void testValidatorAddSuccess(RestTemplate template, String cseUrlPrefix) {
+    Map<String, String> params = new HashMap<>();
+    params.put("a", "5");
+    params.put("b", "20");
+    int result = template.postForObject(cseUrlPrefix + "add", params, Integer.class);
+    TestMgr.check(25, result);
+  }
+
+  private static void testValidatorSayHiFail(RestTemplate template, String cseUrlPrefix) {
+    boolean isExcep = false;
+    try {
+      template.exchange(cseUrlPrefix + "sayhi/{name}", HttpMethod.PUT, null, String.class, "te");
+    } catch (InvocationException e) {
+      isExcep = true;
+      TestMgr.check(400, e.getStatus().getStatusCode());
+      TestMgr.check(Status.BAD_REQUEST, e.getReasonPhrase());
+      TestMgr.check(
+          "CommonExceptionData [message=[ConstraintViolationImpl{interpolatedMessage='length must be between 3 and 2147483647', propertyPath=sayHi.arg0, rootBeanClass=class org.apache.servicecomb.demo.jaxrs.server.Validator, messageTemplate='{org.hibernate.validator.constraints.Length.message}'}]]",
+          e.getErrorData());
+    }
+    TestMgr.check(true, isExcep);
+  }
+
+  private static void testValidatorSayHiSuccess(RestTemplate template, String cseUrlPrefix) {
+    ResponseEntity<String> responseEntity =
+        template.exchange(cseUrlPrefix + "sayhi/{name}", HttpMethod.PUT, null, String.class, "world");
+    TestMgr.check(202, responseEntity.getStatusCode());
+    TestMgr.check("world sayhi", responseEntity.getBody());
+  }
+
+  private static void testValidatorExchangeFail(RestTemplate template, String cseUrlPrefix) {
+    HttpHeaders headers = new HttpHeaders();
+    headers.add("Accept", MediaType.APPLICATION_JSON);
+    Student student = new Student();
+    student.setName("");
+    student.setAge(25);
+    boolean isExcep = false;
+    try {
+      HttpEntity<Student> requestEntity = new HttpEntity<>(student, headers);
+      template.exchange(cseUrlPrefix + "/sayhello",
+          HttpMethod.POST,
+          requestEntity,
+          Student.class);
+    } catch (InvocationException e) {
+      isExcep = true;
+      TestMgr.check(400, e.getStatus().getStatusCode());
+      TestMgr.check(Status.BAD_REQUEST, e.getReasonPhrase());
+      TestMgr.check(
+          "CommonExceptionData [message=[ConstraintViolationImpl{interpolatedMessage='must be less than or equal to 20', propertyPath=sayHello.arg0.age, rootBeanClass=class org.apache.servicecomb.demo.jaxrs.server.Validator, messageTemplate='{javax.validation.constraints.Max.message}'}]]",
+          e.getErrorData());
+    }
+    TestMgr.check(true, isExcep);
+  }
+
+  private static void testValidatorExchangeSuccess(RestTemplate template, String cseUrlPrefix) {
+    Student student = new Student();
+    student.setName("test");
+    student.setAge(15);
+    Student result = template.postForObject(cseUrlPrefix + "sayhello", student, Student.class);
+    TestMgr.check("hello test 15", result);
+  }
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 }

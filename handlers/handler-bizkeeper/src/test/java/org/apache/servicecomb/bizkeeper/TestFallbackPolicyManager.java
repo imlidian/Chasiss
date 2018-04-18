@@ -47,7 +47,11 @@ public class TestFallbackPolicyManager {
       }
     };
 
+<<<<<<< HEAD
+    Assert.assertEquals((String) null, FallbackPolicyManager.getFallbackResponse("Consumer", null, invocation).getResult());
+=======
     Assert.assertEquals((String) null, FallbackPolicyManager.getFallbackResponse("Consumer", invocation).getResult());
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 
     new Expectations() {
       {
@@ -62,7 +66,11 @@ public class TestFallbackPolicyManager {
       }
     };
     Assert.assertEquals(CseException.class,
+<<<<<<< HEAD
+        ((Exception) FallbackPolicyManager.getFallbackResponse("Consumer", null, invocation).getResult()).getCause()
+=======
         ((Exception) FallbackPolicyManager.getFallbackResponse("Consumer", invocation).getResult()).getCause()
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
             .getClass());
 
     new Expectations() {
@@ -82,7 +90,11 @@ public class TestFallbackPolicyManager {
     FallbackPolicyManager.record("Consumer", invocation, Response.succResp("mockedsuccess"), true);
     FallbackPolicyManager.record("Consumer", invocation, Response.succResp("mockedfailure"), false);
     Assert.assertEquals("mockedsuccess",
+<<<<<<< HEAD
+        FallbackPolicyManager.getFallbackResponse("Consumer", null, invocation).getResult());
+=======
         FallbackPolicyManager.getFallbackResponse("Consumer", invocation).getResult());
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 
     new Expectations() {
       {
@@ -97,7 +109,11 @@ public class TestFallbackPolicyManager {
       }
     };
     Assert.assertEquals(CseException.class,
+<<<<<<< HEAD
+        ((Exception) FallbackPolicyManager.getFallbackResponse("Consumer", null, invocation).getResult()).getCause()
+=======
         ((Exception) FallbackPolicyManager.getFallbackResponse("Consumer", invocation).getResult()).getCause()
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
             .getClass());
   }
 }

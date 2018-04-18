@@ -30,8 +30,12 @@
 	<modules>
 		<module>pojo-server</module>
 		<module>pojo-client</module>
+<<<<<<< HEAD
+    <module>pojo-tests</module>
+=======
 		<module>benchmark-base</module>
 		<!--<module>pojo-tests</module>-->
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   </modules>
 
 </project>

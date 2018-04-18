@@ -18,14 +18,25 @@ package org.apache.servicecomb.swagger.engine;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+<<<<<<< HEAD
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
+import org.apache.servicecomb.foundation.common.utils.SPIServiceUtils;
+=======
+import java.util.concurrent.CompletableFuture;
+
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import org.apache.servicecomb.swagger.invocation.AsyncResponse;
 import org.apache.servicecomb.swagger.invocation.Response;
 import org.apache.servicecomb.swagger.invocation.SwaggerInvocation;
 import org.apache.servicecomb.swagger.invocation.arguments.producer.ProducerArgumentsMapper;
 import org.apache.servicecomb.swagger.invocation.context.ContextUtils;
 import org.apache.servicecomb.swagger.invocation.exception.ExceptionFactory;
+<<<<<<< HEAD
+import org.apache.servicecomb.swagger.invocation.extension.ProducerInvokeExtension;
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapper;
 
 public class SwaggerProducerOperation {
@@ -44,6 +55,12 @@ public class SwaggerProducerOperation {
 
   private ProducerResponseMapper responseMapper;
 
+<<<<<<< HEAD
+  private List<ProducerInvokeExtension> producerInvokeExtenstionList =
+      SPIServiceUtils.getSortedService(ProducerInvokeExtension.class);
+
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   public String getName() {
     return name;
   }
@@ -119,6 +136,12 @@ public class SwaggerProducerOperation {
   public void doCompletableFutureInvoke(SwaggerInvocation invocation, AsyncResponse asyncResp) {
     try {
       Object[] args = argumentsMapper.toProducerArgs(invocation);
+<<<<<<< HEAD
+      for (ProducerInvokeExtension producerInvokeExtension : producerInvokeExtenstionList) {
+        producerInvokeExtension.beforeMethodInvoke(invocation, this, args);
+      }
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
       Object result = producerMethod.invoke(producerInstance, args);
 
       ((CompletableFuture<Object>) result).whenComplete((realResult, ex) -> {
@@ -145,6 +168,12 @@ public class SwaggerProducerOperation {
     Response response = null;
     try {
       Object[] args = argumentsMapper.toProducerArgs(invocation);
+<<<<<<< HEAD
+      for (ProducerInvokeExtension producerInvokeExtension : producerInvokeExtenstionList) {
+        producerInvokeExtension.beforeMethodInvoke(invocation, this, args);
+      }
+=======
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
       Object result = producerMethod.invoke(producerInstance, args);
       response = responseMapper.mapResponse(invocation.getStatus(), result);
     } catch (Throwable e) {

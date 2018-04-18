@@ -37,12 +37,20 @@ public class ProviderQpsFlowControlHandler implements Handler {
       return;
     }
 
+<<<<<<< HEAD
+    String microserviceName = invocation.getContext(Const.SRC_MICROSERVICE);
+    QpsController qpsController =
+        StringUtils.isEmpty(microserviceName)
+            ? qpsControllerMgr.getGlobalQpsController()
+            : qpsControllerMgr.getOrCreate(microserviceName, invocation);
+=======
     String microServiceName = invocation.getContext(Const.SRC_MICROSERVICE);
     QpsController qpsController =
         StringUtils.isEmpty(microServiceName)
             ? qpsControllerMgr.getGlobalQpsController()
             : qpsControllerMgr.getOrCreate(microServiceName + QpsControllerManager.SEPARATOR
                 + invocation.getOperationMeta().getSchemaQualifiedName());
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
     if (isLimitNewRequest(qpsController, asyncResp)) {
       return;
     }

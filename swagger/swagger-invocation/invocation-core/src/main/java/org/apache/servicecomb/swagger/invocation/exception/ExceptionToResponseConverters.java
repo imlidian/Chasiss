@@ -31,7 +31,11 @@ public class ExceptionToResponseConverters {
 
   @SuppressWarnings("unchecked")
   public ExceptionToResponseConverters() {
+<<<<<<< HEAD
+    SPIServiceUtils.getSortedService(ExceptionToResponseConverter.class).forEach(converter -> {
+=======
     SPIServiceUtils.getAllService(ExceptionToResponseConverter.class).forEach(converter -> {
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
       if (converter.getExceptionClass() == null) {
         defaultConverter = converter;
         return;

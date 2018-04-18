@@ -15,6 +15,26 @@
 ## limitations under the License.
 ## ---------------------------------------------------------------------------
 
+<<<<<<< HEAD
+APPLICATION_ID: pojotest
+service_description:
+  name: pojoClient
+  version: 0.0.1
+cse:
+  service:
+    registry:
+      address: http://127.0.0.1:30100
+  handler:
+    chain:
+      Consumer:
+        default: qps-flowcontrol-consumer,bizkeeper-consumer,loadbalance
+  isolation:
+    Consumer:
+      enabled: false
+  loadbalance:
+    strategy:
+      name: Random
+=======
 APPLICATION_ID: codefirsttest
 service_description:
   name: codefirstClient
@@ -29,3 +49,4 @@ cse:
   references:
     codefirst:
       version-rule: 0.0.2
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae

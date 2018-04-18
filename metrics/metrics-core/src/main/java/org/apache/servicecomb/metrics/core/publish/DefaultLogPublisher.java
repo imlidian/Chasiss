@@ -50,7 +50,11 @@ public class DefaultLogPublisher implements MetricsInitializer {
   @Override
   public void init(CompositeRegistry globalRegistry, EventBus eventBus, MetricsBootstrapConfig config) {
     if (!DynamicPropertyFactory.getInstance()
+<<<<<<< HEAD
+        .getBooleanProperty(ENABLED, false)
+=======
         .getBooleanProperty(ENABLED, true)
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
         .get()) {
       return;
     }

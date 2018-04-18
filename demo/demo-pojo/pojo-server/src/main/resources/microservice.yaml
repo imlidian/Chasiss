@@ -15,6 +15,25 @@
 ## limitations under the License.
 ## ---------------------------------------------------------------------------
 
+<<<<<<< HEAD
+APPLICATION_ID: pojotest
+service_description:
+  name: pojo
+  version: 0.0.4
+cse:
+  service:
+    registry:
+      address: http://127.0.0.1:30100
+  rest:
+    address: 0.0.0.0:8080
+  highway:
+    address: 0.0.0.0:7070
+  #executors:
+    #default: test
+    #Provider:
+      #server: test
+      #server.wrapParam: test
+=======
 APPLICATION_ID: codefirsttest
 service_description:
   name: codefirst
@@ -28,4 +47,5 @@ cse:
   highway:
     address: 10.134.17.34:7070
 
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 

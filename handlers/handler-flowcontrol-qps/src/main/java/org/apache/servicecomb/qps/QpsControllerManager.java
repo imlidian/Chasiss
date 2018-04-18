@@ -19,8 +19,13 @@ package org.apache.servicecomb.qps;
 
 import java.util.Map;
 import java.util.Map.Entry;
+<<<<<<< HEAD
+
+import org.apache.servicecomb.core.Invocation;
+=======
 import java.util.regex.Pattern;
 
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
 import org.apache.servicecomb.foundation.common.concurrent.ConcurrentHashMapEx;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,8 +35,11 @@ import com.netflix.config.DynamicProperty;
 public class QpsControllerManager {
   private static final Logger LOGGER = LoggerFactory.getLogger(QpsControllerManager.class);
 
+<<<<<<< HEAD
+=======
   private static final Pattern QUALIFIED_KEY_CHECKER = Pattern.compile("^[^.]+\\.[^.]+\\.[^.]+$");
 
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   /**
    * Describe the relationship between configuration and qpsController.
    */
@@ -48,14 +56,29 @@ public class QpsControllerManager {
 
   private String configKeyPrefix;
 
+<<<<<<< HEAD
+  public QpsController getOrCreate(String microserviceName, Invocation invocation) {
+    return qualifiedNameControllerMap
+        .computeIfAbsent(microserviceName + SEPARATOR + invocation.getOperationMeta().getSchemaQualifiedName(), key -> {
+          return create(key, microserviceName, invocation);
+        });
+=======
   public QpsController getOrCreate(String key) {
     return qualifiedNameControllerMap.computeIfAbsent(key, this::create);
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   }
 
   /**
    * Create relevant qpsLimit dynamicProperty and watch the configuration change.
    * Search and return a valid qpsController.
    */
+<<<<<<< HEAD
+  protected QpsController create(String qualifiedNameKey, String microserviceName, Invocation invocation) {
+    // create "microservice"
+    createQpsControllerIfNotExist(microserviceName);
+    // create "microservice.schema"
+    createQpsControllerIfNotExist(qualifiedNameKey.substring(0, microserviceName.length() + invocation.getSchemaId().length() + 1));
+=======
   protected QpsController create(String qualifiedNameKey) {
     if (!QUALIFIED_KEY_CHECKER.matcher(qualifiedNameKey).matches()) {
       throw new IllegalArgumentException("Unexpected qualified name: [" + qualifiedNameKey + "]");
@@ -64,6 +87,7 @@ public class QpsControllerManager {
     createQpsControllerIfNotExist(qualifiedNameKey.substring(0, qualifiedNameKey.indexOf(SEPARATOR)));
     // create "microservice.schema"
     createQpsControllerIfNotExist(qualifiedNameKey.substring(0, qualifiedNameKey.lastIndexOf(SEPARATOR)));
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
     // create "microservice.schema.operation"
     createQpsControllerIfNotExist(qualifiedNameKey);
 

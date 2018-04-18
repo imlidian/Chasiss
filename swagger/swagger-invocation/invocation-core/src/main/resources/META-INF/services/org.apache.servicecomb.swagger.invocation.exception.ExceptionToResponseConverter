@@ -16,4 +16,8 @@
 #
 
 org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter
+<<<<<<< HEAD
 org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter
+=======
+org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae

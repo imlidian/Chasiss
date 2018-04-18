@@ -21,7 +21,10 @@ import org.apache.servicecomb.foundation.common.utils.BeanUtils;
 import org.apache.servicecomb.foundation.common.utils.Log4jUtils;
 
 public class PojoServer {
+<<<<<<< HEAD
+=======
 
+>>>>>>> ad7cd632bb3188843e5f929358ffe694001a59ae
   public static void main(String[] args) throws Exception {
     Log4jUtils.init();
     BeanUtils.init();
