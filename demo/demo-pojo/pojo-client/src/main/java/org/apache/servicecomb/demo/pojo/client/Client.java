@@ -105,19 +105,6 @@ public class Client extends AbstractClient {
   }
 
   public static void main(String[] args) throws Exception {
-//    Log4jUtils.init();
-//    BeanUtils.init();
-    Client client = new Client();
-
-    for (int i = 0; i < 60; i++) {
-      try {
-        System.out.println(client.getUser());
-        break;
-      } catch (Exception e) {
-        Thread.sleep(1000);
-      }
-    }
-
     Options opt = new OptionsBuilder()//
             .include(Client.class.getSimpleName())//
             .warmupIterations(10)// 预热的迭代次数  10 //number of times the warmup iteration should take place

@@ -19,7 +19,6 @@ public class UserServiceServerImpl implements UserService {
 
 	@Override
 	public boolean existUser(String email) {
-		System.out.println("base - service existUser");
 
 		if (email == null || email.isEmpty()) {
 			return true;
@@ -34,8 +33,6 @@ public class UserServiceServerImpl implements UserService {
 
 	@Override
 	public User getUser(long id) {
-		System.out.println("base - service getUser");
-
 		User user = new User();
 
 		user.setId(id);
