@@ -22,7 +22,7 @@ service_description:
 cse:
   service:
     registry:
-      address: http://10.134.27.52:30100
+      address: http://114.116.13.119:30100
   isolation:
     Consumer:
       enabled: false
