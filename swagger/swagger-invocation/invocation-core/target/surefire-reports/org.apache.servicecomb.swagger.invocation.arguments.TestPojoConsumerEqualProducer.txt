@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.servicecomb.swagger.invocation.arguments.TestPojoConsumerEqualProducer
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.192 sec - in org.apache.servicecomb.swagger.invocation.arguments.TestPojoConsumerEqualProducer

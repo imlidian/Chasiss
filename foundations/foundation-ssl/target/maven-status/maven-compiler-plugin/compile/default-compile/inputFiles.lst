@@ -1,0 +1,9 @@
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/src/main/java/org/apache/servicecomb/foundation/ssl/TrustAllManager.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/src/main/java/org/apache/servicecomb/foundation/ssl/CertificateUtil.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/src/main/java/org/apache/servicecomb/foundation/ssl/KeyStoreUtil.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/src/main/java/org/apache/servicecomb/foundation/ssl/SSLOption.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/src/main/java/org/apache/servicecomb/foundation/ssl/SSLManager.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/src/main/java/org/apache/servicecomb/foundation/ssl/SSLOptionFactory.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/src/main/java/org/apache/servicecomb/foundation/ssl/SSLSocketFactoryExt.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/src/main/java/org/apache/servicecomb/foundation/ssl/SSLCustom.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/src/main/java/org/apache/servicecomb/foundation/ssl/TrustManagerExt.java

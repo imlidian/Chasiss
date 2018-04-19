@@ -1,0 +1,4 @@
+org/apache/servicecomb/demo/crossapp/HelloWorld.class
+org/apache/servicecomb/demo/crossapp/CrossappServer.class
+org/apache/servicecomb/demo/crossapp/CrossappBootListener.class
+org/apache/servicecomb/demo/crossapp/HelloWorldImpl.class

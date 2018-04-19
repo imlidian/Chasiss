@@ -1,0 +1,11 @@
+org/apache/servicecomb/demo/springmvc/client/CodeFirstSpringmvcIntf.class
+org/apache/servicecomb/demo/springmvc/client/CodeFirstRestTemplateSpringmvc$UploadStreamAndResource.class
+org/apache/servicecomb/demo/springmvc/client/ServiceCenterExample.class
+org/apache/servicecomb/demo/springmvc/client/TestObject.class
+org/apache/servicecomb/demo/springmvc/client/CodeFirstRestTemplateSpringmvc.class
+org/apache/servicecomb/demo/springmvc/client/CodeFirstRestTemplateSpringmvc$UploadPartAndFile.class
+org/apache/servicecomb/demo/springmvc/client/TestResponse.class
+org/apache/servicecomb/demo/springmvc/client/SpringmvcClient.class
+org/apache/servicecomb/demo/springmvc/client/TestGeneric.class
+org/apache/servicecomb/demo/springmvc/client/MicroserviceArray.class
+org/apache/servicecomb/demo/springmvc/client/MockedFallbackExample.class

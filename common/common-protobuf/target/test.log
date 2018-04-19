@@ -1,0 +1,25 @@
+2018-04-19 10:46:21,843 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:21,844 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:21,904 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@57a78e3
+2018-04-19 10:46:22,372 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=2.
+2018-04-19 10:46:22,373 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor.
+2018-04-19 10:46:22,373 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor.
+2018-04-19 10:46:22,381 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=1.
+2018-04-19 10:46:22,381 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor.
+2018-04-19 10:46:22,384 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=1.
+2018-04-19 10:46:22,384 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext.
+2018-04-19 10:46:22,489 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=0.
+2018-04-19 10:46:22,650 [main           ] INFO  SchemaLoader                   - register schema app/app:test/org.apache.servicecomb.codec.protobuf.definition.TestOperationProtobuf$Impl
+2018-04-19 10:46:22,845 [main           ] INFO  JavassistUtils                 - generate cse.gen.app.test.org.apache.servicecomb.codec.protobuf.definition.TestOperationProtobuf$Impl.test.x in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:22,959 [main           ] INFO  JavassistUtils                 - generate gen.swagger.ImplIntf in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:23,172 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.java.lang.Integer in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:23,176 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.java.lang.String in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:23,799 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.java.lang.Integer in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:23,822 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.java.lang.String in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:23,827 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.org.apache.servicecomb.codec.protobuf.utils.WrapType in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:23,854 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.java.util.HashMap_java.lang.Object,java.lang.Object_ in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:23,865 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.java.lang.Object in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:24,003 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.array_B in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:24,006 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.array_I in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:24,013 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.array_Ljava.lang.String; in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:24,017 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.array_Lorg.apache.servicecomb.codec.protobuf.utils.WrapType; in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.

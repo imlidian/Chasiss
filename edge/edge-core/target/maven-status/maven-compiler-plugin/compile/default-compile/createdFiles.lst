@@ -1,0 +1,5 @@
+org/apache/servicecomb/edge/core/CompatiblePathVersionMapper.class
+org/apache/servicecomb/edge/core/AbstractEdgeDispatcher.class
+org/apache/servicecomb/edge/core/EdgeInvocation.class
+org/apache/servicecomb/edge/core/EdgeBootListener.class
+org/apache/servicecomb/edge/core/OperationInstancesDiscoveryFilter.class

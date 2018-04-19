@@ -1,0 +1,68 @@
+2018-04-19 10:45:53,949 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.exception.ExceptionToResponseConverter, count=3.
+2018-04-19 10:45:53,951 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.exception.ExceptionToResponseConverter, count=3.
+2018-04-19 10:45:53,953 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.exception.ErrorToResponseConverter.
+2018-04-19 10:45:53,954 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter.
+2018-04-19 10:45:53,954 [main           ] INFO  SPIServiceUtils                -   2. org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter.
+2018-04-19 10:45:53,954 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.exception.ErrorToResponseConverter.
+2018-04-19 10:45:53,955 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter.
+2018-04-19 10:45:53,958 [main           ] INFO  SPIServiceUtils                -   2. org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter.
+2018-04-19 10:45:53,990 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=3.
+2018-04-19 10:45:53,991 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory.
+2018-04-19 10:45:53,991 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory.
+2018-04-19 10:45:53,991 [main           ] INFO  SPIServiceUtils                -   2. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory.
+2018-04-19 10:45:54,000 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=3.
+2018-04-19 10:45:54,000 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory.
+2018-04-19 10:45:54,001 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory.
+2018-04-19 10:45:54,001 [main           ] INFO  SPIServiceUtils                -   2. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory.
+2018-04-19 10:45:54,004 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:45:54,154 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=3.
+2018-04-19 10:45:54,154 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory.
+2018-04-19 10:45:54,154 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory.
+2018-04-19 10:45:54,154 [main           ] INFO  SPIServiceUtils                -   2. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory.
+2018-04-19 10:45:54,161 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=3.
+2018-04-19 10:45:54,161 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory.
+2018-04-19 10:45:54,162 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory.
+2018-04-19 10:45:54,162 [main           ] INFO  SPIServiceUtils                -   2. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory.
+2018-04-19 10:45:54,477 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=2.
+2018-04-19 10:45:54,477 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor.
+2018-04-19 10:45:54,498 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor.
+2018-04-19 10:45:54,508 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2.
+2018-04-19 10:45:54,509 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor.
+2018-04-19 10:45:54,509 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.jaxrs.processor.response.JaxrsResponseProcessor.
+2018-04-19 10:45:54,530 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2.
+2018-04-19 10:45:54,530 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.jaxrs.JaxrsSwaggerGeneratorContext.
+2018-04-19 10:45:54,531 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext.
+2018-04-19 10:45:54,645 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=2.
+2018-04-19 10:45:54,646 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor.
+2018-04-19 10:45:54,646 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor.
+2018-04-19 10:45:54,653 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2.
+2018-04-19 10:45:54,653 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor.
+2018-04-19 10:45:54,653 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.jaxrs.processor.response.JaxrsResponseProcessor.
+2018-04-19 10:45:54,662 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=0.
+2018-04-19 10:45:54,669 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2.
+2018-04-19 10:45:54,669 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.jaxrs.JaxrsSwaggerGeneratorContext.
+2018-04-19 10:45:54,670 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext.
+2018-04-19 10:45:54,746 [main           ] INFO  JavassistUtils                 - generate gen.swagger.visibleMethod.a in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:54,764 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=0.
+2018-04-19 10:45:54,817 [main           ] INFO  JavassistUtils                 - generate gen.swagger.ProducerImplIntf in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:54,993 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testSimpleBody in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,038 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testSimpleAndObjectAsyncBody in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,052 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testObjectArrayArray.s in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,058 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testObjectListArray.s in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,081 [main           ] INFO  JavassistUtils                 - generate gen.swagger.JaxrsImplIntf in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,083 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testListArray.s in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,087 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testObjectListList.s in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,095 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testBytes.bytes in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,098 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testListList.s in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,105 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testContext.name in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,109 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:45:55,111 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testObjectArrayList.s in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,114 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testArrayArray.s in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,116 [main           ] INFO  JavassistUtils                 - generate gen.swagger.testArrayList.s in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,184 [main           ] INFO  JavassistUtils                 - generate gen.swagger.PojoImplIntf in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:45:55,483 [main           ] ERROR ltExceptionToResponseConverter - invoke failed, invocation=null
+2018-04-19 10:45:55,638 [main           ] WARN  ConverterMgr                   - Bad practice, low performance, convert from class java.lang.Integer to class java.lang.String
+2018-04-19 10:45:55,734 [main           ] WARN  ConverterMgr                   - Bad practice, low performance, convert from class java.lang.Integer to class java.lang.String
+2018-04-19 10:45:55,788 [main           ] WARN  ConverterMgr                   - Bad practice, low performance, convert from class java.lang.Integer to class java.lang.String
+2018-04-19 10:45:55,796 [main           ] WARN  ConverterMgr                   - Bad practice, low performance, convert from class java.lang.Integer to class java.lang.String
+2018-04-19 10:45:55,867 [main           ] INFO  JavassistUtils                 - generate gen.swagger.addBody in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.

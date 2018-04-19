@@ -1,0 +1,9 @@
+org/apache/servicecomb/demo/server/TestResponse.class
+org/apache/servicecomb/springboot/pojo/server/PojoServer.class
+org/apache/servicecomb/demo/server/Test.class
+org/apache/servicecomb/demo/server/TestRequest.class
+org/apache/servicecomb/demo/pojo/server/TestImpl.class
+org/apache/servicecomb/handler/MyHandler.class
+org/apache/servicecomb/demo/helloworld/greeter/Hello.class
+org/apache/servicecomb/demo/pojo/server/HelloImpl.class
+org/apache/servicecomb/demo/server/User.class

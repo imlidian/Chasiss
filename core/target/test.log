@@ -1,0 +1,520 @@
+2018-04-19 10:46:04,580 [main           ] INFO  MicroserviceClassLoader        - create classloader for microservice app:ms:1.
+2018-04-19 10:46:04,665 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:04,671 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:04,730 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1f2586d6
+2018-04-19 10:46:05,079 [Finalizer      ] INFO  MicroserviceClassLoader        - gc: classloader of microservice ms:1.
+2018-04-19 10:46:05,183 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=perfClient, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/core/target/test-classes/microservice.yaml]
+2018-04-19 10:46:05,265 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:05,269 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:05,274 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=perfClient, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/core/target/test-classes/microservice.yaml]
+2018-04-19 10:46:05,311 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3964d79
+2018-04-19 10:46:05,397 [main           ] INFO  NetUtils                       - add network interface name:wc6,host address:169.254.247.53
+2018-04-19 10:46:05,398 [main           ] INFO  NetUtils                       - add network interface name:en1,host address:192.168.43.114
+2018-04-19 10:46:05,399 [main           ] INFO  NetUtils                       - add host name from localhost:DeanMacbook,host address:192.168.43.114
+2018-04-19 10:46:05,400 [main           ] INFO  NetUtils                       - add network interface name:wc6,host address:169.254.247.53
+2018-04-19 10:46:05,401 [main           ] INFO  NetUtils                       - add network interface name:en1,host address:192.168.43.114
+2018-04-19 10:46:05,404 [main           ] INFO  NetUtils                       - add host name from localhost:DeanMacbook,host address:192.168.43.114
+2018-04-19 10:46:05,413 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:46:05,416 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:46:05,560 [main           ] INFO  DynamicSchemaLoader            - dynamic register schemas for perfClient in classpath*:test/test/schema.yaml
+2018-04-19 10:46:05,697 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=2.
+2018-04-19 10:46:05,697 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor.
+2018-04-19 10:46:05,698 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor.
+2018-04-19 10:46:05,706 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=1.
+2018-04-19 10:46:05,707 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor.
+2018-04-19 10:46:05,710 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=1.
+2018-04-19 10:46:05,711 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext.
+2018-04-19 10:46:06,230 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=0.
+2018-04-19 10:46:06,354 [main           ] INFO  JavassistUtils                 - generate gen.swagger.addBody in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:06,403 [main           ] INFO  SchemaLoader                   - register schema app/perfClient/schema
+2018-04-19 10:46:06,451 [main           ] INFO  SchemaLoader                   - register schema app/app:test/org.apache.servicecomb.core.definition.schema.TestConsumerSchemaFactory$TestConsumerSchemaFactoryImpl
+2018-04-19 10:46:06,492 [main           ] INFO  JavassistUtils                 - generate gen.swagger.TestConsumerSchemaFactoryImplIntf in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:06,506 [main           ] INFO  JavassistUtils                 - generate cse.gen.app.perfClient.schema.testint.testintBody in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:06,587 [main           ] INFO  JavassistUtils                 - generate gen.cse.ms.ut.SchemaIntf in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:06,667 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.serviceregistry.discovery.DiscoveryFilter, count=0.
+2018-04-19 10:46:06,671 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:46:06,672 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter.
+2018-04-19 10:46:06,677 [main           ] INFO  DynamicSchemaLoader            - dynamic register schemas for CSE:as in classpath*:test/test/schema.yaml
+2018-04-19 10:46:06,697 [main           ] INFO  SchemaLoader                   - register schema CSE/CSE:as/schema
+2018-04-19 10:46:06,707 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:46:06,708 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter.
+2018-04-19 10:46:06,745 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=3.
+2018-04-19 10:46:06,746 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory.
+2018-04-19 10:46:06,746 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory.
+2018-04-19 10:46:06,746 [main           ] INFO  SPIServiceUtils                -   2. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory.
+2018-04-19 10:46:06,767 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=3.
+2018-04-19 10:46:06,768 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory.
+2018-04-19 10:46:06,768 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory.
+2018-04-19 10:46:06,768 [main           ] INFO  SPIServiceUtils                -   2. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory.
+2018-04-19 10:46:06,779 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=app, microserviceName=ms.
+2018-04-19 10:46:06,793 [main           ] INFO  AbstractServiceRegistry        - find instances[1] from service center success. service=app/ms/0.0.0+
+2018-04-19 10:46:06,793 [main           ] INFO  AbstractServiceRegistry        - service id=0, instance id=0, endpoints=[]
+2018-04-19 10:46:06,798 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersionRule, appId=app, microserviceName=ms, versionRule=latest.
+2018-04-19 10:46:06,802 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=perfClient, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/core/target/test-classes/microservice.yaml]
+2018-04-19 10:46:06,809 [main           ] INFO  MicroserviceVersionRule        - add microserviceVersion, appId=app, microserviceName=ms, version=1.0.0, versionRule=latest.
+2018-04-19 10:46:06,817 [main           ] INFO  MicroserviceVersionRule        - set instances, appId=app, microserviceName=ms, versionRule=latest, instanceId=0, endpoints=[].
+2018-04-19 10:46:06,819 [main           ] INFO  ConsumerSchemaFactory          - load schema from service center, microservice=app:ms:1.0.0, schemaId=schema, result=true
+2018-04-19 10:46:06,859 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=2.
+2018-04-19 10:46:06,860 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor.
+2018-04-19 10:46:06,860 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor.
+2018-04-19 10:46:06,874 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=1.
+2018-04-19 10:46:06,874 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor.
+2018-04-19 10:46:06,877 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=1.
+2018-04-19 10:46:06,878 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext.
+2018-04-19 10:46:07,014 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=0.
+2018-04-19 10:46:07,049 [main           ] INFO  JavassistUtils                 - generate cse.gen.app.ms.schema.addBody in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:07,068 [main           ] INFO  JavassistUtils                 - generate cse.gen.app.ms.schema.TestProducerSchemaFactoryImplIntf in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:07,078 [main           ] INFO  SchemaLoader                   - register schema app/ms/schema
+2018-04-19 10:46:07,083 [main           ] INFO  ConsumerSchemaFactory          - Found schema ids from service center, app:ms:latest:[schema]
+2018-04-19 10:46:07,204 [main           ] INFO  ProducerSchemaFactory          - generate swagger for app/app:ms/schema, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for org.apache.servicecomb.core.definition.schema.TestProducerSchemaFactory$TestProducerSchemaFactoryImpl"
+  x-java-interface: "cse.gen.app.ms.schema.TestProducerSchemaFactoryImplIntf"
+basePath: "/TestProducerSchemaFactoryImpl"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /add:
+    post:
+      operationId: "add"
+      parameters:
+      - in: "body"
+        name: "addBody"
+        required: false
+        schema:
+          $ref: "#/definitions/addBody"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "integer"
+            format: "int32"
+  /async:
+    post:
+      operationId: "async"
+      parameters: []
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "string"
+definitions:
+  addBody:
+    type: "object"
+    properties:
+      x:
+        type: "integer"
+        format: "int32"
+      y:
+        type: "integer"
+        format: "int32"
+    x-java-class: "cse.gen.app.ms.schema.addBody"
+
+2018-04-19 10:46:07,205 [main           ] INFO  SchemaLoader                   - register schema app/app:ms/schema
+2018-04-19 10:46:07,211 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:46:07,211 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter.
+2018-04-19 10:46:07,245 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:46:07,263 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.exception.ExceptionToResponseConverter, count=2.
+2018-04-19 10:46:07,267 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter.
+2018-04-19 10:46:07,268 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter.
+2018-04-19 10:46:07,274 [main           ] ERROR ltExceptionToResponseConverter - invoke failed, invocation=
+java.lang.Error: java.lang.IllegalArgumentException: Can not set java.lang.Integer field cse.gen.app.ms.schema.addBody.x to java.lang.Integer
+	at org.apache.servicecomb.swagger.invocation.arguments.producer.SwaggerArgumentToProducerBodyField.mapArgument(SwaggerArgumentToProducerBodyField.java:54)
+	at org.apache.servicecomb.swagger.invocation.arguments.producer.ProducerArgumentsMapper.toProducerArgs(ProducerArgumentsMapper.java:44)
+	at org.apache.servicecomb.swagger.engine.SwaggerProducerOperation.doInvoke(SwaggerProducerOperation.java:147)
+	at org.apache.servicecomb.swagger.engine.SwaggerProducerOperation.syncInvoke(SwaggerProducerOperation.java:139)
+	at org.apache.servicecomb.swagger.engine.SwaggerProducerOperation.invoke(SwaggerProducerOperation.java:109)
+	at org.apache.servicecomb.core.definition.schema.TestProducerSchemaFactory.testGetOrCreateProducer(TestProducerSchemaFactory.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.IllegalArgumentException: Can not set java.lang.Integer field cse.gen.app.ms.schema.addBody.x to java.lang.Integer
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(UnsafeFieldAccessorImpl.java:58)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.get(UnsafeObjectFieldAccessorImpl.java:36)
+	at java.lang.reflect.Field.get(Field.java:393)
+	at org.apache.servicecomb.swagger.invocation.arguments.producer.SwaggerArgumentToProducerBodyField.mapArgument(SwaggerArgumentToProducerBodyField.java:49)
+	... 35 more
+2018-04-19 10:46:07,375 [main           ] INFO  MicroserviceClassLoader        - create classloader for microservice ::.
+2018-04-19 10:46:07,600 [Finalizer      ] INFO  MicroserviceClassLoader        - gc: classloader of microservice :.
+2018-04-19 10:46:07,682 [main           ] INFO  MicroserviceClassLoader        - create classloader for microservice null:app:ms:1.0.0.
+2018-04-19 10:46:07,843 [main           ] INFO  SchemaLoader                   - register schema app/app:test/org.apache.servicecomb.core.definition.TestOperationMeta$Impl
+2018-04-19 10:46:07,846 [main           ] INFO  JavassistUtils                 - generate cse.gen.app.test.org.apache.servicecomb.core.definition.TestOperationMeta$Impl.test.x in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:07,848 [main           ] INFO  JavassistUtils                 - generate gen.swagger.ImplIntf in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:46:07,941 [main           ] WARN  SchemaMeta                     - method b not found in swagger interface org.apache.servicecomb.core.definition.TestSchemaMeta$V1, schemaId=schemaId
+2018-04-19 10:46:07,996 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:46:08,249 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:08,250 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:08,251 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2589d787
+2018-04-19 10:46:08,374 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:08,374 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:08,378 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2df3545d
+2018-04-19 10:46:08,514 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:08,514 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:08,516 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@53ba7997
+2018-04-19 10:46:08,602 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:08,606 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:08,610 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@299eca90
+2018-04-19 10:46:08,702 [main           ] ERROR ExceptionUtils                 - 
+Exception: org.apache.servicecomb.core.exception.CseException; Producer operation not exist, schemaId=null, operationName=null
+ServiceDefinitionException Code:cse.producer.operation.not.exist, Message:Producer operation not exist, schemaId=null, operationName=null
+	at org.apache.servicecomb.core.exception.ExceptionUtils.createCseException(ExceptionUtils.java:57)
+	at org.apache.servicecomb.core.exception.ExceptionUtils.producerOperationNotExist(ExceptionUtils.java:71)
+	at org.apache.servicecomb.core.handler.impl.ProducerOperationHandler.handle(ProducerOperationHandler.java:36)
+	at org.apache.servicecomb.core.handler.impl.TestServiceProviderHandler.testHandle(TestServiceProviderHandler.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+2018-04-19 10:46:08,711 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:46:08,711 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter.
+2018-04-19 10:46:08,806 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:08,806 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:08,809 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6df87ffd
+2018-04-19 10:46:08,922 [main           ] INFO  SimpleLoadBalanceHandler       - Create loadBalancer for vr/.
+2018-04-19 10:46:08,932 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:08,932 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:08,934 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@25172993
+2018-04-19 10:46:08,952 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:46:08,953 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter.
+2018-04-19 10:46:08,999 [main           ] ERROR ExceptionUtils                 - 
+Exception: org.apache.servicecomb.core.exception.CseException; No available address found. microserviceName=null, version=null, discoveryGroupName=parent/
+ServiceDefinitionException Code:cse.lb.no.available.address, Message:No available address found. microserviceName=null, version=null, discoveryGroupName=parent/
+	at org.apache.servicecomb.core.exception.ExceptionUtils.createCseException(ExceptionUtils.java:57)
+	at org.apache.servicecomb.core.exception.ExceptionUtils.lbAddressNotFound(ExceptionUtils.java:88)
+	at org.apache.servicecomb.core.handler.impl.SimpleLoadBalanceHandler.handle(SimpleLoadBalanceHandler.java:64)
+	at org.apache.servicecomb.core.handler.impl.TestSimpleLoadBalanceHandler.handle_emptyEndPoint(TestSimpleLoadBalanceHandler.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+2018-04-19 10:46:09,427 [main           ] INFO  tationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7efa366: startup date [Thu Apr 19 10:46:09 CST 2018]; root of context hierarchy
+2018-04-19 10:46:09,594 [main           ] INFO  redAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-19 10:46:09,814 [main           ] INFO  tationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7efa366: startup date [Thu Apr 19 10:46:09 CST 2018]; root of context hierarchy
+2018-04-19 10:46:10,466 [main           ] INFO  tationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@31dd0e2e: startup date [Thu Apr 19 10:46:10 CST 2018]; root of context hierarchy
+2018-04-19 10:46:10,471 [main           ] INFO  redAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-19 10:46:10,530 [main           ] INFO  tationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@31dd0e2e: startup date [Thu Apr 19 10:46:10 CST 2018]; root of context hierarchy
+2018-04-19 10:46:10,621 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:10,621 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:10,623 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1f235a0a
+2018-04-19 10:46:10,948 [main           ] ERROR ExceptionUtils                 - 
+Exception: org.apache.servicecomb.core.exception.CseException; Handler not exist, id=test
+ServiceDefinitionException Code:cse.handler.ref.not.exist, Message:Handler not exist, id=test
+	at org.apache.servicecomb.core.exception.ExceptionUtils.createCseException(ExceptionUtils.java:57)
+	at org.apache.servicecomb.core.TestException.testExceptionUtils(TestException.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+2018-04-19 10:46:10,950 [main           ] ERROR ExceptionUtils                 - 
+Exception: org.apache.servicecomb.core.exception.CseException; Handler not exist, id=test
+ServiceDefinitionException Code:cse.handler.ref.not.exist, Message:Handler not exist, id=test
+	at org.apache.servicecomb.core.exception.ExceptionUtils.createCseException(ExceptionUtils.java:65)
+	at org.apache.servicecomb.core.TestException.testExceptionUtils(TestException.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.Throwable
+	at org.apache.servicecomb.core.TestException.testExceptionUtils(TestException.java:42)
+	... 28 more
+
+2018-04-19 10:46:10,952 [main           ] ERROR ExceptionUtils                 - 
+Exception: org.apache.servicecomb.core.exception.CseException; Producer operation not exist, schemaId=cse.error, operationName=unit-testing
+ServiceDefinitionException Code:cse.producer.operation.not.exist, Message:Producer operation not exist, schemaId=cse.error, operationName=unit-testing
+	at org.apache.servicecomb.core.exception.ExceptionUtils.createCseException(ExceptionUtils.java:57)
+	at org.apache.servicecomb.core.exception.ExceptionUtils.producerOperationNotExist(ExceptionUtils.java:71)
+	at org.apache.servicecomb.core.TestException.testExceptionUtils(TestException.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+2018-04-19 10:46:10,955 [main           ] ERROR ExceptionUtils                 - 
+Exception: org.apache.servicecomb.core.exception.CseException; OperationId is invalid, schemaId=cse.double.error, path=what path are you talking about
+ServiceDefinitionException Code:cse.schema.operation.id.invalid, Message:OperationId is invalid, schemaId=cse.double.error, path=what path are you talking about
+	at org.apache.servicecomb.core.exception.ExceptionUtils.createCseException(ExceptionUtils.java:57)
+	at org.apache.servicecomb.core.exception.ExceptionUtils.operationIdInvalid(ExceptionUtils.java:77)
+	at org.apache.servicecomb.core.TestException.testExceptionUtils(TestException.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+2018-04-19 10:46:10,956 [main           ] ERROR ExceptionUtils                 - 
+Exception: org.apache.servicecomb.core.exception.CseException; Handler not exist, id=cse.double.error
+ServiceDefinitionException Code:cse.handler.ref.not.exist, Message:Handler not exist, id=cse.double.error
+	at org.apache.servicecomb.core.exception.ExceptionUtils.createCseException(ExceptionUtils.java:57)
+	at org.apache.servicecomb.core.exception.ExceptionUtils.handlerRefNotExist(ExceptionUtils.java:83)
+	at org.apache.servicecomb.core.TestException.testExceptionUtils(TestException.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+2018-04-19 10:46:10,961 [main           ] ERROR ExceptionUtils                 - 
+Exception: org.apache.servicecomb.core.exception.CseException; No available address found. microserviceName=microServiceName, version=my rule my world, discoveryGroupName=transportChannel
+ServiceDefinitionException Code:cse.lb.no.available.address, Message:No available address found. microserviceName=microServiceName, version=my rule my world, discoveryGroupName=transportChannel
+	at org.apache.servicecomb.core.exception.ExceptionUtils.createCseException(ExceptionUtils.java:57)
+	at org.apache.servicecomb.core.exception.ExceptionUtils.lbAddressNotFound(ExceptionUtils.java:88)
+	at org.apache.servicecomb.core.TestException.testExceptionUtils(TestException.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+2018-04-19 10:46:10,981 [main           ] INFO  FixedThreadExecutor            - executor group 2, thread per group 4.
+2018-04-19 10:46:11,018 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:46:11,018 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter.
+2018-04-19 10:46:11,865 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=perfClient, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/core/target/test-classes/microservice.yaml]
+2018-04-19 10:46:11,876 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:46:12,036 [Finalizer      ] INFO  MicroserviceClassLoader        - gc: classloader of microservice app:ms:1.0.0.
+2018-04-19 10:46:12,051 [main           ] INFO  CseApplicationListener         - receive MicroserviceInstanceRegisterTask event, check instance Id...
+2018-04-19 10:46:12,052 [main           ] INFO  CseApplicationListener         - instance registry succeeds for the first time, will send AFTER_REGISTRY event.
+2018-04-19 10:46:12,365 [main           ] INFO  CseApplicationListener         - receive MicroserviceInstanceRegisterTask event, check instance Id...
+2018-04-19 10:46:12,367 [main           ] INFO  CseApplicationListener         - receive MicroserviceInstanceRegisterTask event, check instance Id...
+2018-04-19 10:46:12,368 [main           ] INFO  CseApplicationListener         - instance registry succeeds for the first time, will send AFTER_REGISTRY event.
+2018-04-19 10:46:13,063 [main           ] INFO  CseApplicationListener         - receive MicroserviceInstanceRegisterTask event, check instance Id...
+2018-04-19 10:46:13,064 [main           ] INFO  CseApplicationListener         - instance registry succeeds for the first time, will send AFTER_REGISTRY event.
+2018-04-19 10:46:13,182 [main           ] WARN  CseApplicationListener         - cse is closing now...
+2018-04-19 10:46:13,314 [main           ] INFO  TransportManager               - choose org.apache.servicecomb.core.$Impl_Transport for null.
+2018-04-19 10:46:13,326 [main           ] WARN  RegistryUtils                  - address /0.0.0.0:9090, auto select a host address to publish 192.168.43.114:9090, maybe not the correct one
+2018-04-19 10:46:13,386 [main           ] WARN  AbstractTransport              - Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value.
+2018-04-19 10:46:13,484 [main           ] WARN  AbstractTransport              - Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value.
+2018-04-19 10:46:13,580 [main           ] WARN  AbstractTransport              - Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value.
+2018-04-19 10:46:13,638 [Thread-1       ] WARN  ShutdownHookHandler            - handler chain is shutting down
+2018-04-19 10:46:13,640 [Thread-1       ] WARN  ShutdownHookHandler            - handler chain is shut down
+2018-04-19 10:46:13,729 [main           ] INFO  TransportManager               - choose org.apache.servicecomb.core.$Impl_Transport for test.
+2018-04-19 10:46:13,871 [main           ] INFO  TransportManager               - choose org.apache.servicecomb.core.$Impl_Transport for test.
+2018-04-19 10:46:13,993 [main           ] INFO  TransportManager               - choose org.apache.servicecomb.core.$Impl_Transport for null.

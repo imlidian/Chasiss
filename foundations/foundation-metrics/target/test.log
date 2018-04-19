@@ -1,0 +1,5 @@
+2018-04-19 10:46:27,362 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.foundation.metrics.health.HealthChecker, count=0.
+2018-04-19 10:46:27,734 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:46:27,735 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:46:27,787 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@291ae
+2018-04-19 10:46:28,001 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.foundation.metrics.MetricsInitializer, count=0.

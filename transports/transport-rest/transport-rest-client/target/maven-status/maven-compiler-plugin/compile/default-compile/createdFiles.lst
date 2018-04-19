@@ -1,0 +1,5 @@
+org/apache/servicecomb/transport/rest/client/http/DefaultHttpClientFilter.class
+org/apache/servicecomb/transport/rest/client/http/VertxHttpMethod.class
+org/apache/servicecomb/transport/rest/client/TransportClientConfig.class
+org/apache/servicecomb/transport/rest/client/RestTransportClientManager.class
+org/apache/servicecomb/transport/rest/client/RestTransportClient.class

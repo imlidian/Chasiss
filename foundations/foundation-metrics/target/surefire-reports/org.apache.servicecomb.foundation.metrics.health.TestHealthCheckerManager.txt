@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.servicecomb.foundation.metrics.health.TestHealthCheckerManager
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.334 sec - in org.apache.servicecomb.foundation.metrics.health.TestHealthCheckerManager

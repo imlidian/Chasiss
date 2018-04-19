@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.servicecomb.foundation.common.config.TestConfig
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.29 sec - in org.apache.servicecomb.foundation.common.config.TestConfig

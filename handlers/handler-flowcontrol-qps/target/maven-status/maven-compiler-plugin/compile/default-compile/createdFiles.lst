@@ -1,0 +1,6 @@
+org/apache/servicecomb/qps/QpsConst.class
+org/apache/servicecomb/qps/Config.class
+org/apache/servicecomb/qps/ConsumerQpsFlowControlHandler.class
+org/apache/servicecomb/qps/QpsController.class
+org/apache/servicecomb/qps/QpsControllerManager.class
+org/apache/servicecomb/qps/ProviderQpsFlowControlHandler.class

@@ -1,0 +1,470 @@
+[2018-04-19 11:08:12,210/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/demo-schema-1.0.0-m2-SNAPSHOT.jar!/config/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:95)
+[2018-04-19 11:08:12,301/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@327471b5: startup date [Thu Apr 19 11:08:12 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582)
+[2018-04-19 11:08:12,474/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/Java%20Chassis::Demo::POJO::Server/pojo-server-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/pojo.server.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 11:08:12,671/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/handler-bizkeeper-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 11:08:12,731/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/java-chassis-core-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 11:08:13,562/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/foundation-config-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 11:08:13,609/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/foundation-common-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 11:08:13,640/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/handler-loadbalance-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 11:08:13,683/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/foundation-vertx-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 11:08:13,719/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/transport-rest-client-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.transport.rest.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 11:08:14,331/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-04-19 11:08:14,331/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-04-19 11:08:14,342/CST][main][INFO]create dynamic config: org.apache.servicecomb.config.ConfigUtil.createDynamicConfig(ConfigUtil.java:169)
+[2018-04-19 11:08:14,446/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:87)
+[2018-04-19 11:08:14,447/CST][main][INFO] jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/Java%20Chassis::Demo::POJO::Server/pojo-server-1.0.0-m2-SNAPSHOT.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:89)
+[2018-04-19 11:08:14,487/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 11:08:14,491/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-04-19 11:08:14,492/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigFromConfigCenter(ConfigUtil.java:154)
+[2018-04-19 11:08:15,032/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-04-19 11:08:15,262/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 11:08:15,263/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,263/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,264/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,273/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 11:08:15,273/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,274/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,322/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 11:08:15,323/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,324/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,404/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 11:08:15,405/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,405/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,406/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,407/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,415/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 11:08:15,415/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,416/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,417/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 11:08:15,417/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:34,203/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/demo-schema-1.0.0-m2-SNAPSHOT.jar!/config/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:95)
+[2018-04-19 12:09:34,282/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6be46e8f: startup date [Thu Apr 19 12:09:34 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582)
+[2018-04-19 12:09:34,435/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/Java%20Chassis::Demo::POJO::Server/pojo-server-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/pojo.server.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 12:09:34,601/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/handler-bizkeeper-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 12:09:34,664/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/java-chassis-core-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 12:09:35,480/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/foundation-config-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 12:09:35,509/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/foundation-common-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 12:09:35,532/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/handler-loadbalance-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 12:09:35,558/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/foundation-vertx-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 12:09:35,589/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/transport-rest-client-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.transport.rest.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 12:09:36,124/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-04-19 12:09:36,125/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-04-19 12:09:36,135/CST][main][INFO]create dynamic config: org.apache.servicecomb.config.ConfigUtil.createDynamicConfig(ConfigUtil.java:169)
+[2018-04-19 12:09:36,221/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:87)
+[2018-04-19 12:09:36,222/CST][main][INFO] jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/Java%20Chassis::Demo::POJO::Server/pojo-server-1.0.0-m2-SNAPSHOT.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:89)
+[2018-04-19 12:09:36,254/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 12:09:36,257/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-04-19 12:09:36,257/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigFromConfigCenter(ConfigUtil.java:154)
+[2018-04-19 12:09:36,733/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-04-19 12:09:36,955/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 12:09:36,955/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:36,956/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:36,956/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:36,965/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 12:09:36,966/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:36,966/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,029/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 12:09:37,029/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,030/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,090/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 12:09:37,090/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,091/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,091/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,091/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,096/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 12:09:37,096/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,097/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,099/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,100/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 12:09:37,617/CST][main][INFO]load microservice config, name=codefirst, paths=[jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/Java%20Chassis::Demo::POJO::Server/pojo-server-1.0.0-m2-SNAPSHOT.jar!/microservice.yaml] org.apache.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:142)
+[2018-04-19 12:09:37,706/CST][main][INFO]It is running in the normal mode, a separated service registry is required org.apache.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2018-04-19 12:09:37,733/CST][main][INFO]add network interface name:en7,host address:172.20.10.2 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:114)
+[2018-04-19 12:09:37,734/CST][main][INFO]add network interface name:wc6,host address:169.254.247.53 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:114)
+[2018-04-19 12:09:37,962/CST][main][INFO]add host name from localhost:DeanMacbook.local,host address:172.20.10.2 org.apache.servicecomb.foundation.common.net.NetUtils.<clinit>(NetUtils.java:72)
+[2018-04-19 14:22:27,320/CST][main][ERROR]Can not output merged.log4j.properties,because can not write to directory of file file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/demo-schema-1.0.0-m2-SNAPSHOT.jar!/config/log4j.properties org.apache.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:95)
+[2018-04-19 14:22:27,392/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6be46e8f: startup date [Thu Apr 19 14:22:27 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582)
+[2018-04-19 14:22:27,529/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/Java%20Chassis::Demo::POJO::Server/pojo-server-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/pojo.server.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 14:22:27,702/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/handler-bizkeeper-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 14:22:27,750/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/java-chassis-core-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 14:22:28,395/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/foundation-config-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 14:22:28,423/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/foundation-common-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 14:22:28,451/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/handler-loadbalance-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 14:22:28,480/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/foundation-vertx-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 14:22:28,506/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/lib/transport-rest-client-1.0.0-m2-SNAPSHOT.jar!/META-INF/spring/cse.transport.rest.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2018-04-19 14:22:28,998/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2018-04-19 14:22:28,998/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2018-04-19 14:22:29,007/CST][main][INFO]create dynamic config: org.apache.servicecomb.config.ConfigUtil.createDynamicConfig(ConfigUtil.java:169)
+[2018-04-19 14:22:29,104/CST][main][INFO]create local config: org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:87)
+[2018-04-19 14:22:29,105/CST][main][INFO] jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/Java%20Chassis::Demo::POJO::Server/pojo-server-1.0.0-m2-SNAPSHOT.jar!/microservice.yaml. org.apache.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:89)
+[2018-04-19 14:22:29,133/CST][main][INFO]Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 14:22:29,136/CST][main][INFO]Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:107)
+[2018-04-19 14:22:29,137/CST][main][INFO]config center SPI service can not find, skip to load configuration from config center org.apache.servicecomb.config.ConfigUtil.createConfigFromConfigCenter(ConfigUtil.java:154)
+[2018-04-19 14:22:29,598/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2018-04-19 14:22:29,774/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=3. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 14:22:29,774/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,775/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.springmvc.processor.parameter.MultipartFileTypeProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,775/CST][main][INFO]  2. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,781/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 14:22:29,781/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.processor.response.ResponseEntityProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,782/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,808/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 14:22:29,809/CST][main][INFO]  0. org.apache.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,809/CST][main][INFO]  1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,865/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.producer.ProducerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 14:22:29,865/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.producer.CseResponseProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,866/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.producer.CompletableFutureProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,866/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,867/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.producer.DefaultProducerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,873/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.invocation.response.consumer.ConsumerResponseMapperFactory, count=4. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 14:22:29,874/CST][main][INFO]  0. org.apache.servicecomb.swagger.invocation.response.consumer.CseResponseConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,875/CST][main][INFO]  1. org.apache.servicecomb.swagger.invocation.response.consumer.CompletableFutureConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,875/CST][main][INFO]  2. org.apache.servicecomb.swagger.invocation.springmvc.response.SpringmvcConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:29,875/CST][main][INFO]  3. org.apache.servicecomb.swagger.invocation.response.consumer.DefaultConsumerResponseMapperFactory. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:22:30,309/CST][main][INFO]load microservice config, name=codefirst, paths=[jar:file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/demo/target/Java%20Chassis::Demo::POJO::Server/pojo-server-1.0.0-m2-SNAPSHOT.jar!/microservice.yaml] org.apache.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:142)
+[2018-04-19 14:22:30,377/CST][main][INFO]It is running in the normal mode, a separated service registry is required org.apache.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2018-04-19 14:22:30,398/CST][main][INFO]add network interface name:wc6,host address:169.254.247.53 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:114)
+[2018-04-19 14:22:30,399/CST][main][INFO]add network interface name:en1,host address:192.168.43.114 org.apache.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:114)
+[2018-04-19 14:22:30,409/CST][main][INFO]add host name from localhost:DeanMacbook,host address:192.168.43.114 org.apache.servicecomb.foundation.common.net.NetUtils.<clinit>(NetUtils.java:72)
+[2018-04-19 14:23:00,881/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/version fail, endpoint is 192.168.0.224:30100, message: The timeout period of 30000ms has been exceeded while executing GET /v4/default/registry/version for host 192.168.0.224 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:23:00,882/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/version] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:23:00,882/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:23:01,108/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/version fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:23:01,108/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/version] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:23:01,109/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:23:30,889/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/version fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:23:30,968/CST][main][INFO]executor group 2, thread per group 4. org.apache.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:54)
+[2018-04-19 14:23:31,112/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/version fail, endpoint is 192.168.0.224:30100, message: The timeout period of 30000ms has been exceeded while executing GET /v4/default/registry/version for host 192.168.0.224 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:23:31,112/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/version fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:23:31,521/CST][main][INFO]Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=1. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 14:23:31,522/CST][main][INFO]  0. org.apache.servicecomb.swagger.extend.property.creator.springmvc.MultipartFilePropertyCreator. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:79)
+[2018-04-19 14:23:31,763/CST][main][INFO]generate cse.gen.codefirsttest.codefirst.codeFirstHello.existUser.email in classLoader sun.misc.Launcher$AppClassLoader@75b84c92. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:207)
+[2018-04-19 14:23:31,781/CST][main][INFO]generate cse.gen.codefirsttest.codefirst.codeFirstHello.getUser.id in classLoader sun.misc.Launcher$AppClassLoader@75b84c92. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:207)
+[2018-04-19 14:23:31,783/CST][main][INFO]generate benchmark.bean.Page_benchmark.bean.User_ in classLoader sun.misc.Launcher$AppClassLoader@75b84c92. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:207)
+[2018-04-19 14:23:31,794/CST][main][INFO]generate cse.gen.codefirsttest.codefirst.codeFirstHello.listUser.pageNo in classLoader sun.misc.Launcher$AppClassLoader@75b84c92. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:207)
+[2018-04-19 14:23:31,841/CST][main][INFO]generate cse.gen.codefirsttest.codefirst.codeFirstHello.CodeFirstPojoHelloImplIntf in classLoader sun.misc.Launcher$AppClassLoader@75b84c92. org.apache.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:207)
+[2018-04-19 14:23:32,019/CST][main][INFO]generate swagger for codefirsttest/codefirst/codeFirstHello, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for org.apache.servicecomb.demo.pojo.server.CodeFirstPojoHelloImpl"
+  x-java-interface: "cse.gen.codefirsttest.codefirst.codeFirstHello.CodeFirstPojoHelloImplIntf"
+basePath: "/CodeFirstPojoHelloImpl"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /existUser:
+    post:
+      operationId: "existUser"
+      parameters:
+      - in: "body"
+        name: "email"
+        required: false
+        schema:
+          $ref: "#/definitions/existUserBody"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "boolean"
+  /getUser:
+    post:
+      operationId: "getUser"
+      parameters:
+      - in: "body"
+        name: "id"
+        required: false
+        schema:
+          $ref: "#/definitions/getUserBody"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            $ref: "#/definitions/User"
+  /createUser:
+    post:
+      operationId: "createUser"
+      parameters:
+      - in: "body"
+        name: "user"
+        required: false
+        schema:
+          $ref: "#/definitions/User"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "boolean"
+  /listUser:
+    post:
+      operationId: "listUser"
+      parameters:
+      - in: "body"
+        name: "pageNo"
+        required: false
+        schema:
+          $ref: "#/definitions/listUserBody"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            $ref: "#/definitions/PageUser"
+definitions:
+  User:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      name:
+        type: "string"
+      sex:
+        type: "integer"
+        format: "int32"
+      birthday:
+        type: "string"
+        format: "date-time"
+      email:
+        type: "string"
+      mobile:
+        type: "string"
+      address:
+        type: "string"
+      icon:
+        type: "string"
+      permissions:
+        type: "array"
+        items:
+          type: "integer"
+          format: "int32"
+      status:
+        type: "integer"
+        format: "int32"
+      createTime:
+        type: "string"
+        format: "date-time"
+      updateTime:
+        type: "string"
+        format: "date-time"
+    x-java-class: "benchmark.bean.User"
+  existUserBody:
+    type: "object"
+    properties:
+      email:
+        type: "string"
+  getUserBody:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+  Page:
+    type: "object"
+    properties:
+      pageNo:
+        type: "integer"
+        format: "int32"
+      total:
+        type: "integer"
+        format: "int32"
+      result:
+        type: "array"
+        items:
+          type: "object"
+    x-java-class: "benchmark.bean.Page"
+  PageUser:
+    type: "object"
+    properties:
+      pageNo:
+        type: "integer"
+        format: "int32"
+      total:
+        type: "integer"
+        format: "int32"
+      result:
+        type: "array"
+        items:
+          $ref: "#/definitions/User"
+    x-java-class: "benchmark.bean.Page<benchmark.bean.User>"
+  listUserBody:
+    type: "object"
+    properties:
+      pageNo:
+        type: "integer"
+        format: "int32"
+ org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:114)
+[2018-04-19 14:23:32,021/CST][main][INFO]register schema codefirsttest/codefirst/codeFirstHello org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:91)
+[2018-04-19 14:23:32,035/CST][main][INFO]Found SPI service org.apache.servicecomb.serviceregistry.discovery.DiscoveryFilter, count=0. org.apache.servicecomb.foundation.common.utils.SPIServiceUtils.loadSortedService(SPIServiceUtils.java:76)
+[2018-04-19 14:23:32,039/CST][main][INFO]found DiscoveryFilter: org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:53)
+[2018-04-19 14:23:32,040/CST][main][INFO]DiscoveryFilter org.apache.servicecomb.core.filter.EndpointDiscoveryFilter. org.apache.servicecomb.serviceregistry.discovery.DiscoveryTree.sort(DiscoveryTree.java:55)
+[2018-04-19 14:23:32,109/CST][main][INFO]choose org.apache.servicecomb.transport.rest.vertx.VertxRestTransport for rest. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-04-19 14:23:32,110/CST][main][INFO]choose org.apache.servicecomb.transport.highway.HighwayTransport for highway. org.apache.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:84)
+[2018-04-19 14:23:32,130/CST][transport-vert.x-eventloop-thread-2][WARN]rest listen address is not configured, will not start. org.apache.servicecomb.transport.rest.vertx.RestServerVerticle.start(RestServerVerticle.java:66)
+[2018-04-19 14:23:32,146/CST][main][WARN]Service center do not support encoded query, so we use unencoded query, this caused not support chinese/space (and maybe other char) in query value. org.apache.servicecomb.core.transport.AbstractTransport.genAddressWithoutSchemaForOldSC(AbstractTransport.java:136)
+[2018-04-19 14:23:32,189/CST][transport-vert.x-eventloop-thread-6][ERROR]highway org.apache.servicecomb.transport.highway.HighwayServerVerticle.lambda$startListen$0(HighwayServerVerticle.java:80)
+java.lang.Exception: listen failed, address=/192.168.0.193:7070
+	at org.apache.servicecomb.foundation.vertx.server.TcpServer.lambda$init$1(TcpServer.java:73)
+	at io.vertx.core.net.impl.NetServerImpl.lambda$listen$4(NetServerImpl.java:322)
+	at io.vertx.core.net.impl.NetServerImpl.lambda$null$2(NetServerImpl.java:283)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:344)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.BindException: Can't assign requested address
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	... 5 more
+[2018-04-19 14:23:32,196/CST][transport-vert.x-eventloop-thread-7][ERROR]deploy vertx failed, cause  org.apache.servicecomb.foundation.vertx.VertxUtils.lambda$blockDeploy$0(VertxUtils.java:101)
+java.lang.Exception: listen failed, address=/192.168.0.193:7070
+	at org.apache.servicecomb.foundation.vertx.server.TcpServer.lambda$init$1(TcpServer.java:73)
+	at io.vertx.core.net.impl.NetServerImpl.lambda$listen$4(NetServerImpl.java:322)
+	at io.vertx.core.net.impl.NetServerImpl.lambda$null$2(NetServerImpl.java:283)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:344)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.BindException: Can't assign requested address
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	... 5 more
+[2018-04-19 14:23:32,213/CST][main][INFO]add schema to service paths. codefirsttest:codefirst:codeFirstHello. org.apache.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2018-04-19 14:23:32,214/CST][main][INFO]Swagger mapped "{[/CodeFirstPojoHelloImpl/getUser/], method=[POST], produces=[application/json]}" onto public abstract benchmark.bean.User cse.gen.codefirsttest.codefirst.codeFirstHello.CodeFirstPojoHelloImplIntf.getUser(cse.gen.codefirsttest.codefirst.codeFirstHello.getUser.id) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-04-19 14:23:32,214/CST][main][INFO]Swagger mapped "{[/CodeFirstPojoHelloImpl/createUser/], method=[POST], produces=[application/json]}" onto public abstract java.lang.Boolean cse.gen.codefirsttest.codefirst.codeFirstHello.CodeFirstPojoHelloImplIntf.createUser(benchmark.bean.User) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-04-19 14:23:32,215/CST][main][INFO]Swagger mapped "{[/CodeFirstPojoHelloImpl/existUser/], method=[POST], produces=[application/json]}" onto public abstract java.lang.Boolean cse.gen.codefirsttest.codefirst.codeFirstHello.CodeFirstPojoHelloImplIntf.existUser(cse.gen.codefirsttest.codefirst.codeFirstHello.existUser.email) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-04-19 14:23:32,215/CST][main][INFO]Swagger mapped "{[/CodeFirstPojoHelloImpl/listUser/], method=[POST], produces=[application/json]}" onto public abstract benchmark.bean.Page cse.gen.codefirsttest.codefirst.codeFirstHello.CodeFirstPojoHelloImplIntf.listUser(cse.gen.codefirsttest.codefirst.codeFirstHello.listUser.pageNo) org.apache.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2018-04-19 14:23:32,217/CST][main][WARN]Server startup when service center not started and cannot retrieve version info, assume latest. org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.needSetFrameworkVersion(AbstractServiceRegistry.java:196)
+[2018-04-19 14:23:32,220/CST][main][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+[2018-04-19 14:24:02,226/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:24:02,227/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/existence] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:24:02,228/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:24:32,233/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:24:32,234/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/existence] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:24:32,235/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:25:02,237/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:25:32,268/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: The timeout period of 30000ms has been exceeded while executing POST /v4/default/registry/microservices for host 192.168.0.224 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:25:32,269/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:25:32,269/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:25:32,276/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:25:32,276/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:25:32,277/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:26:02,272/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:26:02,273/CST][main][ERROR]Registry microservice failed. appId=codefirsttest, name=codefirst, version=0.0.2 org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:77)
+[2018-04-19 14:26:02,277/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: The timeout period of 30000ms has been exceeded while executing POST /v4/default/registry/microservices for host 192.168.0.224 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:26:02,278/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:26:02,281/CST][main][INFO]read MicroserviceRegisterTask status is READY org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-04-19 14:26:32,284/CST][Service Center Task][WARN]sc task interval changed from -1 to 30 org.apache.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:39)
+[2018-04-19 14:26:32,284/CST][Service Center Task][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+[2018-04-19 14:27:02,284/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: The timeout period of 30000ms has been exceeded while executing GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 for host 192.168.0.224 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:27:02,285/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/existence] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:27:02,286/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:27:02,288/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:27:02,291/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/existence] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:27:02,291/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:27:32,287/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: The timeout period of 30000ms has been exceeded while executing GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 for host 192.168.0.224 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:27:32,288/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:27:32,292/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: The timeout period of 30000ms has been exceeded while executing GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 for host 192.168.0.224 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:27:32,293/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:28:02,291/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:28:02,292/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:28:02,293/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:28:32,298/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:28:32,298/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:28:32,299/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:29:02,303/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:29:02,304/CST][Service Center Task][ERROR]Registry microservice failed. appId=codefirsttest, name=codefirst, version=0.0.2 org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:77)
+[2018-04-19 14:29:02,305/CST][Service Center Task][INFO]read MicroserviceRegisterTask status is READY org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-04-19 14:29:02,306/CST][Service Center Task][WARN]sc task taken more than 150022ms to execute org.apache.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:51)
+[2018-04-19 14:29:02,307/CST][Service Center Task][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+[2018-04-19 14:29:32,310/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:29:32,310/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/existence] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:29:32,311/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:30:02,314/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:30:02,315/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/existence] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:30:02,316/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:30:32,319/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:31:02,322/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:31:02,323/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:31:02,324/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:31:32,317/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:31:32,318/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:31:32,318/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:32:02,319/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:32:02,320/CST][Service Center Task][ERROR]Registry microservice failed. appId=codefirsttest, name=codefirst, version=0.0.2 org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:77)
+[2018-04-19 14:32:02,321/CST][Service Center Task][INFO]read MicroserviceRegisterTask status is READY org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-04-19 14:32:02,321/CST][Service Center Task][WARN]sc task taken more than 180014ms to execute org.apache.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:51)
+[2018-04-19 14:32:02,322/CST][Service Center Task][INFO]running microservice register task. org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+[2018-04-19 14:32:32,324/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:32:32,325/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/existence] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:32:32,325/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:33:02,329/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:33:02,330/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/existence] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:33:02,330/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:33:32,331/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: The timeout period of 30000ms has been exceeded while executing GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 for host 192.168.0.224 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:33:32,332/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=codefirsttest&type=microservice&serviceName=codefirst&version=0.0.2 fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:34:02,336/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:34:02,337/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:34:02,337/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:34:08,420/CST][Thread-3][WARN]handler chain is shutting down org.apache.servicecomb.core.handler.ShutdownHookHandler.run(ShutdownHookHandler.java:84)
+[2018-04-19 14:34:08,421/CST][Thread-4][INFO]Closing org.springframework.context.support.ClassPathXmlApplicationContext@6be46e8f: startup date [Thu Apr 19 14:22:27 CST 2018]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:987)
+[2018-04-19 14:34:08,421/CST][Thread-3][WARN]handler chain is shut down org.apache.servicecomb.core.handler.ShutdownHookHandler.run(ShutdownHookHandler.java:95)
+[2018-04-19 14:34:08,423/CST][Thread-4][WARN]cse is closing now... org.apache.servicecomb.core.CseApplicationListener.onApplicationEvent(CseApplicationListener.java:149)
+[2018-04-19 14:34:08,423/CST][Thread-4][INFO]service center task is shutdown. org.apache.servicecomb.serviceregistry.registry.RemoteServiceRegistry.onShutdown(RemoteServiceRegistry.java:72)
+[2018-04-19 14:34:08,424/CST][Service Center Task][ERROR]register microservice codefirsttest/codefirst/0.0.2 failed org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.registerMicroservice(ServiceRegistryClientImpl.java:375)
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)
+	at org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.registerMicroservice(ServiceRegistryClientImpl.java:370)
+	at org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:75)
+	at org.apache.servicecomb.serviceregistry.task.AbstractRegisterTask.doRun(AbstractRegisterTask.java:41)
+	at org.apache.servicecomb.serviceregistry.task.AbstractTask.run(AbstractTask.java:53)
+	at org.apache.servicecomb.serviceregistry.task.CompositeTask.run(CompositeTask.java:35)
+	at org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.run(ServiceCenterTask.java:89)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-04-19 14:34:08,426/CST][Service Center Task][ERROR]Registry microservice failed. appId=codefirsttest, name=codefirst, version=0.0.2 org.apache.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:77)
+[2018-04-19 14:34:08,427/CST][Service Center Task][INFO]read MicroserviceRegisterTask status is READY org.apache.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2018-04-19 14:34:08,427/CST][Service Center Task][WARN]sc task taken more than 126105ms to execute org.apache.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:51)
+[2018-04-19 14:34:32,342/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:34:32,343/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:34:32,343/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:34:38,424/CST][registry-vert.x-eventloop-thread-0][ERROR]DELETE /v4/default/registry/microservices/null/instances/null fail, endpoint is 192.168.0.224:30100, message: The timeout period of 30000ms has been exceeded while executing DELETE /v4/default/registry/microservices/null/instances/null for host 192.168.0.224 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:34:38,425/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices/null/instances/null] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:34:38,425/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:34:38,426/CST][registry-vert.x-eventloop-thread-0][ERROR]DELETE /v4/default/registry/microservices/null/instances/null fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:34:38,427/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices/null/instances/null] failed, retry. org.apache.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:86)
+[2018-04-19 14:34:38,427/CST][registry-vert.x-eventloop-thread-0][INFO]Change service center address from 192.168.0.224:30100 to 192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.IpPortManager.getNextAvailableAddress(IpPortManager.java:91)
+[2018-04-19 14:35:02,347/CST][registry-vert.x-eventloop-thread-0][ERROR]POST /v4/default/registry/microservices fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:35:08,428/CST][registry-vert.x-eventloop-thread-0][ERROR]DELETE /v4/default/registry/microservices/null/instances/null fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)
+[2018-04-19 14:35:08,430/CST][Thread-4][ERROR]Unregister microservice instance failed. microserviceId=null instanceId=null org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.unregisterInstance(AbstractServiceRegistry.java:227)
+[2018-04-19 14:35:08,431/CST][registry-vert.x-eventloop-thread-0][ERROR]DELETE /v4/default/registry/microservices/null/instances/null fail, endpoint is 192.168.0.224:30100, message: connection timed out: /192.168.0.224:30100 org.apache.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:93)

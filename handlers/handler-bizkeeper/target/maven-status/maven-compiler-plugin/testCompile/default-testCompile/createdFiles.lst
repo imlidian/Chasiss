@@ -1,0 +1,16 @@
+org/apache/servicecomb/bizkeeper/TestBizkeeperHandler$2.class
+org/apache/servicecomb/bizkeeper/TestFallbackPolicyManager$1.class
+org/apache/servicecomb/bizkeeper/TestBizkeeperRequestContext.class
+org/apache/servicecomb/bizkeeper/TestHystrixPropertiesStrategyExt.class
+org/apache/servicecomb/bizkeeper/TestBizkeeperHandler$1.class
+org/apache/servicecomb/bizkeeper/TestFallbackPolicyManager.class
+org/apache/servicecomb/bizkeeper/TestFallbackPolicyManager$2.class
+org/apache/servicecomb/bizkeeper/TestBizkeeperExceptionUtils.class
+org/apache/servicecomb/bizkeeper/TestCommandKey.class
+org/apache/servicecomb/bizkeeper/TestBizkeeperHandler.class
+org/apache/servicecomb/bizkeeper/TestConsumerBizkeeperHandler.class
+org/apache/servicecomb/bizkeeper/TestConfiguration.class
+org/apache/servicecomb/bizkeeper/TestFallbackPolicyManager$4.class
+org/apache/servicecomb/bizkeeper/TestFallbackPolicyManager$3.class
+org/apache/servicecomb/bizkeeper/TestProviderBizkeeperHandler.class
+org/apache/servicecomb/bizkeeper/TestBizkeeperCommand.class

@@ -1,0 +1,13 @@
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/FormParamAnnotationProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/PathClassAnnotationProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/ProducesAnnotationProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/QueryParamAnnotationProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/PathMethodAnnotationProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/CookieParamAnnotationProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/parameter/JaxrsDefaultParameterProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/HttpMethodAnnotationProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/JaxrsSwaggerGeneratorContext.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/PathParamAnnotationProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/response/JaxrsResponseProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/ConsumesAnnotationProcessor.class
+org/apache/servicecomb/swagger/generator/jaxrs/processor/annotation/HeaderParamAnnotationProcessor.class

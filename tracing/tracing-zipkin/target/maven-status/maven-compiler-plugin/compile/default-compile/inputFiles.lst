@@ -1,0 +1,4 @@
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/tracing/tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/EnableZipkinTracing.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/tracing/tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ZipkinSpanAspect.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/tracing/tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ZipkinTracingAdviser.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/tracing/tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ZipkinSpanAspectConfig.java

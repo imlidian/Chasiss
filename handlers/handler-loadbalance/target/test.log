@@ -1,0 +1,142 @@
+2018-04-19 10:47:09,108 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:09,110 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:09,169 [main           ] INFO  ConfigUtil                     - create dynamic config:
+2018-04-19 10:47:09,176 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:09,178 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:47:09,182 [main           ] INFO  CseServerDiscoveryFilter       - not deployed transport rest, ignore null.
+2018-04-19 10:47:09,308 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:47:09,467 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0.
+2018-04-19 10:47:09,467 [main           ] INFO  SPIServiceUtils                - Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource
+2018-04-19 10:47:09,467 [main           ] INFO  ConfigUtil                     - config center SPI service can not find, skip to load configuration from config center
+2018-04-19 10:47:09,759 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:47:10,015 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:10,016 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:10,070 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6f46426d
+2018-04-19 10:47:10,200 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:47:10,214 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:10,214 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:47:10,221 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:47:10,371 [main           ] WARN  IsolationServerListFilter      - The Service null's instance Mock for CseServer, hashCode: 289378424 has been break!
+2018-04-19 10:47:10,387 [main           ] WARN  IsolationServerListFilter      - The Service null's instance Mock for CseServer, hashCode: 299837481 has been break!
+2018-04-19 10:47:10,471 [main           ] INFO  ExtensionsManager              - Using load balance rule com.netflix.loadbalancer.RoundRobinRule for microservice mytest1.
+2018-04-19 10:47:10,479 [main           ] INFO  ExtensionsManager              - Using load balance rule com.netflix.loadbalancer.WeightedResponseTimeRule for microservice mytest2.
+2018-04-19 10:47:10,480 [main           ] INFO  ExtensionsManager              - Using load balance rule com.netflix.loadbalancer.RandomRule for microservice mytest3.
+2018-04-19 10:47:10,482 [main           ] INFO  ExtensionsManager              - Using load balance rule org.apache.servicecomb.loadbalance.SessionStickinessRule for microservice mytest4.
+2018-04-19 10:47:10,520 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:10,521 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:47:10,521 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:10,522 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:47:10,522 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:10,525 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4cb00fa5
+2018-04-19 10:47:10,534 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:10,534 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:10,538 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@43935e9c
+2018-04-19 10:47:10,539 [main           ] INFO  ExtensionsManager              - Using load balance rule com.netflix.loadbalancer.RoundRobinRule for microservice mytest1.
+2018-04-19 10:47:10,539 [main           ] INFO  ExtensionsManager              - Using load balance rule com.netflix.loadbalancer.RandomRule for microservice mytest2.
+2018-04-19 10:47:10,540 [main           ] INFO  ExtensionsManager              - Using load balance rule com.netflix.loadbalancer.WeightedResponseTimeRule for microservice mytest3.
+2018-04-19 10:47:10,541 [main           ] INFO  ExtensionsManager              - Using load balance rule org.apache.servicecomb.loadbalance.SessionStickinessRule for microservice mytest4.
+2018-04-19 10:47:10,569 [main           ] INFO  ConfigUtil                     - create dynamic config:
+2018-04-19 10:47:10,572 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:10,573 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:47:10,573 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:47:10,593 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0.
+2018-04-19 10:47:10,594 [main           ] INFO  SPIServiceUtils                - Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource
+2018-04-19 10:47:10,595 [main           ] INFO  ConfigUtil                     - config center SPI service can not find, skip to load configuration from config center
+2018-04-19 10:47:10,634 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.serviceregistry.discovery.DiscoveryFilter, count=0.
+2018-04-19 10:47:10,638 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:10,645 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:10,666 [main           ] WARN  SessionStickinessRule          - session timeout. choose another server.
+2018-04-19 10:47:10,668 [main           ] WARN  SessionStickinessRule          - reached max error. choose another server.
+2018-04-19 10:47:10,793 [main           ] WARN  SessionStickinessRule          - session timeout. choose another server.
+2018-04-19 10:47:10,793 [main           ] WARN  RoundRobinRule                 - no load balancer
+2018-04-19 10:47:10,857 [main           ] WARN  SessionStickinessRule          - reached max error. choose another server.
+2018-04-19 10:47:10,858 [main           ] WARN  RoundRobinRule                 - no load balancer
+2018-04-19 10:47:10,932 [main           ] WARN  RoundRobinRule                 - no load balancer
+2018-04-19 10:47:10,934 [main           ] WARN  RoundRobinRule                 - no load balancer
+2018-04-19 10:47:10,935 [main           ] WARN  SessionStickinessRule          - session timeout. choose another server.
+2018-04-19 10:47:10,936 [main           ] WARN  RoundRobinRule                 - no load balancer
+2018-04-19 10:47:11,341 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:11,341 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:11,425 [main           ] ERROR LoadbalanceHandler             - Fail to create instance of class: InvalidPolicy
+2018-04-19 10:47:11,445 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:11,446 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:11,511 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:11,512 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:11,517 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:11,517 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+1970-01-01 08:00:00,123 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.exception.ExceptionToResponseConverter, count=2.
+1970-01-01 08:00:00,123 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter.
+1970-01-01 08:00:00,123 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter.
+2018-04-19 10:47:11,788 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:11,789 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:11,909 [main           ] ERROR ExceptionUtils                 - 
+Exception: org.apache.servicecomb.core.exception.CseException; No available address found. microserviceName=ms, version=null, discoveryGroupName=null
+ServiceDefinitionException Code:cse.lb.no.available.address, Message:No available address found. microserviceName=ms, version=null, discoveryGroupName=null
+	at org.apache.servicecomb.core.exception.ExceptionUtils.createCseException(ExceptionUtils.java:57)
+	at org.apache.servicecomb.core.exception.ExceptionUtils.lbAddressNotFound(ExceptionUtils.java:88)
+	at org.apache.servicecomb.loadbalance.LoadbalanceHandler.send(LoadbalanceHandler.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mockit.internal.util.MethodReflection.invoke(MethodReflection.java:120)
+	at mockit.internal.util.MethodReflection.invoke(MethodReflection.java:185)
+	at mockit.Deencapsulation.invoke(Deencapsulation.java:210)
+	at org.apache.servicecomb.loadbalance.TestLoadbalanceHandler.send_noEndPoint(TestLoadbalanceHandler.java:356)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+2018-04-19 10:47:11,957 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:11,957 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:12,050 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:12,050 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:12,126 [main           ] ERROR LoadbalanceHandler             - Define instance filter java.lang.String in yaml, but not extends abstract class TransactionControlFilter.
+2018-04-19 10:47:12,127 [main           ] ERROR LoadbalanceHandler             - Fail to create instance of class: java.lang.String
+2018-04-19 10:47:12,138 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:12,138 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:12,297 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:12,297 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:12,421 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:12,421 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:12,565 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:12,565 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:12,660 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:12,660 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:12,756 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:12,757 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:12,824 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:47:12,824 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.loadbalance.filter.CseServerDiscoveryFilter.
+2018-04-19 10:47:12,927 [main           ] INFO  ExtensionsManager              - Using load balance rule com.netflix.loadbalancer.RoundRobinRule for microservice ms.
+2018-04-19 10:47:12,938 [main           ] INFO  LoadbalanceHandler             - create loadBalancer, microserviceName=ms, loadBalancerName=instanceCache/rest.

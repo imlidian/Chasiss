@@ -1,0 +1,3 @@
+org/apache/servicecomb/demo/signature/SignatureUtils.class
+org/apache/servicecomb/demo/signature/ServerSignature.class
+org/apache/servicecomb/demo/signature/ClientSignature.class

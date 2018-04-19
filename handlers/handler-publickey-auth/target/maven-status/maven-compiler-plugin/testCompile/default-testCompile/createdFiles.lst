@@ -1,0 +1,8 @@
+org/apache/servicecomb/authentication/TestConsumerAuthHandler.class
+org/apache/servicecomb/authentication/TestRSAProviderTokenManager$1.class
+org/apache/servicecomb/authentication/TestRSAProviderTokenManager.class
+org/apache/servicecomb/authentication/TestProviderAuthHanlder.class
+org/apache/servicecomb/authentication/TestRSAProviderTokenManager$2.class
+org/apache/servicecomb/authentication/TestAuthHandlerBoot$1.class
+org/apache/servicecomb/authentication/TestAuthHandlerBoot.class
+org/apache/servicecomb/authentication/TestRSAAuthenticationToken.class

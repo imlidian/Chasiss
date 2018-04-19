@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.servicecomb.qps.TestProviderQpsFlowControlHandler
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.575 sec - in org.apache.servicecomb.qps.TestProviderQpsFlowControlHandler

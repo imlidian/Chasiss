@@ -1,0 +1,14 @@
+org/apache/servicecomb/swagger/generator/springmvc/ClassMultiPath.class
+org/apache/servicecomb/swagger/generator/springmvc/MultiDefaultPath.class
+org/apache/servicecomb/swagger/generator/springmvc/MethodEmptyPath.class
+org/apache/servicecomb/swagger/generator/springmvc/MethodResponseEntity.class
+org/apache/servicecomb/swagger/generator/springmvc/Echo.class
+org/apache/servicecomb/swagger/generator/springmvc/TestSpringmvc.class
+org/apache/servicecomb/swagger/generator/springmvc/ClassMultiHttpMethod.class
+org/apache/servicecomb/swagger/generator/springmvc/ClassMethodNoHttpMethod.class
+org/apache/servicecomb/swagger/generator/springmvc/User.class
+org/apache/servicecomb/swagger/generator/springmvc/TestResponseEntityProcessor.class
+org/apache/servicecomb/swagger/generator/springmvc/MethodMultiPath.class
+org/apache/servicecomb/swagger/generator/springmvc/MethodMixupAnnotations.class
+org/apache/servicecomb/swagger/generator/springmvc/ClassMethodNoPath.class
+org/apache/servicecomb/swagger/generator/springmvc/MethodDefaultParameter.class

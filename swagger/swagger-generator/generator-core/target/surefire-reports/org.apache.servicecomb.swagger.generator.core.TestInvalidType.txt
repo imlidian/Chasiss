@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.servicecomb.swagger.generator.core.TestInvalidType
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.026 sec - in org.apache.servicecomb.swagger.generator.core.TestInvalidType

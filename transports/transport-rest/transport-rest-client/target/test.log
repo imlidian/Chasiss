@@ -1,0 +1,14 @@
+2018-04-19 10:48:32,615 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.common.rest.filter.HttpClientFilter, count=2.
+2018-04-19 10:48:32,617 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.common.rest.filter.inner.ClientRestArgsFilter.
+2018-04-19 10:48:32,617 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.transport.rest.client.http.DefaultHttpClientFilter.
+2018-04-19 10:48:32,893 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:48:32,989 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:48:33,592 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.exception.ExceptionToResponseConverter, count=2.
+2018-04-19 10:48:33,593 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter.
+2018-04-19 10:48:33,593 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter.
+2018-04-19 10:48:34,053 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:34,053 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:48:34,105 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@618425b5
+2018-04-19 10:48:34,771 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:34,771 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:48:34,807 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4f4c4b1a

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.servicecomb.edge.core.TestEdgeInvocation
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.837 sec - in org.apache.servicecomb.edge.core.TestEdgeInvocation

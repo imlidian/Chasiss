@@ -34,7 +34,6 @@ public class CodeFirstPojoHelloImpl implements UserService {
   @Override
   public boolean existUser(String email) {
 
-    System.out.println("server -  existUser");
     if (email == null || email.isEmpty()) {
       return true;
     }
@@ -48,8 +47,9 @@ public class CodeFirstPojoHelloImpl implements UserService {
 
   @Override
   public User getUser(long id) {
-    User user = new User();
+    System.out.println("server -  getUser");
 
+    User user = new User();
     user.setId(id);
     user.setName(new String("Doug Lea"));
     user.setSex(1);

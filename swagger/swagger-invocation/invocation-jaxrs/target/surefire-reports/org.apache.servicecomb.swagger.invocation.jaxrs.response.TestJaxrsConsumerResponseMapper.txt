@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.servicecomb.swagger.invocation.jaxrs.response.TestJaxrsConsumerResponseMapper
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.299 sec - in org.apache.servicecomb.swagger.invocation.jaxrs.response.TestJaxrsConsumerResponseMapper

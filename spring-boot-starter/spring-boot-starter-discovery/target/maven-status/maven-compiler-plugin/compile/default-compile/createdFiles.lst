@@ -1,0 +1,5 @@
+org/apache/servicecomb/springboot/starter/discovery/CseRibbonClientConfiguration.class
+org/apache/servicecomb/springboot/starter/discovery/CseDiscoveryClient.class
+org/apache/servicecomb/springboot/starter/discovery/CseRibbonConfiguration.class
+org/apache/servicecomb/springboot/starter/discovery/ServiceCombServerList.class
+org/apache/servicecomb/springboot/starter/discovery/CseDiscoveryClientConfiguration.class

@@ -1,0 +1,9 @@
+2018-04-19 10:45:47,523 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=1.
+2018-04-19 10:45:47,525 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor.
+2018-04-19 10:45:47,536 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=2.
+2018-04-19 10:45:47,536 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.jaxrs.processor.response.JaxrsResponseProcessor.
+2018-04-19 10:45:47,536 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor.
+2018-04-19 10:45:47,886 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=2.
+2018-04-19 10:45:47,886 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.jaxrs.JaxrsSwaggerGeneratorContext.
+2018-04-19 10:45:47,887 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext.
+2018-04-19 10:45:48,009 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=0.

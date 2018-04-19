@@ -1,0 +1,12 @@
+org/apache/servicecomb/foundation/metrics/MetricsInitializer.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/DefaultTagFinder.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/MeasurementTree.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/TagFinder.class
+org/apache/servicecomb/foundation/metrics/MetricsBootstrap.class
+org/apache/servicecomb/foundation/metrics/health/HealthChecker.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/MeasurementNode.class
+org/apache/servicecomb/foundation/metrics/MetricsBootstrapConfig.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/MeasurementGroupConfig.class
+org/apache/servicecomb/foundation/metrics/health/HealthCheckResult.class
+org/apache/servicecomb/foundation/metrics/PolledEvent.class
+org/apache/servicecomb/foundation/metrics/health/HealthCheckerManager.class

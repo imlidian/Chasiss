@@ -1,0 +1,6 @@
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-publickey-auth/src/main/java/org/apache/servicecomb/authentication/consumer/RSAConsumerTokenManager.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-publickey-auth/src/main/java/org/apache/servicecomb/authentication/consumer/ConsumerAuthHandler.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-publickey-auth/src/main/java/org/apache/servicecomb/authentication/RSAAuthenticationToken.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-publickey-auth/src/main/java/org/apache/servicecomb/authentication/provider/ProviderAuthHanlder.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-publickey-auth/src/main/java/org/apache/servicecomb/authentication/provider/RSAProviderTokenManager.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-publickey-auth/src/main/java/org/apache/servicecomb/AuthHandlerBoot.java

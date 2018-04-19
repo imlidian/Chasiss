@@ -1,0 +1,3 @@
+org/apache/servicecomb/config/archaius/sources/ApolloConfigurationSourceImplTest.class
+org/apache/servicecomb/config/client/ApolloConfigTest.class
+org/apache/servicecomb/config/client/ApolloClientTest.class

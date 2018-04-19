@@ -1,0 +1,17 @@
+org/apache/servicecomb/provider/pojo/reference/RpcReferenceProcessor.class
+org/apache/servicecomb/provider/pojo/reference/PojoReferenceMeta.class
+org/apache/servicecomb/provider/pojo/instance/PojoInstanceFactory.class
+org/apache/servicecomb/provider/pojo/PojoConst.class
+org/apache/servicecomb/provider/pojo/reference/RpcReferenceProcessor$1.class
+org/apache/servicecomb/provider/pojo/PojoProducerProvider.class
+org/apache/servicecomb/provider/pojo/PojoConfig.class
+org/apache/servicecomb/provider/pojo/schema/PojoProducers.class
+org/apache/servicecomb/provider/pojo/PojoConsumerProvider.class
+org/apache/servicecomb/provider/pojo/RpcReference.class
+org/apache/servicecomb/provider/pojo/Invoker.class
+org/apache/servicecomb/provider/pojo/RpcSchema.class
+org/apache/servicecomb/provider/pojo/InstanceFactory.class
+org/apache/servicecomb/provider/pojo/reference/ReferenceDefParser.class
+org/apache/servicecomb/provider/pojo/instance/SpringInstanceFactory.class
+org/apache/servicecomb/provider/pojo/schema/SchemaDefParser.class
+org/apache/servicecomb/provider/pojo/schema/PojoProducerMeta.class

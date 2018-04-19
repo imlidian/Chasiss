@@ -1,0 +1,142 @@
+2018-04-19 10:47:01,477 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:01,479 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:01,510 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:01,513 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:01,540 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@fdefd3f
+2018-04-19 10:47:01,719 [main           ] INFO  Config                         - cse.flowcontrol.Provider.qps.enabled changed from DynamicProperty: {name=cse.flowcontrol.Provider.qps.enabled, current value=false} to false
+2018-04-19 10:47:01,720 [main           ] INFO  Config                         - cse.flowcontrol.Provider.qps.enabled changed from DynamicProperty: {name=cse.flowcontrol.Provider.qps.enabled, current value=true} to true
+2018-04-19 10:47:01,720 [main           ] INFO  Config                         - cse.flowcontrol.Consumer.qps.enabled changed from DynamicProperty: {name=cse.flowcontrol.Consumer.qps.enabled, current value=false} to false
+2018-04-19 10:47:01,721 [main           ] INFO  Config                         - cse.flowcontrol.Consumer.qps.enabled changed from DynamicProperty: {name=cse.flowcontrol.Consumer.qps.enabled, current value=true} to true
+2018-04-19 10:47:02,116 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:47:02,159 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:47:02,200 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [service]
+2018-04-19 10:47:02,203 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:02,204 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:02,208 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1356d4d4
+2018-04-19 10:47:02,217 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [service.schema]
+2018-04-19 10:47:02,218 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [service.schema.opr]
+2018-04-19 10:47:02,219 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [test_service]
+2018-04-19 10:47:02,219 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [test_service.test_schema]
+2018-04-19 10:47:02,220 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [test_service.test_schema.test_opr]
+2018-04-19 10:47:02,221 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [test-service]
+2018-04-19 10:47:02,223 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [test-service.test-schema]
+2018-04-19 10:47:02,224 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [test-service.test-schema.test-opr]
+2018-04-19 10:47:02,227 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:02,228 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:02,230 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@73a2e526
+2018-04-19 10:47:02,241 [main           ] INFO  QpsControllerManager           - Global qps limit update, value = [50]
+2018-04-19 10:47:02,242 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo]
+2018-04-19 10:47:02,243 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server]
+2018-04-19 10:47:02,243 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server.test]
+2018-04-19 10:47:02,244 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo2]
+2018-04-19 10:47:02,244 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo2.server]
+2018-04-19 10:47:02,245 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo2.server.test]
+2018-04-19 10:47:02,245 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [poj]
+2018-04-19 10:47:02,247 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [poj.server]
+2018-04-19 10:47:02,248 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [poj.server.test]
+2018-04-19 10:47:02,249 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo], value = [100]
+2018-04-19 10:47:02,250 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,250 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server], value = [200]
+2018-04-19 10:47:02,251 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo.server], qpsLimit = [200]
+2018-04-19 10:47:02,251 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server2]
+2018-04-19 10:47:02,252 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server2.test]
+2018-04-19 10:47:02,253 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.serve]
+2018-04-19 10:47:02,255 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.serve.test]
+2018-04-19 10:47:02,256 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server.test], value = [300]
+2018-04-19 10:47:02,256 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo.server.test], qpsLimit = [300]
+2018-04-19 10:47:02,257 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server.test2]
+2018-04-19 10:47:02,258 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server.tes]
+2018-04-19 10:47:02,261 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo]
+2018-04-19 10:47:02,263 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:02,263 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:02,265 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server], value = [null]
+2018-04-19 10:47:02,266 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,267 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo.server.test], qpsLimit = [300]
+2018-04-19 10:47:02,267 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,268 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server.test], value = [null]
+2018-04-19 10:47:02,269 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,270 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo], value = [null]
+2018-04-19 10:47:02,272 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [50]
+2018-04-19 10:47:02,274 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [50]
+2018-04-19 10:47:02,274 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.serve.test], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [50]
+2018-04-19 10:47:02,275 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [50]
+2018-04-19 10:47:02,275 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server2.test], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [50]
+2018-04-19 10:47:02,276 [main           ] INFO  QpsControllerManager           - Global qps limit update, value = [null]
+2018-04-19 10:47:02,279 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@e48bf9a
+2018-04-19 10:47:02,281 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server]
+2018-04-19 10:47:02,281 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server.test]
+2018-04-19 10:47:02,282 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server.test2]
+2018-04-19 10:47:02,282 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server.tes]
+2018-04-19 10:47:02,283 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server2]
+2018-04-19 10:47:02,284 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.server2.test]
+2018-04-19 10:47:02,286 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.serve]
+2018-04-19 10:47:02,287 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo.serve.test]
+2018-04-19 10:47:02,287 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo2]
+2018-04-19 10:47:02,288 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo2.server]
+2018-04-19 10:47:02,288 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [pojo2.server.test]
+2018-04-19 10:47:02,289 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [poj]
+2018-04-19 10:47:02,289 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [poj.server]
+2018-04-19 10:47:02,290 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [poj.server.test]
+2018-04-19 10:47:02,291 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo], value = [100]
+2018-04-19 10:47:02,291 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,292 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,292 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.serve.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,292 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,292 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server2.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,292 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo], value = [100]
+2018-04-19 10:47:02,293 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,293 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,293 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.serve.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,294 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,294 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server2.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,294 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server], value = [200]
+2018-04-19 10:47:02,294 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [pojo.server], qpsLimit = [200]
+2018-04-19 10:47:02,294 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo.server], qpsLimit = [200]
+2018-04-19 10:47:02,295 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [pojo.server], qpsLimit = [200]
+2018-04-19 10:47:02,295 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server], value = [200]
+2018-04-19 10:47:02,295 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [pojo.server], qpsLimit = [200]
+2018-04-19 10:47:02,295 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo.server], qpsLimit = [200]
+2018-04-19 10:47:02,296 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [pojo.server], qpsLimit = [200]
+2018-04-19 10:47:02,296 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server.test], value = [300]
+2018-04-19 10:47:02,296 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo.server.test], qpsLimit = [300]
+2018-04-19 10:47:02,296 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server.test], value = [300]
+2018-04-19 10:47:02,297 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo.server.test], qpsLimit = [300]
+2018-04-19 10:47:02,325 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:02,325 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:02,327 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server], value = [null]
+2018-04-19 10:47:02,327 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,327 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo.server.test], qpsLimit = [300]
+2018-04-19 10:47:02,328 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,328 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server], value = [null]
+2018-04-19 10:47:02,328 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,329 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo.server.test], qpsLimit = [300]
+2018-04-19 10:47:02,329 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,329 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server.test], value = [null]
+2018-04-19 10:47:02,333 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,334 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo.server.test], value = [null]
+2018-04-19 10:47:02,334 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo], qpsLimit = [100]
+2018-04-19 10:47:02,335 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo], value = [null]
+2018-04-19 10:47:02,335 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [null]
+2018-04-19 10:47:02,335 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [null]
+2018-04-19 10:47:02,335 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.serve.test], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [null]
+2018-04-19 10:47:02,336 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [null]
+2018-04-19 10:47:02,336 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server2.test], configKey = [cse.flowcontrol.Provider.qps.global.limit], qpsLimit = [null]
+2018-04-19 10:47:02,336 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [pojo], value = [null]
+2018-04-19 10:47:02,336 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.tes], configKey = [pojo], qpsLimit = [null]
+2018-04-19 10:47:02,336 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test], configKey = [pojo], qpsLimit = [null]
+2018-04-19 10:47:02,337 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.serve.test], configKey = [pojo], qpsLimit = [null]
+2018-04-19 10:47:02,337 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server.test2], configKey = [pojo], qpsLimit = [null]
+2018-04-19 10:47:02,337 [main           ] INFO  QpsControllerManager           - QpsController updated, operationId = [pojo.server2.test], configKey = [pojo], qpsLimit = [null]
+2018-04-19 10:47:02,338 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@15f35bc3
+2018-04-19 10:47:02,419 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:47:02,419 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:47:02,430 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2dba05b1
+1970-01-01 08:00:00,001 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [test]
+1970-01-01 08:00:00,001 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+1970-01-01 08:00:00,001 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+1970-01-01 08:00:00,001 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@c11332b
+1970-01-01 08:00:00,001 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [test.server]
+1970-01-01 08:00:00,001 [main           ] INFO  QpsControllerManager           - Create qpsController, configKey = [test.server.opr]
+1970-01-01 08:00:00,001 [main           ] INFO  QpsControllerManager           - Global qps limit update, value = [3]
+1970-01-01 08:00:00,001 [main           ] INFO  QpsControllerManager           - Global qps limit update, value = [3]
+2018-04-19 10:47:02,759 [main           ] INFO  QpsControllerManager           - Qps limit updated, configKey = [test], value = [1]

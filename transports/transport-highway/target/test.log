@@ -1,0 +1,259 @@
+2018-04-19 10:48:20,644 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:20,646 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:48:20,686 [main           ] INFO  ConfigUtil                     - create dynamic config:
+2018-04-19 10:48:20,693 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:20,697 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:48:20,710 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:48:20,773 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:20,778 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:48:20,905 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0.
+2018-04-19 10:48:20,906 [main           ] INFO  SPIServiceUtils                - Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource
+2018-04-19 10:48:20,906 [main           ] INFO  ConfigUtil                     - config center SPI service can not find, skip to load configuration from config center
+2018-04-19 10:48:20,992 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=defaultMicroservice, paths=[]
+2018-04-19 10:48:21,015 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:21,015 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:48:21,029 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3aacf32a
+2018-04-19 10:48:21,078 [main           ] INFO  NetUtils                       - add network interface name:wc6,host address:169.254.247.53
+2018-04-19 10:48:21,079 [main           ] INFO  NetUtils                       - add network interface name:en1,host address:192.168.43.114
+2018-04-19 10:48:21,080 [main           ] INFO  NetUtils                       - add host name from localhost:DeanMacbook,host address:192.168.43.114
+2018-04-19 10:48:21,086 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:48:21,305 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:48:21,958 [main           ] INFO  SPIServiceUtils                - Found SPI service javax.ws.rs.core.Response$StatusType, count=0.
+2018-04-19 10:48:22,085 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:22,085 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:48:22,092 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=defaultMicroservice, paths=[]
+2018-04-19 10:48:22,095 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:48:22,241 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:22,242 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:48:22,255 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=defaultMicroservice, paths=[]
+2018-04-19 10:48:22,256 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:48:22,267 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:22,267 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:48:22,273 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=defaultMicroservice, paths=[]
+2018-04-19 10:48:22,281 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:48:22,356 [main           ] WARN  MicroserviceConfigLoader       - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:48:22,356 [main           ] WARN  MicroserviceConfigLoader       - To enable URLs as dynamic configuration sources, define System property cse.configurationSource.additionalUrls or make microservice.yaml available on classpath.
+2018-04-19 10:48:22,362 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=defaultMicroservice, paths=[]
+2018-04-19 10:48:22,364 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:48:23,026 [main           ] INFO  TcpServerConnection            - connect from 127.0.0.1:80, in thread main
+2018-04-19 10:48:23,058 [main           ] ERROR HighwayServerInvoke            - decode request error, microserviceQualifiedName=unknown, msgId=0
+java.lang.NullPointerException
+	at org.apache.servicecomb.transport.highway.HighwayServerInvoke.doInit(HighwayServerInvoke.java:106)
+	at org.apache.servicecomb.transport.highway.HighwayServerInvoke.init(HighwayServerInvoke.java:84)
+	at org.apache.servicecomb.transport.highway.HighwayServerConnection.onRequest(HighwayServerConnection.java:126)
+	at org.apache.servicecomb.transport.highway.HighwayServerConnection.handle(HighwayServerConnection.java:62)
+	at org.apache.servicecomb.transport.highway.TestHighwayServerConnection.testRequestError(TestHighwayServerConnection.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-04-19 10:48:23,158 [main           ] INFO  TcpServerConnection            - connect from 127.0.0.1:80, in thread main
+2018-04-19 10:48:23,749 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.exception.ExceptionToResponseConverter, count=2.
+2018-04-19 10:48:23,750 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter.
+2018-04-19 10:48:23,750 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter.
+2018-04-19 10:48:24,151 [main           ] INFO  TcpServerConnection            - connect from 127.0.0.1:80, in thread main
+2018-04-19 10:48:24,215 [main           ] INFO  TcpServerConnection            - connect from 127.0.0.1:80, in thread main
+2018-04-19 10:48:24,279 [main           ] INFO  TcpServerConnection            - connect from 127.0.0.1:80, in thread main
+2018-04-19 10:48:24,283 [main           ] ERROR HighwayServerConnection        - decode setParameter error, msgId=0
+io.protostuff.ProtobufException: Protocol message contained an invalid tag (zero).
+	at io.protostuff.ProtobufException.invalidTag(ProtobufException.java:106)
+	at io.protostuff.ByteBufferInput.readFieldNumber(ByteBufferInput.java:242)
+	at io.protostuff.runtime.RuntimeSchema.mergeFrom(RuntimeSchema.java:457)
+	at org.apache.servicecomb.codec.protobuf.utils.schema.NotWrapSchema.readObject(NotWrapSchema.java:40)
+	at org.apache.servicecomb.codec.protobuf.utils.WrapSchema.readObject(WrapSchema.java:43)
+	at org.apache.servicecomb.transport.highway.message.LoginRequest.readObject(LoginRequest.java:34)
+	at org.apache.servicecomb.transport.highway.HighwayServerConnection.onLogin(HighwayServerConnection.java:92)
+	at org.apache.servicecomb.transport.highway.HighwayServerConnection.handle(HighwayServerConnection.java:65)
+	at org.apache.servicecomb.transport.highway.TestHighwayServerConnection.testSetParameterError(TestHighwayServerConnection.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-04-19 10:48:24,374 [main           ] INFO  TcpServerConnection            - connect from 127.0.0.1:80, in thread main
+2018-04-19 10:48:24,378 [main           ] ERROR HighwayServerConnection        - decode request header error, msgId=0
+io.protostuff.ProtobufException: Protocol message contained an invalid tag (zero).
+	at io.protostuff.ProtobufException.invalidTag(ProtobufException.java:106)
+	at io.protostuff.ByteBufferInput.readFieldNumber(ByteBufferInput.java:242)
+	at io.protostuff.runtime.RuntimeSchema.mergeFrom(RuntimeSchema.java:457)
+	at org.apache.servicecomb.codec.protobuf.utils.schema.NotWrapSchema.readObject(NotWrapSchema.java:40)
+	at org.apache.servicecomb.codec.protobuf.utils.WrapSchema.readObject(WrapSchema.java:43)
+	at org.apache.servicecomb.transport.highway.message.RequestHeader.readObject(RequestHeader.java:42)
+	at org.apache.servicecomb.transport.highway.HighwayCodec.readRequestHeader(HighwayCodec.java:63)
+	at org.apache.servicecomb.transport.highway.HighwayServerConnection.decodeRequestHeader(HighwayServerConnection.java:76)
+	at org.apache.servicecomb.transport.highway.HighwayServerConnection.handle(HighwayServerConnection.java:55)
+	at org.apache.servicecomb.transport.highway.TestHighwayServerConnection.testReqeustHeaderError(TestHighwayServerConnection.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-04-19 10:48:24,838 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.CommonParameterTypeProcessor, count=2.
+2018-04-19 10:48:24,838 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.generator.InvocationContextProcessor.
+2018-04-19 10:48:24,838 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.generator.core.processor.parametertype.HttpServletRequestProcessor.
+2018-04-19 10:48:24,847 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.ResponseTypeProcessor, count=1.
+2018-04-19 10:48:24,852 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.core.processor.response.CompletableFutureProcessor.
+2018-04-19 10:48:24,855 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContext, count=1.
+2018-04-19 10:48:24,855 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext.
+2018-04-19 10:48:24,911 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.extend.property.creator.PropertyCreator, count=0.
+2018-04-19 10:48:25,037 [main           ] INFO  JavassistUtils                 - generate gen.swagger.addBody in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:48:25,062 [main           ] INFO  NetUtils                       - add network interface name:wc6,host address:169.254.247.53
+2018-04-19 10:48:25,062 [main           ] INFO  NetUtils                       - add network interface name:en1,host address:192.168.43.114
+2018-04-19 10:48:25,067 [main           ] INFO  NetUtils                       - add host name from localhost:DeanMacbook,host address:192.168.43.114
+2018-04-19 10:48:25,069 [ntloop-thread-2] WARN  HighwayServerVerticle          - highway listen address is not configured, will not listen.
+2018-04-19 10:48:25,188 [main           ] INFO  SchemaLoader                   - register schema app/app:test/org.apache.servicecomb.transport.highway.TestHighwayServerInvoke$Impl
+2018-04-19 10:48:25,247 [main           ] INFO  JavassistUtils                 - generate gen.swagger.ImplIntf in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:48:25,266 [main           ] ERROR HighwayServerInvoke            - decode request error, microserviceQualifiedName=unknown, msgId=0
+java.lang.NullPointerException
+	at org.apache.servicecomb.transport.highway.HighwayServerInvoke.doInit(HighwayServerInvoke.java:106)
+	at org.apache.servicecomb.transport.highway.HighwayServerInvoke.init(HighwayServerInvoke.java:84)
+	at org.apache.servicecomb.transport.highway.TestHighwayServerInvoke.test(TestHighwayServerInvoke.java:138)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-04-19 10:48:25,312 [main           ] INFO  JavassistUtils                 - generate gen.wrap.protobuf.java.lang.Integer in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:48:25,321 [main           ] ERROR HighwayServerInvoke            - handle request error, app:test.org.apache.servicecomb.transport.highway.TestHighwayServerInvoke$Impl.add, msgId=0
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.util.Collections$EmptyList.get(Collections.java:4454)
+	at org.apache.servicecomb.core.Invocation.next(Invocation.java:152)
+	at org.apache.servicecomb.transport.highway.HighwayServerInvoke.doRunInExecutor(HighwayServerInvoke.java:133)
+	at org.apache.servicecomb.transport.highway.HighwayServerInvoke.runInExecutor(HighwayServerInvoke.java:116)
+	at org.apache.servicecomb.transport.highway.HighwayServerInvoke.lambda$execute$1(HighwayServerInvoke.java:173)
+	at org.apache.servicecomb.core.executor.ReactiveExecutor.execute(ReactiveExecutor.java:29)
+	at org.apache.servicecomb.transport.highway.HighwayServerInvoke.execute(HighwayServerInvoke.java:173)
+	at org.apache.servicecomb.transport.highway.TestHighwayServerInvoke.test(TestHighwayServerInvoke.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-04-19 10:48:25,335 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.swagger.invocation.exception.ExceptionToResponseConverter, count=2.
+2018-04-19 10:48:25,335 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.swagger.invocation.exception.InvocationExceptionToResponseConverter.
+2018-04-19 10:48:25,335 [main           ] INFO  SPIServiceUtils                -   1. org.apache.servicecomb.swagger.invocation.exception.DefaultExceptionToResponseConverter.

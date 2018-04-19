@@ -1,0 +1,9 @@
+org/apache/servicecomb/tracing/zipkin/ConsumerInvocationAdapter.class
+org/apache/servicecomb/tracing/zipkin/ZipkinTracingHandler.class
+org/apache/servicecomb/tracing/zipkin/ZipkinConsumerDelegate.class
+org/apache/servicecomb/tracing/zipkin/ZipkinProviderTracingHandler.class
+org/apache/servicecomb/tracing/zipkin/ProviderInvocationAdapter.class
+org/apache/servicecomb/tracing/zipkin/ZipkinTracingDelegate.class
+org/apache/servicecomb/tracing/zipkin/ZipkinProviderDelegate.class
+org/apache/servicecomb/tracing/zipkin/TracingConfiguration.class
+org/apache/servicecomb/tracing/zipkin/ZipkinConsumerTracingHandler.class

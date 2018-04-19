@@ -1,0 +1,411 @@
+2018-04-19 10:45:23,539 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=default, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml]
+2018-04-19 10:45:23,543 [main           ] INFO  ConfigUtil                     - create dynamic config:
+2018-04-19 10:45:23,570 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:23,575 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:23,592 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:23,592 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:23,619 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@18eec010
+2018-04-19 10:45:23,711 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:45:23,714 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml.
+2018-04-19 10:45:23,836 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=0.
+2018-04-19 10:45:23,837 [main           ] INFO  SPIServiceUtils                - Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource
+2018-04-19 10:45:23,837 [main           ] INFO  ConfigUtil                     - config center SPI service can not find, skip to load configuration from config center
+2018-04-19 10:45:23,850 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:23,850 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:23,979 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:24,270 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:45:24,271 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml.
+2018-04-19 10:45:24,518 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:24,518 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:24,520 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@18a096b5
+2018-04-19 10:45:24,546 [main           ] INFO  NetUtils                       - add network interface name:wc6,host address:169.254.247.53
+2018-04-19 10:45:24,553 [main           ] INFO  NetUtils                       - add network interface name:en1,host address:192.168.43.114
+2018-04-19 10:45:24,555 [main           ] INFO  NetUtils                       - add host name from localhost:DeanMacbook,host address:192.168.43.114
+2018-04-19 10:45:24,707 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:24,707 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:24,709 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@77524ca7
+2018-04-19 10:45:24,727 [main           ] INFO  NetUtils                       - add network interface name:wc6,host address:169.254.247.53
+2018-04-19 10:45:24,727 [main           ] INFO  NetUtils                       - add network interface name:en1,host address:192.168.43.114
+2018-04-19 10:45:24,728 [main           ] INFO  NetUtils                       - add host name from localhost:DeanMacbook,host address:192.168.43.114
+2018-04-19 10:45:24,729 [main           ] INFO  IpPortManager                  - Change service center address from :33 to 127.0.0.1:30100
+2018-04-19 10:45:24,961 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=ms, paths=[]
+2018-04-19 10:45:25,519 [main           ] ERROR ServiceRegistryClientImpl      - find microservice instance app/ms/1.0.0 failed, not registered to serviceCenter.
+2018-04-19 10:45:25,519 [main           ] ERROR ServiceRegistryClientImpl      - find microservice instance app/ms/1.0.0 failed, not registered to serviceCenter.
+2018-04-19 10:45:26,005 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=ms, paths=[]
+2018-04-19 10:45:26,058 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:26,058 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:26,062 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@cec1ce2
+2018-04-19 10:45:26,131 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:26,133 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:26,140 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@53a16dd6
+2018-04-19 10:45:26,423 [main           ] ERROR ServiceRegistryClientImpl      - Register schema msid/schemaId failed.
+2018-04-19 10:45:26,751 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:26,752 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:26,757 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1368ed98
+2018-04-19 10:45:26,760 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:26,760 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:26,763 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2e9f8c8f
+2018-04-19 10:45:26,772 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:26,774 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:26,779 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@14318e90
+2018-04-19 10:45:26,841 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:26,841 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:26,845 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@629eeeec
+2018-04-19 10:45:26,857 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:26,858 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:26,862 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5464a18
+2018-04-19 10:45:27,003 [main           ] WARN  ServiceRegistryClientImpl      - get response for org.apache.servicecomb.serviceregistry.api.response.GetExistenceResponse failed, 400:Bad Request, {}
+2018-04-19 10:45:27,059 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:45:27,061 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml.
+2018-04-19 10:45:27,187 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=default, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml]
+2018-04-19 10:45:27,221 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,222 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,223 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:27,224 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:27,246 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4a2ab49e
+2018-04-19 10:45:27,283 [main           ] ERROR ServiceRegistryClientImpl      - Register schema msid/schemaId failed, statusCode: 400, statusMessage: client error, description: too big.
+2018-04-19 10:45:27,482 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:45:27,484 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml.
+2018-04-19 10:45:27,532 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=default, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml]
+2018-04-19 10:45:27,536 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,542 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,646 [main           ] ERROR ServiceRegistryClientImpl      - find microservice instance appId/serviceName/1.0.0+ failed, not registered to serviceCenter.
+2018-04-19 10:45:27,666 [main           ] INFO  IpPortManager                  - Change service center address from 127.0.0.1:9980 to 127.0.0.1:9981
+2018-04-19 10:45:27,673 [main           ] INFO  IpPortManager                  - Change service center address from 127.0.0.1:9981 to 127.0.0.1:9982
+2018-04-19 10:45:27,674 [main           ] INFO  IpPortManager                  - Change service center address from 127.0.0.1:9982 to 127.0.0.1:9980
+2018-04-19 10:45:27,755 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=ms, paths=[]
+2018-04-19 10:45:27,793 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:45:27,793 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml.
+2018-04-19 10:45:27,819 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=default, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml]
+2018-04-19 10:45:27,825 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,826 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,829 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=invalidExtendedClass, paths=[]
+2018-04-19 10:45:27,833 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,833 [main           ] ERROR AbstractPropertiesLoader       - Define propertyExtendedClass java.lang.String in yaml, but not implement the interface PropertyExtended.
+2018-04-19 10:45:27,835 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=invalidExtendedClass, paths=[]
+2018-04-19 10:45:27,838 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,839 [main           ] ERROR AbstractPropertiesLoader       - Fail to create instance of class: invalidClass
+2018-04-19 10:45:27,851 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=default, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml]
+2018-04-19 10:45:27,854 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,856 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:27,860 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=emptyExtendedClass, paths=[]
+2018-04-19 10:45:27,867 [main           ] ERROR AbstractPropertiesLoader       - Fail to create instance of class: invalidClass
+2018-04-19 10:45:27,873 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:27,873 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:27,877 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1e32a6b5
+2018-04-19 10:45:27,990 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:27,996 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersionRule, appId=appId, microserviceName=msName, versionRule=0+.
+2018-04-19 10:45:28,032 [main           ] ERROR ServiceRegistryClientImpl      - register schema msid/schemaId fail.
+java.lang.InterruptedException
+	at org.apache.servicecomb.serviceregistry.client.http.TestServiceRegistryClientImpl.testRegisterSchemaException(TestServiceRegistryClientImpl.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-04-19 10:45:28,105 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:28,382 [main           ] ERROR ServiceRegistryClientImpl      - query servicecenter version info failed.
+java.lang.InterruptedException
+	at org.apache.servicecomb.serviceregistry.client.http.TestServiceRegistryClientImpl.testGetServiceCenterInfoException(TestServiceRegistryClientImpl.java:339)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-04-19 10:45:28,402 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:28,404 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersionRule, appId=appId, microserviceName=msName, versionRule=0+.
+2018-04-19 10:45:28,644 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:28,647 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersionRule, appId=appId, microserviceName=msName, versionRule=0+.
+2018-04-19 10:45:28,791 [main           ] INFO  ServiceRegistryClientImpl      - register schema msid/schemaId success.
+2018-04-19 10:45:28,924 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:28,982 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:28,984 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:28,984 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersionRule, appId=appId, microserviceName=msName, versionRule=1.0.0.
+2018-04-19 10:45:28,985 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:28,986 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,045 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,052 [main           ] INFO  MicroserviceVersionRule        - add microserviceVersion, appId=null, microserviceName=null, version=2.0.0, versionRule=1.0.0+.
+2018-04-19 10:45:29,076 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersionRule, appId=appId, microserviceName=msName, versionRule=1.0.0.
+2018-04-19 10:45:29,084 [main           ] INFO  MicroserviceVersionRule        - add microserviceVersion, appId=null, microserviceName=null, version=1.0.0, versionRule=1.0.0.
+2018-04-19 10:45:29,084 [main           ] INFO  MicroserviceVersionRule        - set instances, appId=appId, microserviceName=msName, versionRule=1.0.0, instanceId=i1, endpoints=[].
+2018-04-19 10:45:29,095 [main           ] INFO  MicroserviceVersionRule        - add microserviceVersion, appId=null, microserviceName=null, version=1.0.0, versionRule=1.0.0+.
+2018-04-19 10:45:29,121 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,160 [main           ] ERROR MicroserviceVersions           - Failed to setInstances, appId=appId, microserviceName=msName.
+java.lang.Error: failed to set instances
+	at org.apache.servicecomb.serviceregistry.consumer.TestMicroserviceVersions$6.setInstances(TestMicroserviceVersions.java:288)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mockit.internal.util.MethodReflection.invokeWithCheckedThrows(MethodReflection.java:154)
+	at mockit.internal.util.MethodReflection.invokeWithCheckedThrows(MethodReflection.java:109)
+	at mockit.internal.mockups.MockMethodBridge.executeSimpleMockMethod(MockMethodBridge.java:76)
+	at mockit.internal.mockups.MockMethodBridge.callMock(MockMethodBridge.java:51)
+	at mockit.internal.mockups.MockMethodBridge.invoke(MockMethodBridge.java:38)
+	at org.apache.servicecomb.serviceregistry.consumer.MicroserviceVersions.setInstances(MicroserviceVersions.java)
+	at org.apache.servicecomb.serviceregistry.consumer.MicroserviceVersions.safeSetInstances(MicroserviceVersions.java:130)
+	at org.apache.servicecomb.serviceregistry.consumer.TestMicroserviceVersions.safeSetInstances(TestMicroserviceVersions.java:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-04-19 10:45:29,196 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,198 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,201 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,202 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=appId:msName.
+2018-04-19 10:45:29,202 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=falseAppId, microserviceName=appId:msName.
+2018-04-19 10:45:29,202 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=falseAppId, microserviceName=falseappId:msName.
+2018-04-19 10:45:29,203 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=falseappId:msName.
+2018-04-19 10:45:29,203 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,208 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,217 [main           ] INFO  MicroserviceVersionRule        - add microserviceVersion, appId=null, microserviceName=null, version=2.0.0, versionRule=1.0.0+.
+2018-04-19 10:45:29,348 [main           ] INFO  MicroserviceVersionRule        - add microserviceVersion, appId=null, microserviceName=null, version=2.0.0, versionRule=1.0.0+.
+2018-04-19 10:45:29,349 [main           ] INFO  MicroserviceVersionRule        - delete microserviceVersion, appId=null, microserviceName=null, version=2.0.0, versionRule=1.0.0+.
+2018-04-19 10:45:29,417 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersionRule, appId=appId, microserviceName=msName, versionRule=1.0.0.
+2018-04-19 10:45:29,419 [main           ] INFO  MicroserviceVersionRule        - add microserviceVersion, appId=null, microserviceName=null, version=1.0.0, versionRule=1.0.0.
+2018-04-19 10:45:29,498 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,564 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=appId, microserviceName=msName.
+2018-04-19 10:45:29,581 [main           ] INFO  MicroserviceVersionRule        - add microserviceVersion, appId=null, microserviceName=null, version=2.0.0, versionRule=1.0.0+.
+2018-04-19 10:45:29,593 [main           ] INFO  MicroserviceVersionRule        - set instances, appId=appId, microserviceName=msName, versionRule=1.0.0+, instanceId=i2, endpoints=[].
+2018-04-19 10:45:29,679 [main           ] WARN  bstractEndpointDiscoveryFilter - unrecognized address find, ignore ://699a4696-e8d9-4eb2-bf89-a4b519964834:8080.
+2018-04-19 10:45:29,734 [main           ] INFO  MicroserviceVersionRule        - add microserviceVersion, appId=null, microserviceName=null, version=2.0.0, versionRule=1.0.0+.
+2018-04-19 10:45:29,923 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=ms, paths=[]
+2018-04-19 10:45:29,996 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=ms, paths=[]
+2018-04-19 10:45:30,003 [main           ] INFO  AbstractServiceRegistry        - microserviceVersionFactory is org.apache.servicecomb.serviceregistry.registry.TestAbstractServiceRegistry$DefaultMicroserviceVersionFactoryForTest.
+2018-04-19 10:45:30,010 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=ms, paths=[]
+2018-04-19 10:45:30,081 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=default, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml]
+2018-04-19 10:45:30,086 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:30,101 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:30,110 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:45:30,251 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:30,253 [main           ] INFO  MicroserviceRegisterTask       - Registry Microservice successfully. id=9daa4260-1990-4446-b27f-1fb87c7698d2 appId=default, name=default, version=0.0.1, schemaIds=[]
+2018-04-19 10:45:30,258 [main           ] INFO  ServiceCenterTask              - read MicroserviceRegisterTask status is FINISHED
+2018-04-19 10:45:30,258 [main           ] INFO  croserviceInstanceRegisterTask - running microservice instance register task.
+2018-04-19 10:45:30,260 [main           ] INFO  croserviceInstanceRegisterTask - Register microservice instance success. microserviceId=9daa4260-1990-4446-b27f-1fb87c7698d2 instanceId=8c74d3c9-d242-4d71-8962-1c9b91ab7ff0 endpoints=[] lease 120s
+2018-04-19 10:45:30,260 [main           ] INFO  ServiceCenterTask              - read MicroserviceInstanceRegisterTask status is FINISHED
+2018-04-19 10:45:30,266 [main           ] INFO  AbstractServiceRegistry        - Unregister microservice instance success. microserviceId=9daa4260-1990-4446-b27f-1fb87c7698d2 instanceId=8c74d3c9-d242-4d71-8962-1c9b91ab7ff0
+2018-04-19 10:45:30,279 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=default, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml]
+2018-04-19 10:45:30,282 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:30,284 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:30,285 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:45:30,293 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:30,294 [main           ] INFO  MicroserviceRegisterTask       - Registry Microservice successfully. id=4a827e89-f0fe-42b2-a489-487b290f36bf appId=default, name=default, version=0.0.1, schemaIds=[]
+2018-04-19 10:45:30,295 [main           ] INFO  ServiceCenterTask              - read MicroserviceRegisterTask status is FINISHED
+2018-04-19 10:45:30,300 [main           ] INFO  croserviceInstanceRegisterTask - running microservice instance register task.
+2018-04-19 10:45:30,301 [main           ] INFO  croserviceInstanceRegisterTask - Register microservice instance success. microserviceId=4a827e89-f0fe-42b2-a489-487b290f36bf instanceId=d18a5460-8418-4944-8d65-7984f8e42387 endpoints=[] lease 120s
+2018-04-19 10:45:30,302 [main           ] INFO  ServiceCenterTask              - read MicroserviceInstanceRegisterTask status is FINISHED
+2018-04-19 10:45:30,325 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=default, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml]
+2018-04-19 10:45:30,326 [main           ] INFO  DiscoveryTree                  - found DiscoveryFilter:
+2018-04-19 10:45:30,326 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.serviceregistry.discovery.$Impl_DiscoveryFilter.
+2018-04-19 10:45:30,326 [main           ] INFO  DiscoveryTree                  - DiscoveryFilter org.apache.servicecomb.serviceregistry.discovery.$Impl_DiscoveryFilter.
+2018-04-19 10:45:30,330 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:30,339 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:30,340 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:45:30,341 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:30,342 [main           ] INFO  MicroserviceRegisterTask       - Registry Microservice successfully. id=430d6ae1-391d-4e9f-8f53-779be718106b appId=default, name=default, version=0.0.1, schemaIds=[s1]
+2018-04-19 10:45:30,342 [main           ] INFO  MicroserviceRegisterTask       - schemaId s1 exists true
+2018-04-19 10:45:30,347 [main           ] INFO  ServiceCenterTask              - read MicroserviceRegisterTask status is FINISHED
+2018-04-19 10:45:30,347 [main           ] INFO  croserviceInstanceRegisterTask - running microservice instance register task.
+2018-04-19 10:45:30,348 [main           ] INFO  croserviceInstanceRegisterTask - Register microservice instance success. microserviceId=430d6ae1-391d-4e9f-8f53-779be718106b instanceId=cd6cfbed-1cf4-4b27-964c-cd749e26ba9a endpoints=[] lease 120s
+2018-04-19 10:45:30,349 [main           ] INFO  ServiceCenterTask              - read MicroserviceInstanceRegisterTask status is FINISHED
+2018-04-19 10:45:30,399 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=defaultMicroservice, paths=[]
+2018-04-19 10:45:30,400 [main           ] INFO  ServiceRegistryFactory         - It is running in the normal mode, a separated service registry is required
+2018-04-19 10:45:30,403 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:30,403 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:30,407 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@79a45985
+2018-04-19 10:45:30,823 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:45:30,823 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml.
+2018-04-19 10:45:30,828 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:30,832 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:30,834 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:45:30,836 [ntloop-thread-0] ERROR RestUtils                      - GET /v4/default/registry/version fail, endpoint is 127.0.0.1:30100, message: Connection refused: /127.0.0.1:30100
+2018-04-19 10:45:30,837 [ntloop-thread-0] WARN  ServiceRegistryClientImpl      - invoke service [/v4/default/registry/version] failed, retry.
+2018-04-19 10:45:30,837 [ntloop-thread-0] INFO  IpPortManager                  - Change service center address from 127.0.0.1:30100 to 127.0.0.1:30100
+2018-04-19 10:45:30,838 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:30,839 [main           ] INFO  MicroserviceRegisterTask       - Registry Microservice successfully. id=14356b5e-3c06-4832-a7ed-1965e7060810 appId=default, name=default, version=0.0.1, schemaIds=[]
+2018-04-19 10:45:30,844 [ntloop-thread-0] ERROR RestUtils                      - GET /v4/default/registry/version fail, endpoint is 127.0.0.1:30100, message: Connection refused: /127.0.0.1:30100
+2018-04-19 10:45:30,845 [ntloop-thread-0] WARN  ServiceRegistryClientImpl      - invoke service [/v4/default/registry/version] failed, retry.
+2018-04-19 10:45:30,845 [ntloop-thread-0] INFO  IpPortManager                  - Change service center address from 127.0.0.1:30100 to 127.0.0.1:30100
+2018-04-19 10:45:30,847 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersions, appId=default, microserviceName=SERVICECENTER.
+2018-04-19 10:45:30,853 [ntloop-thread-0] ERROR RestUtils                      - GET /v4/default/registry/version fail, endpoint is 127.0.0.1:30100, message: Connection refused: /127.0.0.1:30100
+2018-04-19 10:45:30,857 [main           ] INFO  ServiceRegistryFactory         - It is running in the normal mode, a separated service registry is required
+2018-04-19 10:45:30,859 [main           ] INFO  ServiceRegistryFactory         - It is running in the local development mode, the local file /tmp/test.yaml is using as the local registry
+2018-04-19 10:45:30,860 [main           ] ERROR LocalServiceRegistryClientImpl - can not load local registry file:/tmp/test.yaml
+java.io.FileNotFoundException: /tmp/test.yaml (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.servicecomb.serviceregistry.client.LocalServiceRegistryClientImpl.<init>(LocalServiceRegistryClientImpl.java:74)
+	at org.apache.servicecomb.serviceregistry.registry.LocalServiceRegistry.createServiceRegistryClient(LocalServiceRegistry.java:33)
+	at org.apache.servicecomb.serviceregistry.registry.AbstractServiceRegistry.init(AbstractServiceRegistry.java:103)
+	at org.apache.servicecomb.serviceregistry.registry.TestServiceRegistryFactory.testGetRemoteRegistryClient(TestServiceRegistryFactory.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.executeTestMethod(JUnit4TestRunnerDecorator.java:162)
+	at mockit.integration.junit4.internal.JUnit4TestRunnerDecorator.invokeExplosively(JUnit4TestRunnerDecorator.java:71)
+	at mockit.integration.junit4.internal.MockFrameworkMethod.invokeExplosively(MockFrameworkMethod.java:37)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-04-19 10:45:30,866 [main           ] INFO  ServiceRegistryFactory         - It is running in the local development mode, the local file /tmp/test.yaml is using as the local registry
+2018-04-19 10:45:30,880 [main           ] INFO  MicroserviceRegisterTask       - read MicroserviceInstanceHeartbeatTask status is INIT
+2018-04-19 10:45:30,926 [main           ] INFO  MicroserviceVersions           - create MicroserviceVersionRule, appId=default, microserviceName=SERVICECENTER, versionRule=latest.
+2018-04-19 10:45:30,927 [main           ] INFO  ServiceCenterTask              - read MicroserviceRegisterTask status is FINISHED
+2018-04-19 10:45:30,927 [main           ] INFO  croserviceInstanceRegisterTask - running microservice instance register task.
+2018-04-19 10:45:30,928 [main           ] INFO  croserviceInstanceRegisterTask - Register microservice instance success. microserviceId=14356b5e-3c06-4832-a7ed-1965e7060810 instanceId=0e3e0966-e551-42a2-b12d-c0b8d4c3c955 endpoints=[] lease 30s
+2018-04-19 10:45:30,929 [main           ] INFO  ServiceCenterTask              - read MicroserviceInstanceRegisterTask status is FINISHED
+2018-04-19 10:45:30,935 [main           ] INFO  RemoteServiceRegistry          - service center task is shutdown.
+2018-04-19 10:45:30,938 [main           ] WARN  RemoteServiceRegistry          - Too many pending tasks, reject java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask
+2018-04-19 10:45:31,093 [main           ] INFO  croserviceInstanceRegisterTask - running microservice instance register task.
+2018-04-19 10:45:31,094 [main           ] INFO  croserviceInstanceRegisterTask - Register microservice instance success. microserviceId=null instanceId=instanceId endpoints=[] lease 210s
+2018-04-19 10:45:31,145 [main           ] INFO  croserviceInstanceRegisterTask - running microservice instance register task.
+2018-04-19 10:45:31,146 [main           ] INFO  croserviceInstanceRegisterTask - Register microservice instance success. microserviceId=null instanceId=instanceId endpoints=[] lease 210s
+2018-04-19 10:45:31,195 [main           ] INFO  croserviceInstanceRegisterTask - running microservice instance register task.
+2018-04-19 10:45:31,196 [main           ] ERROR croserviceInstanceRegisterTask - Register microservice instance failed. microserviceId=null
+2018-04-19 10:45:31,288 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:31,289 [main           ] INFO  MicroserviceRegisterTask       - Microservice exists in service center, no need to register. id=serviceId appId=app, name=ms, version=null
+2018-04-19 10:45:31,289 [main           ] INFO  MicroserviceRegisterTask       - SchemaIds is equals to service center. id=serviceId appId=app, name=ms, version=null, schemaIds=[]
+2018-04-19 10:45:31,341 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:31,342 [main           ] INFO  MicroserviceRegisterTask       - Microservice exists in service center, no need to register. id=serviceId appId=app, name=ms, version=null
+2018-04-19 10:45:31,342 [main           ] ERROR MicroserviceRegisterTask       - Error to get microservice from service center when check schema set
+2018-04-19 10:45:31,372 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:31,372 [main           ] INFO  MicroserviceRegisterTask       - Registry Microservice successfully. id=serviceId appId=app, name=ms, version=null, schemaIds=[]
+2018-04-19 10:45:31,376 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:31,376 [main           ] INFO  MicroserviceRegisterTask       - Registry Microservice successfully. id=serviceId appId=app, name=ms, version=null, schemaIds=[s1, exist]
+2018-04-19 10:45:31,376 [main           ] INFO  MicroserviceRegisterTask       - schemaId exist exists true
+2018-04-19 10:45:31,377 [main           ] INFO  MicroserviceRegisterTask       - schemaId s1 exists false
+2018-04-19 10:45:31,402 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:31,403 [main           ] INFO  MicroserviceRegisterTask       - Microservice exists in service center, no need to register. id=serviceId appId=app, name=ms, version=null
+2018-04-19 10:45:31,404 [main           ] ERROR MicroserviceRegisterTask       - SchemaIds is different between local and service center. Please change microservice version. id=serviceId appId=app, name=ms, version=null, local schemaIds=[], service center schemaIds=[s1]
+2018-04-19 10:45:31,433 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:31,434 [main           ] ERROR MicroserviceRegisterTask       - Registry microservice failed. appId=app, name=ms, version=null
+2018-04-19 10:45:31,439 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:31,440 [main           ] INFO  MicroserviceRegisterTask       - Registry Microservice successfully. id=serviceId appId=app, name=ms, version=null, schemaIds=[s1]
+2018-04-19 10:45:31,440 [main           ] INFO  MicroserviceRegisterTask       - schemaId s1 exists false
+2018-04-19 10:45:31,601 [main           ] ERROR roserviceInstanceHeartbeatTask - Update heartbeat to service center failed, microservice instance=null/instanceId does not exist
+2018-04-19 10:45:31,616 [main           ] INFO  MicroserviceWatchTask          - microservice null/null/null REGISTERED an instance null, [].
+2018-04-19 10:45:31,620 [main           ] INFO  MicroserviceWatchTask          - microservice null/null/null UNREGISTERED an instance null, [].
+2018-04-19 10:45:31,622 [main           ] INFO  MicroserviceWatchTask          - microservice null/null/null UPDATE an instance null status or metadata, [].
+2018-04-19 10:45:32,062 [main           ] ERROR roserviceInstanceHeartbeatTask - Disconnected from service center and heartbeat failed for microservice instance=null/instanceId
+2018-04-19 10:45:32,191 [main           ] INFO  ConfigUtil                     - create dynamic config:
+2018-04-19 10:45:32,197 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:45:32,197 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml.
+2018-04-19 10:45:32,201 [main           ] INFO  SPIServiceUtils                - Can not find SPI service for org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource
+2018-04-19 10:45:32,201 [main           ] INFO  ConfigUtil                     - config center SPI service can not find, skip to load configuration from config center
+2018-04-19 10:45:32,207 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:45:32,208 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:45:32,212 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@48395417
+2018-04-19 10:45:32,510 [main           ] INFO  ServiceCenterTask              - read MicroserviceInstanceRegisterTask status is null
+2018-04-19 10:45:32,511 [main           ] INFO  ServiceCenterTask              - read MicroserviceInstanceHeartbeatTask status is null
+2018-04-19 10:45:32,762 [main           ] WARN  RegistryUtils                  - address /0.0.0.0:8080, auto select a host address to publish 1.1.1.1:8080, maybe not the correct one
+2018-04-19 10:45:32,784 [main           ] INFO  ServiceCenterTask              - read MicroserviceInstanceRegisterTask status is null
+2018-04-19 10:45:33,326 [main           ] INFO  MicroserviceDefinition         - load microservice config, name=default, paths=[file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/service-registry/target/test-classes/microservice.yaml]
+2018-04-19 10:45:33,330 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:33,330 [main           ] WARN  AbstractPropertiesLoader       - The property `.propertyExtentedClass` is deprecated and will be removed soon, please use the new property `.propertyExtendedClass`.
+2018-04-19 10:45:33,333 [main           ] INFO  LocalServiceRegistryClientImpl - create empty local registry.
+2018-04-19 10:45:33,334 [main           ] INFO  MicroserviceRegisterTask       - running microservice register task.
+2018-04-19 10:45:33,335 [main           ] INFO  MicroserviceRegisterTask       - Registry Microservice successfully. id=bb936b49-4294-47b9-a75a-ad8bcf9495c0 appId=default, name=default, version=0.0.1, schemaIds=[]
+2018-04-19 10:45:33,336 [main           ] INFO  ServiceCenterTask              - read MicroserviceRegisterTask status is FINISHED
+2018-04-19 10:45:33,336 [main           ] INFO  croserviceInstanceRegisterTask - running microservice instance register task.
+2018-04-19 10:45:33,336 [main           ] INFO  croserviceInstanceRegisterTask - Register microservice instance success. microserviceId=bb936b49-4294-47b9-a75a-ad8bcf9495c0 instanceId=26b85619-6a6b-44aa-80e3-37363f3f9c05 endpoints=[] lease 6s
+2018-04-19 10:45:33,337 [main           ] INFO  ServiceCenterTask              - read MicroserviceInstanceRegisterTask status is FINISHED
+2018-04-19 10:45:33,339 [main           ] INFO  AbstractServiceRegistry        - find instances[1] from service center success. service=default/default/0.0.1
+2018-04-19 10:45:33,340 [main           ] INFO  AbstractServiceRegistry        - service id=bb936b49-4294-47b9-a75a-ad8bcf9495c0, instance id=26b85619-6a6b-44aa-80e3-37363f3f9c05, endpoints=[]
+2018-04-19 10:45:33,340 [main           ] INFO  AbstractServiceRegistry        - find instances[1] from service center success. service=default/default/0.0.1
+2018-04-19 10:45:33,340 [main           ] INFO  AbstractServiceRegistry        - service id=bb936b49-4294-47b9-a75a-ad8bcf9495c0, instance id=26b85619-6a6b-44aa-80e3-37363f3f9c05, endpoints=[]

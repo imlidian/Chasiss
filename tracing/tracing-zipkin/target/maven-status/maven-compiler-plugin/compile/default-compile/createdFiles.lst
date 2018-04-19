@@ -1,0 +1,5 @@
+org/apache/servicecomb/tracing/zipkin/ZipkinTracingAdviser$ThrowableSupplier.class
+org/apache/servicecomb/tracing/zipkin/ZipkinSpanAspect.class
+org/apache/servicecomb/tracing/zipkin/ZipkinTracingAdviser.class
+org/apache/servicecomb/tracing/zipkin/EnableZipkinTracing.class
+org/apache/servicecomb/tracing/zipkin/ZipkinSpanAspectConfig.class

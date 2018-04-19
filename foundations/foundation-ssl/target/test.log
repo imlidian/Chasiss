@@ -1,0 +1,16 @@
+2018-04-19 10:44:10,664 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:44:10,669 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/target/test-classes/microservice.yaml.
+2018-04-19 10:44:10,828 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:44:10,829 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:44:10,990 [main           ] WARN  SSLCustom                      - init SSLCustom class failed, name is 123
+2018-04-19 10:44:11,066 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:44:11,067 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/target/test-classes/microservice.yaml.
+2018-04-19 10:44:11,087 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:44:11,089 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/target/test-classes/microservice.yaml.
+2018-04-19 10:44:11,135 [main           ] WARN  SSLCustom                      - init SSLCustom class failed, name is 123
+2018-04-19 10:44:11,210 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:44:11,211 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-ssl/target/test-classes/microservice.yaml.
+2018-04-19 10:44:11,538 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:44:11,538 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:44:11,543 [main           ] INFO  DynamicPropertyFactory         - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5b395ee
+2018-04-19 10:44:11,796 [main           ] ERROR TrustManagerExt                - CN does not match IP: e=[10.67.147.114],t=null

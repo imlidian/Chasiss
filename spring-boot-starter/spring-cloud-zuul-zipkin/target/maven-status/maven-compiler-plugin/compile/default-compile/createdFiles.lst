@@ -1,0 +1,5 @@
+org/apache/servicecomb/spring/cloud/zuul/tracing/TracePostZuulFilter.class
+org/apache/servicecomb/spring/cloud/zuul/tracing/TracePreZuulFilter.class
+org/apache/servicecomb/spring/cloud/zuul/tracing/SpringTracingConfiguration$1.class
+org/apache/servicecomb/spring/cloud/zuul/tracing/SpringTracingConfiguration$ZuulHttpClientAdapter.class
+org/apache/servicecomb/spring/cloud/zuul/tracing/SpringTracingConfiguration.class

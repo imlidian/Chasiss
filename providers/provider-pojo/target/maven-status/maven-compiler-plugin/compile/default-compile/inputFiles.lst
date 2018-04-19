@@ -1,0 +1,16 @@
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/schema/SchemaDefParser.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/RpcSchema.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/InstanceFactory.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/PojoConsumerProvider.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/instance/PojoInstanceFactory.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/reference/ReferenceDefParser.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/reference/RpcReferenceProcessor.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/PojoConfig.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/RpcReference.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/PojoProducerProvider.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/Invoker.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/reference/PojoReferenceMeta.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/instance/SpringInstanceFactory.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/schema/PojoProducerMeta.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/schema/PojoProducers.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/providers/provider-pojo/src/main/java/org/apache/servicecomb/provider/pojo/PojoConst.java

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.vertx.core.impl.TestVertxImplEx
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.374 sec - in io.vertx.core.impl.TestVertxImplEx

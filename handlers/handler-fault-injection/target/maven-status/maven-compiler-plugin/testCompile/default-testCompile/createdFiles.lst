@@ -1,0 +1,4 @@
+org/apache/servicecomb/faultinjection/TestFaultInjectHandler.class
+org/apache/servicecomb/faultinjection/TestFaultInjectUtil.class
+org/apache/servicecomb/faultinjection/TestFaultInjectConfig.class
+org/apache/servicecomb/faultinjection/TestFaultInjectHandler$1.class

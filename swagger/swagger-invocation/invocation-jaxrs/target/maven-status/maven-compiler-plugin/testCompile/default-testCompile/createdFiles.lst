@@ -1,0 +1,8 @@
+org/apache/servicecomb/swagger/invocation/jaxrs/response/TestJaxrsProducerResponseMapper$2.class
+org/apache/servicecomb/swagger/invocation/jaxrs/response/TestJaxrsProducerResponseMapper.class
+org/apache/servicecomb/swagger/invocation/jaxrs/response/TestJaxrsProducerResponseMapperFactory.class
+org/apache/servicecomb/swagger/invocation/jaxrs/response/TestJaxrsConsumerResponseMapper$1.class
+org/apache/servicecomb/swagger/invocation/jaxrs/response/TestJaxrsProducerResponseMapper$1.class
+org/apache/servicecomb/swagger/invocation/jaxrs/response/TestJaxrsConsumerResponseMapper$2.class
+org/apache/servicecomb/swagger/invocation/jaxrs/response/TestJaxrsConsumerResponseMapper.class
+org/apache/servicecomb/swagger/invocation/jaxrs/response/TestJaxrsConsumerResponseMapperFactory.class

@@ -1,0 +1,10 @@
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/Fault.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/FaultInjectionConfig.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/FaultInjectionUtil.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/FaultExecutor.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/AbortFault.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/FaultInjectionConst.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/FaultParam.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/DelayFault.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/AbstractFault.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-fault-injection/src/main/java/org/apache/servicecomb/faultinjection/FaultInjectionHandler.java

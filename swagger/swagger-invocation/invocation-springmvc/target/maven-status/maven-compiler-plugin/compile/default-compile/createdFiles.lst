@@ -1,0 +1,6 @@
+org/apache/servicecomb/swagger/invocation/converter/PartToMultipartFile.class
+org/apache/servicecomb/swagger/invocation/springmvc/response/SpringmvcConsumerResponseMapper.class
+org/apache/servicecomb/swagger/invocation/springmvc/response/SpringmvcConsumerResponseMapperFactory.class
+org/apache/servicecomb/swagger/invocation/converter/SpringMultipartConverter.class
+org/apache/servicecomb/swagger/invocation/springmvc/response/SpringmvcProducerResponseMapperFactory.class
+org/apache/servicecomb/swagger/invocation/springmvc/response/SpringmvcProducerResponseMapper.class

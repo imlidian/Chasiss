@@ -1,0 +1,8 @@
+org/apache/servicecomb/demo/server/TestResponse.class
+org/apache/servicecomb/demo/TestMgr.class
+org/apache/servicecomb/demo/server/Test.class
+org/apache/servicecomb/springboot/pojo/client/PojoClient.class
+org/apache/servicecomb/demo/DemoConst.class
+org/apache/servicecomb/demo/server/TestRequest.class
+org/apache/servicecomb/demo/pojo/client/PojoClientTest.class
+org/apache/servicecomb/demo/server/User.class

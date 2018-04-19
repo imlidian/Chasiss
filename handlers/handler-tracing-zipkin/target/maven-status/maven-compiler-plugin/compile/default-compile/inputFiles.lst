@@ -1,0 +1,9 @@
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ZipkinTracingHandler.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ZipkinProviderDelegate.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ZipkinConsumerTracingHandler.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ConsumerInvocationAdapter.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ZipkinConsumerDelegate.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ProviderInvocationAdapter.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/TracingConfiguration.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ZipkinProviderTracingHandler.java
+/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/handlers/handler-tracing-zipkin/src/main/java/org/apache/servicecomb/tracing/zipkin/ZipkinTracingDelegate.java

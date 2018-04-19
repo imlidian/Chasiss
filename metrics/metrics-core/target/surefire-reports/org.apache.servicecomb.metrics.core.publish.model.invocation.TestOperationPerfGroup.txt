@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.servicecomb.metrics.core.publish.model.invocation.TestOperationPerfGroup
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.463 sec - in org.apache.servicecomb.metrics.core.publish.model.invocation.TestOperationPerfGroup

@@ -1,0 +1,6 @@
+org/apache/servicecomb/authentication/RSAAuthenticationToken.class
+org/apache/servicecomb/authentication/provider/RSAProviderTokenManager.class
+org/apache/servicecomb/authentication/consumer/RSAConsumerTokenManager.class
+org/apache/servicecomb/authentication/consumer/ConsumerAuthHandler.class
+org/apache/servicecomb/AuthHandlerBoot.class
+org/apache/servicecomb/authentication/provider/ProviderAuthHanlder.class

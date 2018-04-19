@@ -1,0 +1,26 @@
+2018-04-19 10:44:03,757 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:44:03,758 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:44:03,991 [main           ] WARN  URLConfigurationSource         - No URLs will be polled as dynamic configuration sources.
+2018-04-19 10:44:03,992 [main           ] INFO  ConfigUtil                     - create dynamic config:
+2018-04-19 10:44:03,992 [main           ] INFO  URLConfigurationSource         - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-19 10:44:04,036 [main           ] INFO  ConfigUtil                     - create dynamic config:
+2018-04-19 10:44:04,039 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:44:04,042 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-config/target/test-classes/microservice.yaml.
+2018-04-19 10:44:04,044 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:44:04,047 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-config/target/test-classes/microservice.yaml.
+2018-04-19 10:44:04,115 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=1.
+2018-04-19 10:44:04,115 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.config.MapBasedConfigurationSource.
+2018-04-19 10:44:04,120 [main           ] INFO  SPIServiceUtils                - Found SPI service org.apache.servicecomb.config.spi.ConfigCenterConfigurationSource, count=1.
+2018-04-19 10:44:04,121 [main           ] INFO  SPIServiceUtils                -   0. org.apache.servicecomb.config.MapBasedConfigurationSource.
+2018-04-19 10:44:04,129 [main           ] WARN  ConfigUtil                     - Configuration installed by others, will ignore this configuration.
+2018-04-19 10:44:04,246 [main           ] INFO  ConfigUtil                     - create dynamic config:
+2018-04-19 10:44:04,257 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:44:04,257 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-config/target/test-classes/microservice.yaml.
+2018-04-19 10:44:04,272 [main           ] INFO  ConfigUtil                     - config center SPI service can not find, skip to load configuration from config center
+2018-04-19 10:44:04,308 [main           ] INFO  ConfigUtil                     - Config Source serverUri is not correctly configured.
+2018-04-19 10:44:04,320 [main           ] INFO  ConfigUtil                     - create dynamic config:
+2018-04-19 10:44:04,332 [main           ] INFO  ConfigUtil                     - create local config:
+2018-04-19 10:44:04,339 [main           ] INFO  ConfigUtil                     -  file:/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis/foundations/foundation-config/target/test-classes/microservice.yaml.
+2018-04-19 10:44:04,482 [main           ] INFO  tationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d5508e0: startup date [Thu Apr 19 10:44:04 CST 2018]; root of context hierarchy
+2018-04-19 10:44:04,678 [main           ] INFO  redAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-19 10:44:04,779 [main           ] INFO  tationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d5508e0: startup date [Thu Apr 19 10:44:04 CST 2018]; root of context hierarchy

@@ -1,0 +1,7 @@
+org/apache/servicecomb/config/client/ApolloClient$ConfigRefresh$1.class
+org/apache/servicecomb/config/client/ApolloClient.class
+org/apache/servicecomb/config/client/ApolloConfig.class
+org/apache/servicecomb/config/archaius/sources/ApolloConfigurationSourceImpl$UpdateHandler.class
+org/apache/servicecomb/config/archaius/sources/ApolloConfigurationSourceImpl.class
+org/apache/servicecomb/config/client/ConfigurationAction.class
+org/apache/servicecomb/config/client/ApolloClient$ConfigRefresh.class

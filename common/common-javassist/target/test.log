@@ -1,0 +1,5 @@
+2018-04-19 10:43:55,672 [main           ] INFO  JavassistUtils                 - generate cse.ut.single.IntWrapper in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:43:55,715 [main           ] INFO  JavassistUtils                 - generate cse.ut.TestAddParameter in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:43:55,757 [main           ] INFO  JavassistUtils                 - generate cse.ut.testField in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:43:55,771 [main           ] INFO  JavassistUtils                 - generate cse.ut.multi.Wrapper in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.
+2018-04-19 10:43:55,841 [main           ] INFO  JavassistUtils                 - generate cse.ut.TestInterface in classLoader sun.misc.Launcher$AppClassLoader@7d4991ad.

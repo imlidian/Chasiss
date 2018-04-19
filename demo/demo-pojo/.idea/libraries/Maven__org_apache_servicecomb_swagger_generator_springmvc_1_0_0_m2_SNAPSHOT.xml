@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.servicecomb:swagger-generator-springmvc:1.0.0-m2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/servicecomb/swagger-generator-springmvc/1.0.0-m2-SNAPSHOT/swagger-generator-springmvc-1.0.0-m2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/servicecomb/swagger-generator-springmvc/1.0.0-m2-SNAPSHOT/swagger-generator-springmvc-1.0.0-m2-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/servicecomb/swagger-generator-springmvc/1.0.0-m2-SNAPSHOT/swagger-generator-springmvc-1.0.0-m2-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

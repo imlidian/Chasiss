@@ -1,0 +1,6 @@
+org/apache/servicecomb/tracing/zipkin/app/ZipkinSpanTestApplication.class
+org/apache/servicecomb/tracing/zipkin/app/ZipkinSpanTestApplication$SomeSlowTask.class
+org/apache/servicecomb/tracing/zipkin/ZipkinTracingAdviserTest.class
+org/apache/servicecomb/tracing/zipkin/ZipkinSpanAspectTest.class
+org/apache/servicecomb/tracing/zipkin/ZipkinSpanAspectTest$TracingConfig.class
+org/apache/servicecomb/tracing/zipkin/app/ZipkinSpanTestApplication$CustomSpanTask.class
