@@ -1,0 +1,10 @@
+org/apache/servicecomb/config/TestConfigMapping.class
+org/apache/servicecomb/config/TestConfigUtil.class
+org/apache/servicecomb/config/DynamicPropertiesTest.class
+org/apache/servicecomb/config/TestLastPropertyPlaceholderConfigurer.class
+org/apache/servicecomb/config/archaius/sources/TestMicroserviceConfigLoader.class
+org/apache/servicecomb/config/MapBasedConfigurationSource.class
+org/apache/servicecomb/config/TestLastPropertyPlaceholderConfigurer$Bean.class
+org/apache/servicecomb/config/TestConfigUtil$1.class
+org/apache/servicecomb/config/TestConfigurationSpringInitializer.class
+org/apache/servicecomb/config/archaius/sources/TestYAMLConfigurationSource.class

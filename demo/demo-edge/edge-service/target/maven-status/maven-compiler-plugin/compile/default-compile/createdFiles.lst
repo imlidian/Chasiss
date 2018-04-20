@@ -1,0 +1,4 @@
+org/apache/servicecomb/demo/edge/service/handler/AuthHandler.class
+org/apache/servicecomb/demo/edge/service/handler/Auth.class
+org/apache/servicecomb/demo/edge/service/EdgeMain.class
+org/apache/servicecomb/demo/edge/service/EdgeDispatcher.class

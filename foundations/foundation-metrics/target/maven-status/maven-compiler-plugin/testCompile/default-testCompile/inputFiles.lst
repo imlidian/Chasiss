@@ -1,0 +1,7 @@
+/Volumes/256G/imlidian/Chasiss/foundations/foundation-metrics/src/test/java/org/apache/servicecomb/foundation/metrics/publish/spectator/TestMeasurementNode.java
+/Volumes/256G/imlidian/Chasiss/foundations/foundation-metrics/src/test/java/org/apache/servicecomb/foundation/metrics/publish/spectator/TestMeasurementTree.java
+/Volumes/256G/imlidian/Chasiss/foundations/foundation-metrics/src/test/java/org/apache/servicecomb/foundation/metrics/publish/spectator/TestDefaultTagFinder.java
+/Volumes/256G/imlidian/Chasiss/foundations/foundation-metrics/src/test/java/org/apache/servicecomb/foundation/metrics/TestMetricsBootstrap.java
+/Volumes/256G/imlidian/Chasiss/foundations/foundation-metrics/src/test/java/org/apache/servicecomb/foundation/metrics/publish/spectator/TestTagFinder.java
+/Volumes/256G/imlidian/Chasiss/foundations/foundation-metrics/src/test/java/org/apache/servicecomb/foundation/metrics/publish/spectator/TestMeasurementGroupConfig.java
+/Volumes/256G/imlidian/Chasiss/foundations/foundation-metrics/src/test/java/org/apache/servicecomb/foundation/metrics/health/TestHealthCheckerManager.java

@@ -1,0 +1,6 @@
+org/apache/servicecomb/foundation/test/scaffolding/spring/SpringUtils.class
+io/vertx/ext/web/impl/HttpServerRequestWrapperForTest.class
+org/apache/servicecomb/foundation/test/scaffolding/config/ArchaiusUtils.class
+org/apache/servicecomb/foundation/test/scaffolding/log/LogCollector.class
+com/netflix/spectator/api/SpectatorUtils.class
+org/apache/servicecomb/foundation/test/scaffolding/log/LogCollector$1.class

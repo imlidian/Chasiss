@@ -1,0 +1,7 @@
+org/apache/servicecomb/provider/rest/common/RestSchema.class
+org/apache/servicecomb/provider/rest/common/ProducerHttpRequestArgMapper.class
+org/apache/servicecomb/provider/rest/common/ProducerHttpRequestArgMapperFactory.class
+org/apache/servicecomb/provider/rest/common/RestConsumerProvider.class
+org/apache/servicecomb/provider/rest/common/RestProducerProvider.class
+org/apache/servicecomb/provider/rest/common/RestProducers.class
+org/apache/servicecomb/provider/rest/common/InvocationToHttpServletRequest.class

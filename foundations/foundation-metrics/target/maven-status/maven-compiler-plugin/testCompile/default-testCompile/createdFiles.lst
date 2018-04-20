@@ -1,0 +1,17 @@
+org/apache/servicecomb/foundation/metrics/TestMetricsBootstrap$2.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/TestDefaultTagFinder.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/TestMeasurementTree.class
+org/apache/servicecomb/foundation/metrics/TestMetricsBootstrap$4.class
+org/apache/servicecomb/foundation/metrics/TestMetricsBootstrap.class
+org/apache/servicecomb/foundation/metrics/health/TestHealthCheckerManager$1.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/TestMeasurementNode$1.class
+org/apache/servicecomb/foundation/metrics/TestMetricsBootstrap$1.class
+org/apache/servicecomb/foundation/metrics/TestMetricsBootstrap$5.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/TestTagFinder.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/TestMeasurementGroupConfig.class
+org/apache/servicecomb/foundation/metrics/health/TestHealthCheckerManager.class
+org/apache/servicecomb/foundation/metrics/publish/spectator/TestMeasurementNode.class
+org/apache/servicecomb/foundation/metrics/TestMetricsBootstrap$6.class
+org/apache/servicecomb/foundation/metrics/health/TestHealthCheckerManager$2.class
+org/apache/servicecomb/foundation/metrics/TestMetricsBootstrap$3.class
+org/apache/servicecomb/foundation/metrics/TestMetricsBootstrap$7.class

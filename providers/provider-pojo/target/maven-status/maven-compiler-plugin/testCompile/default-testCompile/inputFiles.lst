@@ -1,0 +1,15 @@
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/instance/TestPojoInstanceFactory.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/schema/TestPojoSchemaMeta.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/TestPojoProducerProvider.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/IPerson.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/Person.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/reference/TestReferenceDefParser.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/schema/TestSchemaDefParser.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/common/MockUtil.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/instance/TestSpringInstanceFactory.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/schema/TestPojoProducers.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/TestPojoConsumerProvider.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/reference/TestRpcReferenceProcessor.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/PersonReference.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/TestInvoker.java
+/Volumes/256G/imlidian/Chasiss/providers/provider-pojo/src/test/java/org/apache/servicecomb/provider/pojo/reference/PojoReferenceMetaTest.java

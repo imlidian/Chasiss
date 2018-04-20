@@ -1,0 +1,17 @@
+org/apache/servicecomb/edge/core/TestOperationInstancesDiscoveryFilter$1.class
+org/apache/servicecomb/edge/core/TestAbstractEdgeDispatcher$2.class
+org/apache/servicecomb/edge/core/TestEdgeInvocation$4.class
+org/apache/servicecomb/edge/core/TestOperationInstancesDiscoveryFilter$V1_0_0.class
+org/apache/servicecomb/edge/core/TestCompatiblePathVersionMapper.class
+org/apache/servicecomb/edge/core/TestAbstractEdgeDispatcher$1.class
+org/apache/servicecomb/edge/core/TestAbstractEdgeDispatcher.class
+org/apache/servicecomb/edge/core/TestEdgeInvocation$5.class
+org/apache/servicecomb/edge/core/TestEdgeInvocation.class
+org/apache/servicecomb/edge/core/TestEdgeInvocation$1.class
+org/apache/servicecomb/edge/core/TestEdgeInvocation$2.class
+org/apache/servicecomb/edge/core/TestEdgeBootListener.class
+org/apache/servicecomb/edge/core/TestEdgeInvocation$3.class
+org/apache/servicecomb/edge/core/TestEdgeInvocation$6.class
+org/apache/servicecomb/edge/core/TestOperationInstancesDiscoveryFilter$V1_1_0.class
+org/apache/servicecomb/edge/core/TestOperationInstancesDiscoveryFilter.class
+org/apache/servicecomb/edge/core/TestAbstractEdgeDispatcher$AbstractEdgeDispatcherForTest.class

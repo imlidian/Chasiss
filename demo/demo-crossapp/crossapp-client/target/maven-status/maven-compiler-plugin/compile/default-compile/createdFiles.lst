@@ -1,0 +1,3 @@
+org/apache/servicecomb/demo/crossapp/CrossappClient.class
+org/apache/servicecomb/demo/crossapp/HelloWorld.class
+org/apache/servicecomb/demo/crossapp/CrossappBootListener.class

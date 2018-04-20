@@ -1,0 +1,7 @@
+org/apache/servicecomb/demo/perf/Intf.class
+org/apache/servicecomb/demo/perf/PerfMain.class
+org/apache/servicecomb/demo/perf/RedisSession.class
+org/apache/servicecomb/demo/perf/PerfConfiguration.class
+org/apache/servicecomb/demo/perf/PerfConsumer.class
+org/apache/servicecomb/demo/perf/RedisClientUtils.class
+org/apache/servicecomb/demo/perf/Impl.class

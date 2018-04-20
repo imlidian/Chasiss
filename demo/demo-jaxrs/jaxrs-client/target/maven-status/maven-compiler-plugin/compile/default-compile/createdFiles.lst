@@ -1,0 +1,5 @@
+org/apache/servicecomb/demo/jaxrs/client/CustomLoadbalanceExtensionsFactory.class
+org/apache/servicecomb/demo/jaxrs/client/CustomLoadbalanceExtensionsFactory$MyCustomRule.class
+org/apache/servicecomb/demo/jaxrs/client/CustomLoadbalanceExtensionsFactory$MyCustomHandler.class
+org/apache/servicecomb/demo/jaxrs/client/JaxrsClient.class
+org/apache/servicecomb/demo/jaxrs/client/CodeFirstRestTemplateJaxrs.class

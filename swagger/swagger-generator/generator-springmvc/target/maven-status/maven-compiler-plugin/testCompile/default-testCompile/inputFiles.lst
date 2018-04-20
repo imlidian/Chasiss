@@ -1,0 +1,14 @@
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/Echo.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/MultiDefaultPath.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/User.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/MethodResponseEntity.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/TestResponseEntityProcessor.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/ClassMethodNoHttpMethod.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/ClassMultiPath.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/MethodMixupAnnotations.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/TestSpringmvc.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/MethodDefaultParameter.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/ClassMultiHttpMethod.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/MethodMultiPath.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/MethodEmptyPath.java
+/Volumes/256G/imlidian/Chasiss/swagger/swagger-generator/generator-springmvc/src/test/java/org/apache/servicecomb/swagger/generator/springmvc/ClassMethodNoPath.java

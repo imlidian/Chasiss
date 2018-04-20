@@ -1,0 +1,7 @@
+org/apache/servicecomb/common/javassist/FieldConfig.class
+org/apache/servicecomb/common/javassist/MethodConfig.class
+org/apache/servicecomb/common/javassist/MultiWrapper.class
+org/apache/servicecomb/common/javassist/ParameterConfig.class
+org/apache/servicecomb/common/javassist/ClassConfig.class
+org/apache/servicecomb/common/javassist/JavassistUtils.class
+org/apache/servicecomb/common/javassist/SingleWrapper.class

@@ -1,0 +1,5 @@
+org/apache/servicecomb/swagger/generator/jaxrs/ClassMethodNoPath.class
+org/apache/servicecomb/swagger/generator/jaxrs/TestJaxrs.class
+org/apache/servicecomb/swagger/generator/jaxrs/User.class
+org/apache/servicecomb/swagger/generator/jaxrs/MultiDefaultPath.class
+org/apache/servicecomb/swagger/generator/jaxrs/Echo.class

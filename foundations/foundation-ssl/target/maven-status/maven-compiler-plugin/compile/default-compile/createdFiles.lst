@@ -1,0 +1,10 @@
+org/apache/servicecomb/foundation/ssl/SSLSocketFactoryExt.class
+org/apache/servicecomb/foundation/ssl/SSLOption.class
+org/apache/servicecomb/foundation/ssl/SSLOptionFactory.class
+org/apache/servicecomb/foundation/ssl/SSLCustom.class
+org/apache/servicecomb/foundation/ssl/TrustManagerExt.class
+org/apache/servicecomb/foundation/ssl/SSLManager.class
+org/apache/servicecomb/foundation/ssl/KeyStoreUtil.class
+org/apache/servicecomb/foundation/ssl/CertificateUtil.class
+org/apache/servicecomb/foundation/ssl/TrustAllManager.class
+org/apache/servicecomb/foundation/ssl/SSLCustom$1.class

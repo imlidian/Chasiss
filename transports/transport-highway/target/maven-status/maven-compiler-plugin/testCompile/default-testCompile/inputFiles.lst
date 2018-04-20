@@ -1,0 +1,12 @@
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/TestHighwayVerticle.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/message/TestRequestHeader.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/TestHighwayConfig.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/TestHighwayServerInvoke.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/message/TestLoginRequest.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/message/TestLoginResponse.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/common/MockUtil.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/TestHighwayClient.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/TestHighwayServerConnection.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/TestHighwayCodec.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/message/TestResponseHeader.java
+/Volumes/256G/imlidian/Chasiss/transports/transport-highway/src/test/java/org/apache/servicecomb/transport/highway/TestHighwayTransport.java

@@ -17,7 +17,7 @@ From: 'an unknown organization'
     License: New BSD License  (http://www.opensource.org/licenses/bsd-license.php)
   - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.1
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:bundle:16.0.1
+  - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:19.0
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - archaius-core (https://github.com/Netflix/archaius) com.netflix.archaius:archaius-core:jar:0.7.3
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
@@ -38,6 +38,10 @@ From: 'an unknown organization'
   - servo-core (https://github.com/Netflix/servo) com.netflix.servo:servo-core:jar:0.10.1
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - servo-internal (https://github.com/Netflix/servo) com.netflix.servo:servo-internal:jar:0.10.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - spectator-api (https://github.com/Netflix/spectator) com.netflix.spectator:spectator-api:jar:0.63.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - spectator-reg-servo (https://github.com/Netflix/spectator) com.netflix.spectator:spectator-reg-servo:jar:0.63.0
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - protostuff :: api (http://protostuff.io/protostuff-api) io.protostuff:protostuff-api:jar:1.5.2
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
@@ -215,51 +219,51 @@ From: 'The Apache Software Foundation' (http://www.apache.org/)
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.6
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Common::Javassist (https://github.com/apache/incubator-servicecomb-java-chassis/common/common-javassist) org.apache.servicecomb:common-javassist:jar:1.0.0-m1
+  - Java Chassis::Common::Javassist (https://github.com/apache/incubator-servicecomb-java-chassis/common/common-javassist) org.apache.servicecomb:common-javassist:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Common::Protobuf (https://github.com/apache/incubator-servicecomb-java-chassis/common/common-protobuf) org.apache.servicecomb:common-protobuf:jar:1.0.0-m1
+  - Java Chassis::Common::Protobuf (https://github.com/apache/incubator-servicecomb-java-chassis/common/common-protobuf) org.apache.servicecomb:common-protobuf:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Common::Rest (https://github.com/apache/incubator-servicecomb-java-chassis/common/common-rest) org.apache.servicecomb:common-rest:jar:1.0.0-m1
+  - Java Chassis::Common::Rest (https://github.com/apache/incubator-servicecomb-java-chassis/common/common-rest) org.apache.servicecomb:common-rest:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Foundations::Common (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-common) org.apache.servicecomb:foundation-common:jar:1.0.0-m1
+  - Java Chassis::Foundations::Common (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-common) org.apache.servicecomb:foundation-common:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Foundations::Config (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-config) org.apache.servicecomb:foundation-config:jar:1.0.0-m1
+  - Java Chassis::Foundations::Config (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-config) org.apache.servicecomb:foundation-config:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Foundations::Metrics (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-metrics) org.apache.servicecomb:foundation-metrics:jar:1.0.0-m1
+  - Java Chassis::Foundations::Metrics (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-metrics) org.apache.servicecomb:foundation-metrics:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Foundations::SSL (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-ssl) org.apache.servicecomb:foundation-ssl:jar:1.0.0-m1
+  - Java Chassis::Foundations::SSL (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-ssl) org.apache.servicecomb:foundation-ssl:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Foundations::Vertx (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-vertx) org.apache.servicecomb:foundation-vertx:jar:1.0.0-m1
+  - Java Chassis::Foundations::Vertx (https://github.com/apache/incubator-servicecomb-java-chassis/foundations/foundation-vertx) org.apache.servicecomb:foundation-vertx:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Handlers::Bizkeeper (https://github.com/apache/incubator-servicecomb-java-chassis/handlers/handler-bizkeeper) org.apache.servicecomb:handler-bizkeeper:jar:1.0.0-m1
+  - Java Chassis::Handlers::Bizkeeper (https://github.com/apache/incubator-servicecomb-java-chassis/handlers/handler-bizkeeper) org.apache.servicecomb:handler-bizkeeper:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Handlers::Flow Control QPS (https://github.com/apache/incubator-servicecomb-java-chassis/handlers/handler-flowcontrol-qps) org.apache.servicecomb:handler-flowcontrol-qps:jar:1.0.0-m1
+  - Java Chassis::Handlers::Flow Control QPS (https://github.com/apache/incubator-servicecomb-java-chassis/handlers/handler-flowcontrol-qps) org.apache.servicecomb:handler-flowcontrol-qps:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Handlers::Loadbalance (https://github.com/apache/incubator-servicecomb-java-chassis/handlers/handler-loadbalance) org.apache.servicecomb:handler-loadbalance:jar:1.0.0-m1
+  - Java Chassis::Handlers::Loadbalance (https://github.com/apache/incubator-servicecomb-java-chassis/handlers/handler-loadbalance) org.apache.servicecomb:handler-loadbalance:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Core (https://github.com/apache/incubator-servicecomb-java-chassis/java-chassis-core) org.apache.servicecomb:java-chassis-core:jar:1.0.0-m1
+  - Java Chassis::Core (https://github.com/apache/incubator-servicecomb-java-chassis/java-chassis-core) org.apache.servicecomb:java-chassis-core:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Providers::POJO (https://github.com/apache/incubator-servicecomb-java-chassis/providers/provider-pojo) org.apache.servicecomb:provider-pojo:jar:1.0.0-m1
+  - Java Chassis::Providers::POJO (https://github.com/apache/incubator-servicecomb-java-chassis/providers/provider-pojo) org.apache.servicecomb:provider-pojo:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Service Registry (https://github.com/apache/incubator-servicecomb-java-chassis/service-registry) org.apache.servicecomb:service-registry:jar:1.0.0-m1
+  - Java Chassis::Service Registry (https://github.com/apache/incubator-servicecomb-java-chassis/service-registry) org.apache.servicecomb:service-registry:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Swagger::Generator::Core (https://github.com/apache/incubator-servicecomb-java-chassis/swagger/swagger-generator/swagger-generator-core) org.apache.servicecomb:swagger-generator-core:jar:1.0.0-m1
+  - Java Chassis::Swagger::Generator::Core (https://github.com/apache/incubator-servicecomb-java-chassis/swagger/swagger-generator/swagger-generator-core) org.apache.servicecomb:swagger-generator-core:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Swagger::Generator::Spring MVC (https://github.com/apache/incubator-servicecomb-java-chassis/swagger/swagger-generator/swagger-generator-springmvc) org.apache.servicecomb:swagger-generator-springmvc:jar:1.0.0-m1
+  - Java Chassis::Swagger::Generator::Spring MVC (https://github.com/apache/incubator-servicecomb-java-chassis/swagger/swagger-generator/swagger-generator-springmvc) org.apache.servicecomb:swagger-generator-springmvc:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Swagger::Invocation::Core (https://github.com/apache/incubator-servicecomb-java-chassis/swagger/swagger-invocation/swagger-invocation-core) org.apache.servicecomb:swagger-invocation-core:jar:1.0.0-m1
+  - Java Chassis::Swagger::Invocation::Core (https://github.com/apache/incubator-servicecomb-java-chassis/swagger/swagger-invocation/swagger-invocation-core) org.apache.servicecomb:swagger-invocation-core:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Transports::Hightway (https://github.com/apache/incubator-servicecomb-java-chassis/transports/transport-highway) org.apache.servicecomb:transport-highway:jar:1.0.0-m1
+  - Java Chassis::Transports::Hightway (https://github.com/apache/incubator-servicecomb-java-chassis/transports/transport-highway) org.apache.servicecomb:transport-highway:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Transports::Rest::Client (https://github.com/apache/incubator-servicecomb-java-chassis/transports/transport-rest/transport-rest-client) org.apache.servicecomb:transport-rest-client:jar:1.0.0-m1
+  - Java Chassis::Transports::Rest::Client (https://github.com/apache/incubator-servicecomb-java-chassis/transports/transport-rest/transport-rest-client) org.apache.servicecomb:transport-rest-client:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Transports::Rest::Servlet (https://github.com/apache/incubator-servicecomb-java-chassis/transports/transport-rest/transport-rest-servlet) org.apache.servicecomb:transport-rest-servlet:jar:1.0.0-m1
+  - Java Chassis::Transports::Rest::Servlet (https://github.com/apache/incubator-servicecomb-java-chassis/transports/transport-rest/transport-rest-servlet) org.apache.servicecomb:transport-rest-servlet:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Transports::Rest::Vertx (https://github.com/apache/incubator-servicecomb-java-chassis/transports/transport-rest/transport-rest-vertx) org.apache.servicecomb:transport-rest-vertx:jar:1.0.0-m1
+  - Java Chassis::Transports::Rest::Vertx (https://github.com/apache/incubator-servicecomb-java-chassis/transports/transport-rest/transport-rest-vertx) org.apache.servicecomb:transport-rest-vertx:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Demo::Schema (https://github.com/apache/incubator-servicecomb-java-chassis/demo-parent/demo-schema) org.apache.servicecomb.demo:demo-schema:jar:1.0.0-m1
+  - Java Chassis::Demo::Schema (https://github.com/apache/incubator-servicecomb-java-chassis/demo-parent/demo-schema) org.apache.servicecomb.demo:demo-schema:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Java Chassis::Demo::Signature (https://github.com/apache/incubator-servicecomb-java-chassis/demo-parent/demo-signature) org.apache.servicecomb.demo:demo-signature:jar:1.0.0-m1
+  - Java Chassis::Demo::Signature (https://github.com/apache/incubator-servicecomb-java-chassis/demo-parent/demo-signature) org.apache.servicecomb.demo:demo-signature:jar:1.0.0-m2-SNAPSHOT
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'The Netty Project' (http://netty.io/)
@@ -284,6 +288,8 @@ From: 'The Netty Project' (http://netty.io/)
   - Netty/Resolver (http://netty.io/netty-resolver/) io.netty:netty-resolver:jar:4.1.17.Final
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
   - Netty/Resolver/DNS (http://netty.io/netty-resolver-dns/) io.netty:netty-resolver-dns:jar:4.1.17.Final
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - Netty/TomcatNative [BoringSSL - Static] (https://github.com/netty/netty-tcnative/netty-tcnative-boringssl-static/) io.netty:netty-tcnative-boringssl-static:jar:2.0.7.Final
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
   - Netty/Transport (http://netty.io/netty-transport/) io.netty:netty-transport:jar:4.1.17.Final
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
