@@ -19,7 +19,6 @@ public class UserServiceServerImpl implements UserService {
 
 	@Override
 	public boolean existUser(String email) {
-		System.out.println("base - service existUser");
 
 		if (email == null || email.isEmpty()) {
 			return true;

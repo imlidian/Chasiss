@@ -14,7 +14,6 @@ public abstract class AbstractClient {
 	protected abstract UserService getUserService();
 
 	public boolean existUser() throws Exception {
-		System.out.println("existUser");
 		String email = String.valueOf(counter.getAndIncrement());
 		return getUserService().existUser(email);
 	}

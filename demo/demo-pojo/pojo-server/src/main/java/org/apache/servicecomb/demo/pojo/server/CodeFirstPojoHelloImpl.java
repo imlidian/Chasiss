@@ -47,8 +47,6 @@ public class CodeFirstPojoHelloImpl implements UserService {
 
   @Override
   public User getUser(long id) {
-    System.out.println("server -  getUser");
-
     User user = new User();
     user.setId(id);
     user.setName(new String("Doug Lea"));
