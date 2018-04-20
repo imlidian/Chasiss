@@ -13,13 +13,13 @@ export CJAR="pojo-client-1.0.0-m2-SNAPSHOT.jar"
 #echo $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar
 
 if [ $INSTALL = "1" -o $ALL = "a" ];then
+rm -rf /Users/dean/.m2/repository/benchmark/rpc/benchmark-base/round-1/benchmark-base-round-1.jar
 rm -rf /Users/dean/.m2/repository/org/apache/servicecomb/provider-pojo/
 rm -rf /Users/dean/.m2/repository/org/apache/servicecomb/demo/pojo-client
 rm -rf /Users/dean/.m2/repository/org/apache/servicecomb/demo/pojo-server
-rm $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar
-rm /Users/dean/.m2/repository/benchmark/rpc/benchmark-base/round-1/benchmark-base-round-1.jar
-rm $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Client/$CJAR
-rm $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Server/$SJAR
+rm -rf $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar
+rm -rf $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Client/$CJAR
+rm -rf $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Server/$SJAR
 cd $PATH1/demo/demo-pojo
 mvn clean install -Pdemo-run-release
 fi
