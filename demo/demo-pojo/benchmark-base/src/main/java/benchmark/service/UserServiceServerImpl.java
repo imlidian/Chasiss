@@ -34,7 +34,7 @@ public class UserServiceServerImpl implements UserService {
 
 	@Override
 	public User getUser(long id) {
-		System.out.println("base - service getUser");
+		System.out.println("1base - service getUser");
 
 		User user = new User();
 

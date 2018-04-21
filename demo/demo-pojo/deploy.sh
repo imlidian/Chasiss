@@ -13,11 +13,11 @@ export CJAR="pojo-client-1.0.0-m2-SNAPSHOT.jar"
 #echo $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar
 
 if [ $INSTALL = "1" -o $ALL = "a" ];then
-rm -rf /Users/dean/.m2/repository/benchmark/rpc/benchmark-base/round-1/benchmark-base-round-1.jar
-rm -rf /Users/dean/.m2/repository/org/apache/servicecomb/provider-pojo/
-rm -rf /Users/dean/.m2/repository/org/apache/servicecomb/demo/pojo-client
-rm -rf /Users/dean/.m2/repository/org/apache/servicecomb/demo/pojo-server
-rm -rf $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar
+#rm -rf /Users/dean/.m2/repository/benchmark/rpc/benchmark-base/round-1/benchmark-base-round-1.jar
+#m -rf /Users/dean/.m2/repository/org/apache/servicecomb/provider-pojo/
+#rm -rf /Users/dean/.m2/repository/org/apache/servicecomb/demo/pojo-client
+#rm -rf /Users/dean/.m2/repository/org/apache/servicecomb/demo/pojo-server
+#rm -rf $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar
 rm -rf $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Client/$CJAR
 rm -rf $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Server/$SJAR
 cd $PATH1/demo/demo-pojo
@@ -31,4 +31,6 @@ fi
 if [ $UP = "u" -o $ALL = "a" ];then
 scp $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Client/$CJAR root@hwc2:~/java
 scp $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Server/$SJAR root@hws:~/java
+scp $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar root@hwc2:~/java
+scp $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar root@hws:~/java
 fi
