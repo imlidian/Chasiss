@@ -5,9 +5,9 @@ INSTALL="i"
 ALL="a"
 #export PATH1="/Volumes/256G/imlidian/chassis/incubator-servicecomb-java-chassis"
 export PATH1="/Volumes/256G/imlidian/Chasiss"
-
 export SJAR="pojo-server-1.0.0-m2-SNAPSHOT.jar"
 export CJAR="pojo-client-1.0.0-m2-SNAPSHOT.jar"
+
 #/Volumes/256G/imlidian/Chasiss/demo/demo-pojo
 
 #echo $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar
@@ -29,8 +29,8 @@ ssh root@hwc2 "cd java ; ls ;rm $CJAR ; killall java"
 ssh root@hws "cd java ; ls ;rm $SJAR ; killall Java"
 fi
 if [ $UP = "u" -o $ALL = "a" ];then
-scp $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Client/$CJAR root@hwc2:~/java
-scp $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Server/$SJAR root@hws:~/java
+scp $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Client/$CJAR root@hwc2:~/java  #hwc2
+scp $PATH1/demo/target/Java\ Chassis\:\:Demo\:\:POJO\:\:Server/$SJAR root@hws:~/java  #hws
 scp $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar root@hwc2:~/java
 scp $PATH1/demo/demo-pojo/benchmark-base/target/benchmark-base-round-1.jar root@hws:~/java
 fi
